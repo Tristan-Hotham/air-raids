@@ -526,5 +526,6 @@ document.getElementById("cmp").innerHTML = `<thead><tr><th>Place</th><th class="
   document.getElementById("cards").addEventListener("click", e => { const a = e.target.closest("[data-go]"); if (!a) return; const p = PL.find(p => p.name === a.dataset.go); if (p) goArea(p); });
 })();
 </script>
+<script src="https://tristan-hotham.github.io/assets/site-nav.js" defer></script>
 </body>
 </html>
