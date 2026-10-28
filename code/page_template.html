@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bombs on Britain</title>
+<meta name="description" content="Where the air raids killed, 1914 to 1945: every civilian on the Commonwealth War Graves Commission's Second World War roll, counted town by town and day by day, with the First World War raids and bombardments that came first.">
+<meta property="og:title" content="Bombs on Britain: where the air raids killed, 1914 to 1945">
+<meta property="og:description" content="{{cwgc.uk|int}} civilians on the home roll of the Second World War, {{london.outside_share|pct}} of them outside London, and about {{ww1.air_killed|int}} killed by air raids in the First World War.">
+<meta property="og:image" content="https://tristan-hotham.github.io/air-raids/header.png">
+<meta property="og:url" content="https://tristan-hotham.github.io/air-raids/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Stone grey, searchlight cream and fire. Orange = Second World War dead; slate blue = First World War. */
+:root{
+  --bg:#EEECE7; --panel:#E3E0D8; --fg:#1D1C1A; --muted:#66625B; --rule:#D3CFC5; --card:#FAF8F2; --border:#C3BDB1;
+  --hot:#C8481C; --ember:#8E2A12; --glow:#F2B33D; --cream:#FFF4D6; --slate:#3E5878; --moss:#55703F;
+  --f0:#F6D79A; --f1:#F0A65A; --f2:#DD6F2E; --f3:#B9431B; --f4:#7E2410; --fn:#ABA59A;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#151515; --panel:#1F1E1C; --fg:#ECE8DF; --muted:#A39E94; --rule:#34322F; --card:#21201E; --border:#4A4741;
+  --hot:#FF7A3D; --ember:#FFB089; --glow:#FFC75A; --cream:#3A3424; --slate:#8FAAD0; --moss:#93B877;
+  --f0:#6B5532; --f1:#A0652E; --f2:#D9732F; --f3:#FF8A45; --f4:#FFC08A; --fn:#5E5A53; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151515; --panel:#1F1E1C; --fg:#ECE8DF; --muted:#A39E94; --rule:#34322F; --card:#21201E; --border:#4A4741;
+  --hot:#FF7A3D; --ember:#FFB089; --glow:#FFC75A; --cream:#3A3424; --slate:#8FAAD0; --moss:#93B877;
+  --f0:#6B5532; --f1:#A0652E; --f2:#D9732F; --f3:#FF8A45; --f4:#FFC08A; --fn:#5E5A53; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1080px,calc(100vw - 32px));margin-left:calc((100% - min(1080px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(46px,11.5vw,98px)/.9 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1 em{font-style:normal;color:var(--hot)}
+.mark{width:clamp(80px,18vw,150px);height:auto;display:block}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:46ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:52px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--hot)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(26px,5.6vw,38px)/1 var(--display);color:var(--fg)}
+.stats b.h{color:var(--hot)} .stats b.s{color:var(--slate)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:270px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--hot);outline-offset:2px}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:3px;overflow:hidden;max-width:100%;flex-wrap:wrap}
+.seg .btn{border:0;border-radius:0;border-right:1px solid var(--border)}
+.seg .btn:last-child{border-right:0}
+.searchbox{position:relative;flex:1 1 220px;min-width:0}
+input[type=search]{font:400 14px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:9px 10px;min-height:36px;width:100%}
+.suggest{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;background:var(--card);border:1px solid var(--border);z-index:1001;font:400 13px/1.3 var(--mono);display:none;max-height:340px;overflow:auto}
+.suggest li{padding:8px 10px;cursor:pointer;border-bottom:1px solid var(--rule)}
+.suggest li span{color:var(--muted)}
+.suggest li[aria-selected="true"],.suggest li:hover{background:var(--panel)}
+.timebar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 10px}
+.timebar input[type=range]{flex:1 1 240px;min-width:0;accent-color:var(--hot)}
+.when{font:600 22px/1 var(--display);min-width:9ch}
+.when small{display:block;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:4px}
+#lmap{height:660px;border:1px solid var(--border);background:var(--panel);border-radius:2px}
+@media (max-width:600px){#lmap{height:500px}}
+.leaflet-container{font:400 12px/1.4 var(--mono);background:var(--panel)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--card);color:var(--fg);border-radius:3px;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.leaflet-popup-content{margin:12px 14px;font:400 12.5px/1.45 var(--mono);min-width:220px}
+.leaflet-container a.leaflet-popup-close-button{color:var(--muted)}
+.leaflet-popup-content a{color:var(--fg)}
+.leaflet-bar a,.leaflet-bar a:hover{background:var(--card);color:var(--fg);border-bottom-color:var(--border)}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)}
+.leaflet-control-attribution a{color:var(--fg)}
+.pop b.t{font:600 17px/1.2 var(--display);display:block;margin-bottom:2px}
+.pop .c{color:var(--muted);margin-bottom:6px}
+.pop dl{display:grid;grid-template-columns:auto 1fr;gap:1px 10px;margin:4px 0 6px}
+.pop dt{color:var(--muted)}.pop dd{margin:0}
+.pop .big{font:900 26px/1.05 var(--display);color:var(--hot)}
+.pop .big.s{color:var(--slate)}
+.pop .big small{font:400 12px/1.3 var(--mono);color:var(--muted);display:block}
+.pop .pn{font-size:11.5px;color:var(--muted);margin:6px 0 0}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--hot);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+.legendbox{background:var(--cream);border:1px dashed var(--border);padding:12px 16px;font-size:16px;margin:22px 0}
+.legendbox b.tag{font:500 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;background:var(--fg);color:var(--bg);padding:4px 6px;margin-right:8px}
+table.t{width:100%;border-collapse:collapse;font:400 13px/1.35 var(--mono)}
+table.t th{text-align:left;font-weight:500;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 8px 6px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+table.t td.num,table.t th.num{text-align:right;white-space:nowrap}
+table.t td small{color:var(--muted);display:block}
+.tablewrap{overflow-x:auto}
+@media (max-width:600px){table.t .wide{display:none}}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}
+@media (max-width:600px){.cards{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--hot);padding:12px 14px;font:400 13px/1.5 var(--mono)}
+.card.s{border-left-color:var(--slate)}
+.card b{font:600 19px/1.2 var(--display);display:block;margin-bottom:2px}
+.card .d{color:var(--muted)}
+.card .big{font:900 30px/1.05 var(--display);margin:6px 0 2px;color:var(--hot)}
+.card.s .big{color:var(--slate)}
+.card .big span{color:var(--muted);font:400 13px/1 var(--mono)}
+.card a.go{font:500 12px/1 var(--mono);display:inline-block;margin-top:8px;cursor:pointer}
+details{margin:14px 0}
+summary{font:500 13px/1.4 var(--mono);cursor:pointer;color:var(--fg);padding:8px 0}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1002}
+@media print{.theme,.controls,.timebar{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>Remembrance</span><span>United Kingdom, 1914 to 1945</span></div>
+<header class="hero">
+  <h1>Bombs on <em>Britain</em></h1>
+  <svg class="mark" viewBox="-100 -100 200 200" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">Where the air raids killed, 1914 to 1945. Every civilian on the Commonwealth War Graves Commission's roll of the Second World War dead, counted town by town and day by day, and the First World War raids and bombardments that came first.</p>
+</header>
+<div class="byline">Dr Tristan Hotham, Independent researcher · November 2026 · Data: Commonwealth War Graves Commission; Wikipedia; OS Open Names</div>
+
+<div class="stats">
+  <div><b class="h">{{cwgc.uk|int}}</b><span>civilians on the Second World War roll for places in the United Kingdom</span></div>
+  <div><b class="h">{{london.outside_share|pct}}</b><span>of them outside Greater London, in {{n_areas_100_outside|int}} towns and districts with 100 or more dead</span></div>
+  <div><b class="s">{{ww1.air_killed|int}}</b><span>killed by German air raids in the First World War, plus {{ww1.dec1914|int}} in one morning's shelling in 1914</span></div>
+  <div><b>{{age.under16_share|pct}}</b><span>of the Second World War dead with an age recorded were children under 16</span></div>
+</div>
+
+<p class="lede">Everyone knows the Blitz was London. The photographs are of St Paul's in the smoke and families asleep on Underground platforms. But the roll of civilian war dead kept by the Commonwealth War Graves Commission tells a wider story. Of the {{cwgc.uk|int}} civilians it records for places in the United Kingdom, {{london.outside|int}}, a little over half, died outside Greater London: in Liverpool and Birmingham, Plymouth and Hull, Clydebank and Belfast, Bath and Exeter, and in hundreds of small towns along the coasts.</p>
+<p>The story also starts earlier than most people think. On a December morning in 1914 German battlecruisers shelled Hartlepool, Scarborough and Whitby. Zeppelins first killed people in Great Yarmouth and King's Lynn a month later, and by 1918 airships and Gotha bombers had killed about {{ww1.air_killed|int}} people across Britain. This page puts the two wars side by side, town by town.</p>
+<p>These are counts of people who were killed in their homes, streets, shelters, schools and workplaces. I publish only totals by place, day and age group; no names or addresses leave my analysis.</p>
+
+<h2><span class="n">01 · The map</span>Where the dead were counted</h2>
+<p>Each orange dot is a civic area on the Second World War roll (a county borough, metropolitan borough, urban or rural district, or Scottish burgh), sized by its civilian dead so far. Slate dots are the First World War raids and bombardments. Drag the slider or press play to watch the dead accumulate month by month. Search for your town, or tap a dot for its story.</p>
+<div class="figure bleed">
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Which war">
+      <button class="btn" data-war="2" aria-pressed="true">1939 to 1945</button>
+      <button class="btn" data-war="1" aria-pressed="false">1914 to 1918</button>
+    </div>
+    <div class="searchbox">
+      <input type="search" id="q" placeholder="Find your town, e.g. Hartlepool" aria-label="Find a town or district" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="sug">
+      <ul class="suggest" id="sug" role="listbox"></ul>
+    </div>
+  </div>
+  <div class="timebar">
+    <button class="btn" id="play" aria-label="Play">▶ Play</button>
+    <input type="range" id="slider" min="0" max="10" value="10" aria-label="Month">
+    <div class="when" id="when"></div>
+  </div>
+  <div id="lmap" role="region" aria-label="Map of civilian deaths from air raids and bombardment in the United Kingdom, by civic area"></div>
+  <div class="legend" id="legend"></div>
+  <div class="src">Second World War: {{cwgc.uk_placed_areas|int}} of {{cwgc.uk_areas|int}} civic areas placed at a settlement of the same name (OS Open Names; Wikidata for Northern Ireland), holding {{cwgc.placed_share|pct1}} of the dead. Scottish county rolls are not placed. The dot marks the town the area is named after, not where the bombs fell. First World War: {{ww1.n_mapped|int}} of the {{ww1.n_incidents|int}} incidents in my table, each at one representative town. Click the map to let the scroll wheel zoom it.</div>
+</div>
+
+<h2><span class="n">02 · 1914 to 1918</span>The first Blitz</h2>
+<p>The first civilians killed at home by German guns were not killed from the air. At about eight in the morning of 16 December 1914, three battlecruisers opened fire on Hartlepool while two more shelled Scarborough and then Whitby. Hartlepool, a port with docks, steelworks and three coastal guns, was hit hardest: {{ww1.hartlepool_1914|int}} civilians were killed and seven soldiers. In Scarborough {{ww1.scarborough_1914|int}} people died, and at Whitby, where the shells were aimed at the coastguard station on the headland, they also struck the abbey ruins. The day's toll across the three towns is usually given as {{ww1.dec1914|int}}. "Remember Scarborough" went on the recruiting posters.</p>
+<div class="legendbox"><b class="tag">Legend</b>Hartlepool people are still called "monkey hangers". The story goes that during the Napoleonic Wars a French ship was wrecked off the town and the only survivor, a monkey in a French uniform, was put on trial on the beach as a spy and hanged. It is folklore, not history: Wikipedia's article notes that the earliest evidence is a comic song by the 19th-century performer Ned Corvan, and very similar tales are told of Boddam, Mevagissey and Greenock. A town said to have hanged a monkey as a French spy was, a century later, shelled by a real enemy fleet.</div>
+<p>A month later the airships came. On 19 January 1915 two Zeppelins aiming for the Humber were blown south and bombed Great Yarmouth, Sheringham and King's Lynn, killing four people. London was first bombed on 31 May 1915. Over the next three years German airships made {{ww1.raids_airship|int}} raids and killed {{ww1.airship_killed|int}} people; from 1917 the big Gotha and Giant bombers made {{ww1.raids_aeroplane|int}} raids and killed {{ww1.aeroplane_killed|int}}. Together that is {{ww1.air_killed|int}} dead and {{ww1.air_injured|int}} injured.</p>
+<div class="figure">
+  <div class="fig-h">The deadliest raids and bombardments, 1914 to 1918</div>
+  <div class="fig-sub">Each bar is one raid or bombardment with a death toll stated in the sources, by date. Hover or tap for the details.</div>
+  <div class="chart" id="w1chart"></div>
+  <div class="legend"><span><i style="background:var(--slate)"></i>Airship</span><span><i style="background:var(--hot)"></i>Aeroplane</span><span><i style="background:var(--fg)"></i>Warships</span></div>
+  <div class="src">{{ww1.n_incidents|int}} incidents from Wikipedia ("German bombing of Britain, 1914 to 1918" and related articles) and, for Scarborough, Whitby and Hull in 1915, from English Heritage, ITV News and Ian Castle's raid records. Together they hold {{ww1.listed_killed|int}} deaths: {{ww1.naval_killed_listed|int}} from shelling by warships and the rest from the air, including {{ww1.listed_military|int}} soldiers and sailors. The rest of the {{ww1.air_killed|int}} killed from the air died in smaller raids.</div>
+</div>
+<p>London took the single worst blows. The first daylight raid on London, by Gothas on 13 June 1917, killed {{ww1.poplar_june|int}} people; a bomb that went through three floors of Upper North Street School in Poplar killed {{ww1.poplar_school|int}} children. But London was not the whole story then either. Within the Metropolitan Police District the raids killed {{ww1.london_killed|int}} people, {{ww1.london_share|pct}} of the total. The other {{ww1.outside_air|int}} died in Hull and the Black Country, in Cleethorpes, Leith and the Kent coast. Three weeks before the Poplar school was hit, Gothas turned back from a cloudy London and bombed Folkestone instead, where Tontine Street was full of shoppers: {{ww1.folkestone|int}} people died there, among them 25 children. The worst single loss of the war came at Chatham in September 1917, when two bombs on a drill hall killed {{ww1.chatham|int}} naval ratings.</p>
+
+<h2><span class="n">03 · 1939 to 1945</span>Day by day</h2>
+<p>The Second World War roll is far longer. The Commonwealth War Graves Commission lists {{cwgc.rows|int}} civilians who died from enemy action between 1939 and 1947 (most of the last are people who died later of their injuries). {{cwgc.uk|int}} are filed under places in the United Kingdom; the rest died at sea ({{cwgc.sea|int}}), in Malta ({{cwgc.malta|int}}) and elsewhere overseas, or in the Channel Islands and the Isle of Man. That is {{ratio_ww2_ww1|x1}} times the First World War toll from the air.</p>
+<div class="figure bleed">
+  <div class="fig-h">Civilian dead in the United Kingdom, week by week, 1939 to 1945</div>
+  <div class="fig-sub">Orange: outside Greater London. Dark: Greater London. Shaded bands are the main bombing campaigns.</div>
+  <div class="chart" id="daily"></div>
+  <div class="src">Commonwealth War Graves Commission, Civilian War Dead roll, by date of death. A raid that ran past midnight can appear on two days.</div>
+</div>
+<p>The Blitz proper, from 7 September 1940 to 16 May 1941, accounts for {{periods.1.uk|int}} deaths, {{periods.1.share|pct}} of the whole war. London's ordeal began on the first day: the roll has {{sep7_london|int}} deaths in Greater London on 7 September 1940. But the worst single day on the roll is {{worst_days.0.date|date}}, with {{worst_days.0.uk|int}} deaths, and it was split almost exactly in two: {{worst_days.0.london|int}} in London, where the night of 16 to 17 April was one of the heaviest of the war, and {{worst_days.0.outside|int}} elsewhere, most of them in Belfast after the Easter Tuesday raid. Of the twelve worst days, {{worst12_outside_majority|int}} fell mainly outside London.</p>
+<div class="figure">
+  <div class="fig-h">The worst days</div>
+  <div class="fig-sub">Days with the most civilian deaths on the roll, United Kingdom.</div>
+  <div class="tablewrap"><table class="t" id="worst"></table></div>
+</div>
+
+<h2><span class="n">04 · Beyond London</span>Ports, factories and cathedral cities</h2>
+<p>Outside London the Luftwaffe went for ports and industry: the Mersey and the Clyde, Plymouth's dockyard, Hull, Southampton and Portsmouth, Birmingham and Coventry's factories, Belfast's shipyards. Liverpool has the longest roll of any single place in the country, {{top_areas.0.deaths|int}}, and with Bootle, Birkenhead, Wallasey and the other Merseyside towns the area's total reaches {{compare.0.cwgc|int}}. Birmingham follows with {{top_outside.1.deaths|int}}, then Bristol, Hull, Plymouth and Coventry, each with more than a thousand dead.</p>
+<div class="figure">
+  <div class="controls"><div class="seg" role="group" aria-label="Which places"><button class="btn" data-top="out" aria-pressed="true">Outside London</button><button class="btn" data-top="lon" aria-pressed="false">London boroughs</button></div></div>
+  <div class="fig-h" id="topH"></div>
+  <div class="fig-sub">Civilian dead on each civic area's roll, 1939 to 1947. Darker part of each bar: the Blitz, 7 September 1940 to 16 May 1941. Hover or tap for the worst day.</div>
+  <div class="chart" id="top"></div>
+</div>
+<p>The deadliest single days for any one place were all outside London, because the London dead were spread across dozens of boroughs. Liverpool lost {{worst_area_days.0.deaths|int}} people on {{worst_area_days.0.date|date}}, the peak of the May Blitz; Belfast {{worst_area_days.1.deaths|int}} on {{worst_area_days.1.date|date}}; Coventry {{worst_area_days.2.deaths|int}} on {{worst_area_days.2.date|date}}; Glasgow {{worst_area_days.3.deaths|int}} and Clydebank {{worst_area_days.6.deaths|int}} on {{worst_area_days.3.date|date}}.</p>
+
+<h3>Per head of population</h3>
+<p>A big city has a long roll partly because it is big. To compare, I divided each roll by a population for the place. Wartime figures are hard to get, so this is rough: for most English towns I use the average of the 1921 and 1951 censuses as published on Wikipedia, for Plymouth and Hull the figures their Wikipedia articles give for the start of the war, and for the County of London the four million or so it held on the eve of the war. Evacuation, and the people who left the cities to sleep in the fields, mean the real wartime populations were lower and the true rates higher.</p>
+<div class="figure">
+  <div class="fig-h">Civilian dead per 1,000 people</div>
+  <div class="fig-sub">The {{rates_n|int}} English county boroughs with figures in both the 1921 and 1951 lists, and the County of London. Rough rates; see the text.</div>
+  <div class="chart" id="rates"></div>
+</div>
+<p>On this measure Coventry is first, at {{rates.0.per1000|f1}} dead per 1,000 people, then Plymouth ({{rates.1.per1000|f1}}) and the County of London ({{rates.2.per1000|f1}}). Southampton, Hull, Portsmouth, Liverpool, Birkenhead and Bristol all lost around three people in every thousand. Clydebank is not in the list because I have no population for it, but with {{stories.clydebank.cwgc|int}} of its {{stories.clydebank.area_total|int}} dead recorded on 13 to 15 March 1941 in a small shipbuilding burgh, it may well have suffered more heavily than any of them. At the other end, Leeds lost {{small_rolls.Leeds|int}} people, Bradford {{small_rolls.Bradford|int}}, and Blackburn and Preston {{small_rolls.Blackburn|int}} and {{small_rolls.Preston|int}}.</p>
+
+<h2><span class="n">05 · 1942 and 1943</span>Cathedral cities and seaside towns</h2>
+<p>After May 1941 the big raids stopped, but the dying did not. Between 17 May 1941 and 20 January 1944 the roll records {{periods.2.uk|int}} deaths, and {{periods.2.outside|int}} of them ({{periods.2.outside_share|pct}}) were outside London. In April and May 1942, after the RAF burned Lübeck, the Luftwaffe attacked historic cities said to have been picked from the Baedeker tourist guide.</p>
+<div class="figure">
+  <div class="fig-h">The Baedeker raids</div>
+  <div class="fig-sub">Civilian dead on each city's roll in April, May and June 1942, and for the whole war.</div>
+  <div class="tablewrap"><table class="t" id="baed"></table></div>
+</div>
+<p>Bath lost {{baedeker.1.apr_jun_1942|int}} people in those three months, almost its whole wartime roll of {{baedeker.1.total|int}}. Meanwhile fast fighter-bombers made low "tip and run" attacks on the south and east coasts, dropping a bomb and turning for home before the defences could react. Between March 1942 and June 1943 seaside towns appear high on the roll: Eastbourne ({{seaside.Eastbourne|int}} dead in that period), Hastings ({{seaside.Hastings|int}}), Torquay ({{seaside.Torquay|int}}), Bournemouth ({{seaside.Bournemouth|int}}) and Weston-super-Mare ({{seaside.Weston-Super-Mare|int}}). The roll cannot say which deaths came from which kind of raid, so I give these as totals for the period. In Dover, under bombing and shelling from the German guns across the Channel, the roll has deaths in every year from 1940 to 1944, {{dover.total|int}} in all.</p>
+<p>One of those daylight raids, on 20 January 1943, hit Sandhurst Road School in Catford and killed 38 children and six staff. Lewisham's roll records {{stories.sandhurst.cwgc|int}} deaths on 20 and 21 January.</p>
+
+<h2><span class="n">06 · 1944 and 1945</span>Flying bombs and rockets</h2>
+<p>The last phase was London's again. The "Baby Blitz" of early 1944 killed {{periods.3.uk|int}}, {{periods.3.london_share|pct}} of them in London. Then from 13 June 1944 came the V-1 flying bombs and, from September, the V-2 rockets. Between them they account for {{periods.4.uk|int}} deaths on the roll, and {{periods.4.london_share|pct}} were in Greater London: the boroughs of south London, Wandsworth, Deptford, Lambeth, Lewisham and Camberwell, and West Ham and Croydon just outside the old county.</p>
+<div class="figure">
+  <div class="fig-h">Who died where, in each phase of the war</div>
+  <div class="fig-sub">Share of each period's civilian dead in Greater London (dark) and elsewhere (orange). Under each label: the period's total.</div>
+  <div class="chart" id="periods"></div>
+</div>
+<p>One V-2 hit Woolworth's in New Cross at lunchtime on 25 November 1944; Wikipedia gives 160 killed, and Deptford's roll records {{stories.newcross.cwgc|int}} deaths on that day and the next. The last two rockets fell on 27 March 1945. One killed a woman at home in Orpington, the last civilian killed by enemy action on British soil; Orpington's roll has {{stories.orpington.cwgc|int}} death that day. Across the country the roll records {{last_v2_day_uk|int}} deaths on 27 March 1945.</p>
+
+<h2><span class="n">07 · Stories</span>Shelters, schools and dance halls</h2>
+<p>Behind the totals are particular nights. The cards below set a few of the best-known incidents against the roll. Because the roll is filed by civic area and date, not by incident, each card gives the area's deaths on that day or those days, which usually includes other bombs as well. Tap a card to find the place on the map.</p>
+<div class="cards" id="cards"></div>
+<p class="pull">Liverpool, Birmingham, Bristol, Hull, Plymouth and Coventry each lost more than a thousand civilians.</p>
+
+<h2><span class="n">08 · Who died</span>Children and the old</h2>
+<p>The roll gives an age for {{age.stated|int}} of the {{cwgc.uk|int}} United Kingdom dead. Of those, {{age.under16|int}} ({{age.under16_share|pct}}) were children under 16, including {{age.under5|int}} under five, and {{age.over60|int}} ({{age.over60_share|pct}}) were 60 or older. The roll records an age of nought for {{age.not_stated|int}} people; that can mean a baby under a year old or an age not known, so I keep them apart.</p>
+<div class="figure">
+  <div class="fig-h">Age at death</div>
+  <div class="fig-sub">Civilian dead in the United Kingdom by age band, 1939 to 1947.</div>
+  <div class="chart" id="ages"></div>
+</div>
+
+<h2><span class="n">09 · Then and now</span>Two wars, the same towns</h2>
+<p>Some places were hit in both wars. Hartlepool, shelled in 1914 and bombed by a Zeppelin in 1918, lost {{then_and_now.0.ww1|int}} people in those two attacks. In the whole of the Second World War its two rolls, Hartlepool and West Hartlepool, record {{then_and_now.0.ww2|int}}: fewer than on one winter morning in 1914. Folkestone lost {{then_and_now.2.ww1|int}} people in a single raid in May 1917 and {{then_and_now.2.ww2|int}} in the six years of the second war. In most places the second war was far deadlier, but on the North Sea coast the first was not a footnote.</p>
+<div class="cards">
+  <div class="card s"><b>Hartlepool</b><div class="big">{{then_and_now.0.ww1|int}} <span>killed in 1914 and 1918</span></div><div class="big" style="color:var(--hot)">{{then_and_now.0.ww2|int}} <span>on its two rolls, 1939 to 1945</span></div></div>
+  <div class="card s"><b>Folkestone</b><div class="big">{{then_and_now.2.ww1|int}} <span>killed on 25 May 1917</span></div><div class="big" style="color:var(--hot)">{{then_and_now.2.ww2|int}} <span>on its roll, 1939 to 1945</span></div></div>
+</div>
+
+<h2><span class="n">10 · Counting the dead</span>How good is the roll?</h2>
+<p>The Commission's civilian roll is the fullest single list there is, but local histories often give different totals. I compared the roll with the figures quoted in Wikipedia's articles for {{compare_n|int}} towns and cities. In {{compare_within10|int}} of them the two agree within ten per cent. The big gaps have reasons: Swansea's article counts only the three-night Blitz of February 1941; Belfast's figure is for the Easter raid alone yet is higher than the city's whole roll, so some of those dead are probably filed under other areas; and Clydebank's article gives 1,200 dead, more than twice the {{compare_by.Clydebank.cwgc|int}} on the burgh's roll, although the town's own memorial names 528. Some of the Clydebank dead are probably filed under Glasgow or Dunbartonshire, where they died in hospital or lived.</p>
+<div class="figure">
+  <div class="fig-h">The roll against the textbook figures</div>
+  <div class="fig-sub">Civilian dead on the roll against the figure in each city's Wikipedia article. Follow the links for the wording.</div>
+  <div class="tablewrap"><table class="t" id="cmp"></table></div>
+</div>
+
+<div class="note" id="method">
+  <h3>How I did this</h3>
+  <p><b>Second World War.</b> The Commonwealth War Graves Commission's Find War Dead search, Civilian War Dead 1939 to 1945, exported as CSV month by month (and day by day where a month passed the export limit of 1,000 rows) on {{cwgc.retrieved|date}}: {{cwgc.rows|int}} people. Only one day, {{worst_days.0.date|date}}, still passed the limit and was collected again by age, so a few people of unknown age on that day may be missing. Each person is filed under a civic area. I sorted the {{cwgc.areas|int}} areas into the United Kingdom ({{cwgc.uk_areas|int}}), ships and air crashes at sea, the Channel Islands and Isle of Man, and overseas. Monmouthshire's rolls carry no "Wales" label and I counted them as Welsh. Greater London is the 28 metropolitan boroughs, the City and Westminster (the County of London) plus every area whose namesake lies in today's Greater London.</p>
+  <p><b>Placing areas.</b> Each area is placed at a populated place of the same name in OS Open Names, or for Northern Ireland in Wikidata. Where several places share a name, I take the one with the largest population in Wikidata within 8 km; a handful of rural districts named after old hundreds are placed at their main town, and Scottish counties are not placed. The dot shows where the area's namesake is, not where the bombs fell.</p>
+  <p><b>Periods.</b> Before the Blitz: 3 September 1939 to 6 September 1940. The Blitz: 7 September 1940 to 16 May 1941. Then to 20 January 1944; the Baby Blitz to 12 June 1944; flying bombs and rockets from 13 June 1944 to 29 March 1945; and after. Dates are dates of death, so people who died later of injuries fall in later periods.</p>
+  <p><b>First World War.</b> There is no open, place-by-place list of First World War raid deaths. I built a table of the {{ww1.n_incidents|int}} raids and bombardments whose tolls are stated in Wikipedia, checking each quoted sentence against the article text, plus three figures from English Heritage, ITV News and Ian Castle's raid records. Figures differ between sources: Hartlepool's 1914 toll is 86 civilians in one count and higher in another, and the 13 June 1917 raid killed 162 people in one account and 104 civilians in another. The totals ({{ww1.airship_killed|int}} and {{ww1.aeroplane_killed|int}}) and London's share ({{ww1.london_killed|int}}) are as Wikipedia gives them.</p>
+  <p><b>Personal data.</b> The roll names every person and often their address. I use only the civic area, date of death and age, and publish only counts. No name or address appears in the data files.</p>
+  <p><b>Known problems.</b> The roll's areas are the units of the 1940s, so a county borough and its suburbs may be separate rolls. Whether a person is filed where they died or where they lived is not always clear. Population figures for the rates are approximate. Wikipedia figures are quoted as found and are not independent sources.</p>
+</div>
+<div class="cta">
+  <a class="p" href="https://github.com/Tristan-Hotham/air-raids">Data and code</a>
+  <a href="https://doi.org/10.5281/zenodo.23729652">Paper (Zenodo)</a>
+  <a href="https://www.cwgc.org/find-records/find-war-dead/">CWGC Find War Dead</a>
+  <a href="https://tristan-hotham.github.io/war-memorials/">War memorials</a>
+  <a href="https://blog.tristanhotham.com/">Blog</a>
+</div>
+<footer>
+  <p>Dr Tristan Hotham, Independent researcher. ORCID 0000-0003-4931-9349. Cite as: Hotham, T. (2026) Bombs on Britain: where the air raids killed, 1914 to 1945. https://doi.org/10.5281/zenodo.23729652</p>
+  <p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+  <p>Second World War data: Commonwealth War Graves Commission, Find War Dead (Civilian War Dead 1939-1945), https://www.cwgc.org, used for research with credit; only counts are published. First World War incidents and city figures: English Wikipedia (CC BY-SA 4.0), with English Heritage, ITV News and iancastlezeppelin.co.uk for three figures. Place names: OS Open Names, contains OS data © Crown copyright and database right 2026 (Open Government Licence v3.0). Northern Ireland places and tie-breaking populations: Wikidata (CC0). Coastline: Natural Earth (public domain). Base map tiles © Esri.</p>
+  <p>The derived data and the text of this page are released under CC BY-SA 4.0 (because they build on Wikipedia text and figures); the code under the MIT licence. Companion study: <a href="https://tristan-hotham.github.io/war-memorials/">How many names on your war memorial?</a> · <a href="https://blog.tristanhotham.com/">all posts</a>.</p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const D = /*SITE*/;
+const R = /*RESULTS*/;
+const NS = "http://www.w3.org/2000/svg";
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const fmt = n => n == null ? "n/a" : Math.round(n).toLocaleString("en-GB");
+const f1 = x => x == null ? "n/a" : x.toFixed(1);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const MN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const dlong = s => { const [y, m, d] = s.split("-").map(Number); return `${d} ${MN[m - 1]} ${y}`; };
+const mlong = s => { const [y, m] = s.split("-").map(Number); return `${MN[m - 1]} ${y}`; };
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+function hover(node, h) { node.style.cursor = "pointer"; node.setAttribute("tabindex", "0"); const s = () => { const r = node.getBoundingClientRect(); showTip(h, r.left + r.width / 2, r.top); }; node.addEventListener("pointerenter", s); node.addEventListener("pointerleave", hideTip); node.addEventListener("focus", s); node.addEventListener("blur", hideTip); node.addEventListener("click", e => { s(); e.stopPropagation(); }); }
+document.addEventListener("click", hideTip);
+const redraws = [];
+function resp(box, render) { let last = 0; const go = (force) => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); go(); redraws.push(() => go(true)); }
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+document.getElementById("theme").onclick = () => { const r = document.documentElement; r.dataset.theme = isDark() ? "light" : "dark"; redraws.forEach(f => f()); };
+
+/* hero mark: searchlight beams over a burning skyline */
+(() => { const g = document.getElementById("heroMark");
+  [[-62, -22], [-12, 14], [38, -8]].forEach(([x, a]) => el("path", { d: `M${x} 70 L${x + 90 * Math.sin(a * Math.PI / 180) - 14} -95 L${x + 90 * Math.sin(a * Math.PI / 180) + 14} -95 Z`, fill: "var(--glow)", opacity: .28 }, g));
+  el("path", { d: "M-100 70 L-100 30 L-78 30 L-78 10 L-60 10 L-60 38 L-40 38 L-40 -6 L-30 -18 L-20 -6 L-20 40 L0 40 L0 18 L20 18 L20 4 L34 4 L34 36 L52 36 L52 22 L70 22 L70 46 L100 46 L100 70 Z", fill: "var(--fg)" }, g);
+  [[-30, -24, 16], [8, 10, 12], [60, 14, 14]].forEach(([x, y, r]) => { el("circle", { cx: x, cy: y, r: r * 1.8, fill: "var(--hot)", opacity: .25 }, g); el("circle", { cx: x, cy: y, r, fill: "var(--hot)" }, g); el("circle", { cx: x, cy: y + 2, r: r * .45, fill: "var(--glow)" }, g); });
+})();
+
+/* ===== map ===== */
+const PL = D.pts.map((a, i) => ({ i, lat: a[0], lng: a[1], name: a[2], kind: a[3], nat: a[4], total: a[5], lon: a[6], peak: a[7], peakN: a[8], blitz: a[9], vw: a[10], u16: a[11], aged: a[12], ms: a[13] }));
+PL.forEach(p => { p.cum = new Array(D.months.length).fill(0); p.mon = new Array(D.months.length).fill(0); p.ms.forEach(([m, n]) => p.mon[m] += n); let s = 0; for (let m = 0; m < D.months.length; m++) { s += p.mon[m]; p.cum[m] = s; } });
+const W1 = D.ww1.map(a => ({ lat: a[0], lng: a[1], date: a[2], kind: a[3], places: a[4], killed: a[5], who: a[6], note: a[7], src: a[8], url: a[9], lon: a[10], inj: a[11] }));
+const W1M = []; { let d = new Date(1914, 11, 1); while (d <= new Date(1918, 7, 1)) { W1M.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`); d.setMonth(d.getMonth() + 1); } }
+W1.forEach(w => w.mi = W1M.indexOf(w.date.slice(0, 7)));
+const KC = { airship: "--slate", aeroplane: "--hot", naval: "--fg" };
+let war = 2, mi = D.months.length - 1, lmap, tiles, layer2, layer1, playing = null;
+const slider = document.getElementById("slider"), when = document.getElementById("when");
+function rad2(n, z) { const f = Math.pow(1.45, Math.min(z, 11) - 6); return n > 0 ? Math.max(2, Math.min(40, (1.2 + Math.sqrt(n) * 0.42) * f)) : 0; }
+function rad1(n, z) { const f = Math.pow(1.45, Math.min(z, 11) - 6); return Math.max(3, Math.min(30, (2 + Math.sqrt(n) * 1.3) * f)); }
+function fire(n) { return n >= 1000 ? "--f4" : n >= 250 ? "--f3" : n >= 50 ? "--f2" : n >= 10 ? "--f1" : "--f0"; }
+function pop2(p) {
+  const upto = p.cum[mi], now = p.mon[mi];
+  return `<div class="pop"><b class="t">${esc(p.name)}</b><div class="c">${esc(p.kind)}${p.lon ? ", Greater London" : ""}</div>
+  <div class="big">${fmt(p.total)}<small>civilian dead on the roll, 1939 to 1947</small></div>
+  <dl><dt>By ${mlong(D.months[mi])}</dt><dd>${fmt(upto)}</dd><dt>In that month</dt><dd>${fmt(now)}</dd><dt>The Blitz</dt><dd>${fmt(p.blitz)}</dd><dt>V-1 and V-2</dt><dd>${fmt(p.vw)}</dd>
+  <dt>Worst day</dt><dd>${p.peak ? dlong(p.peak) + ", " + fmt(p.peakN) : "n/a"}</dd><dt>Under 16</dt><dd>${fmt(p.u16)} of ${fmt(p.aged)} with an age</dd></dl>
+  <div class="pn">Commonwealth War Graves Commission, Civilian War Dead roll. Dot at the town the area is named after.</div></div>`;
+}
+function pop1(w) {
+  return `<div class="pop"><b class="t">${esc(w.places)}</b><div class="c">${dlong(w.date)} · ${w.kind === "naval" ? "warships" : w.kind}</div>
+  <div class="big s">${fmt(w.killed)}<small>killed (${esc(w.who)})${w.inj !== "" && w.inj != null ? "; " + fmt(w.inj) + " injured" : ""}</small></div>
+  <div>${esc(w.note)}</div><div class="pn">Source: <a href="${w.url}" target="_blank" rel="noopener">${esc(w.src)}</a></div></div>`;
+}
+function legend() {
+  const box = document.getElementById("legend");
+  box.innerHTML = war === 2 ? `<span>Civilian dead so far:</span>` + [["--f0", "1 to 9"], ["--f1", "10 to 49"], ["--f2", "50 to 249"], ["--f3", "250 to 999"], ["--f4", "1,000 or more"]].map(c => `<span><i style="background:var(${c[0]})"></i>${c[1]}</span>`).join("") + `<span><i style="background:var(--glow);box-shadow:0 0 0 2px var(--hot)"></i>Deaths this month</span><span>Dot size = dead</span>`
+    : `<span>Raids and bombardments so far:</span><span><i style="background:var(--slate)"></i>Airship</span><span><i style="background:var(--hot)"></i>Aeroplane</span><span><i style="background:var(--fg)"></i>Warships</span><span>Dot size = killed</span>`;
+}
+function setWhen() { const ms = war === 2 ? D.months : W1M; const m = ms[mi]; when.innerHTML = `${mlong(m)}<small>${war === 2 ? fmt(PL.reduce((s, p) => s + p.cum[mi], 0)) + " dead so far on placed rolls" : fmt(W1.filter(w => w.mi <= mi).reduce((s, w) => s + w.killed, 0)) + " killed in the listed raids so far"}</small>`; }
+function draw() {
+  if (!lmap) return; const z = lmap.getZoom();
+  if (war === 2) {
+    layer1.eachLayer(l => l.setStyle({ opacity: 0, fillOpacity: 0 }));
+    layer2.eachLayer(m => { const p = m.p, n = p.cum[mi], now = p.mon[mi] > 0; m.setRadius(rad2(n, z)); m.setStyle({ fillColor: css(fire(n)), fillOpacity: n ? .82 : 0, opacity: n ? 1 : 0, color: now ? css("--glow") : css("--bg"), weight: now ? 2.2 : .6 }); });
+  } else {
+    layer2.eachLayer(m => m.setStyle({ opacity: 0, fillOpacity: 0 }));
+    layer1.eachLayer(m => { const w = m.w, on = w.mi <= mi, now = w.mi === mi; m.setRadius(rad1(w.killed, z)); m.setStyle({ fillColor: css(KC[w.kind]), fillOpacity: on ? .75 : 0, opacity: on ? 1 : 0, color: now ? css("--glow") : css("--bg"), weight: now ? 2.5 : .8 }); });
+  }
+  setWhen(); legend();
+}
+function setWar(w) { war = w; const n = (w === 2 ? D.months : W1M).length; slider.max = n - 1; mi = n - 1; slider.value = mi; document.querySelectorAll("[data-war]").forEach(b => b.setAttribute("aria-pressed", +b.dataset.war === w)); stop(); draw(); }
+function stop() { if (playing) { clearInterval(playing); playing = null; document.getElementById("play").textContent = "▶ Play"; } }
+document.getElementById("play").onclick = () => { if (playing) return stop(); if (mi >= +slider.max) mi = 0; document.getElementById("play").textContent = "❚❚ Pause";
+  playing = setInterval(() => { mi++; if (mi > +slider.max) { mi = +slider.max; stop(); } slider.value = mi; draw(); }, war === 2 ? 420 : 520); };
+slider.oninput = () => { stop(); mi = +slider.value; draw(); };
+function tileUrl() { return `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${isDark() ? "Dark" : "Light"}_Gray_Base/MapServer/tile/{z}/{y}/{x}`; }
+(() => {
+  if (!window.L) { document.getElementById("lmap").innerHTML = '<p style="padding:16px">The map library did not load.</p>'; return; }
+  lmap = L.map("lmap", { preferCanvas: true, zoomSnap: 0.5, minZoom: 5, maxZoom: 14, scrollWheelZoom: false });
+  lmap.fitBounds([[50.0, -7.6], [58.7, 1.8]], { padding: innerWidth < 600 ? [0, 0] : [10, 10] });
+  tiles = L.tileLayer(tileUrl(), { attribution: 'Tiles &copy; Esri', maxZoom: 16 }).addTo(lmap);
+  const rend = L.canvas({ padding: 0.5, tolerance: 3 });
+  layer2 = L.layerGroup().addTo(lmap); layer1 = L.layerGroup().addTo(lmap);
+  PL.forEach(p => { const m = L.circleMarker([p.lat, p.lng], { renderer: rend, radius: 2, weight: .6 }); m.p = p; m.bindPopup(() => pop2(p), { maxWidth: 310, autoPanPadding: [20, 20] }); m.addTo(layer2); p.m = m; });
+  W1.filter(w => w.lat != null).sort((a, b) => b.killed - a.killed).forEach(w => { const m = L.circleMarker([w.lat, w.lng], { renderer: rend, radius: 3, weight: .8 }); m.w = w; m.bindPopup(() => pop1(w), { maxWidth: 310, autoPanPadding: [20, 20] }); m.addTo(layer1); w.m = m; });
+  lmap.on("zoomend", draw);
+  lmap.on("click focus", () => lmap.scrollWheelZoom.enable());
+  lmap.getContainer().addEventListener("mouseleave", () => lmap.scrollWheelZoom.disable());
+  document.querySelectorAll("[data-war]").forEach(b => b.onclick = () => setWar(+b.dataset.war));
+  redraws.push(() => { tiles.setUrl(tileUrl()); draw(); });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => redraws.forEach(f => f()));
+  setWar(2);
+})();
+function goArea(p) { if (!lmap) return; if (war !== 2) setWar(2); lmap.setView([p.lat, p.lng], 10); setTimeout(() => p.m.openPopup(), 300); document.getElementById("lmap").scrollIntoView({ behavior: "smooth", block: "center" }); }
+function goW1(w) { if (!lmap) return; if (war !== 1) setWar(1); lmap.setView([w.lat, w.lng], 10); setTimeout(() => w.m.openPopup(), 300); }
+
+/* search */
+(() => {
+  const q = document.getElementById("q"), sug = document.getElementById("sug");
+  const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+  PL.forEach(p => p.key = norm(p.name)); W1.forEach(w => w.key = norm(w.places));
+  let list = [], sel = -1;
+  function go(it) { sug.style.display = "none"; q.setAttribute("aria-expanded", "false"); q.value = it.p ? it.p.name : it.w.places; it.p ? goArea(it.p) : goW1(it.w); }
+  function render() { sug.innerHTML = list.map((it, i) => it.p ? `<li role="option" aria-selected="${i === sel}" data-i="${i}">${esc(it.p.name)} <span>${esc(it.p.kind)}, ${fmt(it.p.total)} dead 1939 to 1947</span></li>` : `<li role="option" aria-selected="${i === sel}" data-i="${i}">${esc(it.w.places)} <span>${dlong(it.w.date)}, ${fmt(it.w.killed)} killed</span></li>`).join("");
+    sug.style.display = list.length ? "block" : "none"; q.setAttribute("aria-expanded", list.length > 0); }
+  function update() { const t = norm(q.value); sel = -1; if (t.length < 2) { list = []; render(); return; }
+    const a = PL.filter(p => p.key.startsWith(t)), b = PL.filter(p => !p.key.startsWith(t) && p.key.includes(t));
+    list = [...a, ...b].slice(0, 7).map(p => ({ p })).concat(W1.filter(w => w.lat != null && w.key.includes(t)).slice(0, 3).map(w => ({ w }))); render(); }
+  q.addEventListener("input", update);
+  q.addEventListener("keydown", e => { if (!list.length) return; if (e.key === "ArrowDown") { sel = Math.min(list.length - 1, sel + 1); render(); e.preventDefault(); } else if (e.key === "ArrowUp") { sel = Math.max(0, sel - 1); render(); e.preventDefault(); } else if (e.key === "Enter") { go(list[Math.max(0, sel)]); e.preventDefault(); } else if (e.key === "Escape") { list = []; render(); } });
+  sug.addEventListener("click", e => { const li = e.target.closest("li[data-i]"); if (li) go(list[+li.dataset.i]); e.stopPropagation(); });
+  document.addEventListener("click", e => { if (e.target !== q) { sug.style.display = "none"; q.setAttribute("aria-expanded", "false"); } });
+})();
+
+/* ===== WW1 lollipop timeline ===== */
+resp(document.getElementById("w1chart"), (W, nar) => {
+  const H = nar ? 300 : 340, m = { l: 40, r: 12, t: 26, b: 34 };
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "First World War raids and bombardments by date and deaths" }, document.getElementById("w1chart"));
+  const t0 = Date.UTC(1914, 10, 15), t1 = Date.UTC(1918, 5, 15), X = s => m.l + (Date.parse(s) - t0) / (t1 - t0) * (W - m.l - m.r);
+  const max = 170, Y = v => H - m.b - v / max * (H - m.t - m.b);
+  [0, 50, 100, 150].forEach(t => { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(t) + 4, t, "lab m s", "end"); });
+  [1915, 1916, 1917, 1918].forEach(y => { const x = X(`${y}-01-01`); el("line", { x1: x, x2: x, y1: H - m.b, y2: H - m.b + 5, stroke: "var(--muted)" }, svg); lbl(svg, x, H - m.b + 18, y, "lab m s", "middle"); });
+  W1.slice().sort((a, b) => a.killed - b.killed).forEach(w => { const x = X(w.date), c = `var(${KC[w.kind]})`;
+    el("line", { x1: x, x2: x, y1: Y(0), y2: Y(w.killed), stroke: c, "stroke-width": 2, opacity: .8 }, svg);
+    const dot = el("circle", { cx: x, cy: Y(w.killed), r: Math.max(3.5, Math.sqrt(w.killed) * .7), fill: c, stroke: "var(--bg)", "stroke-width": 1 }, svg);
+    hover(dot, `<b>${esc(w.places)}</b><br>${dlong(w.date)}<br>${fmt(w.killed)} killed (${esc(w.who)})`); });
+  const ann = [["1914-12-16", 86, "Hartlepool, 1914"], ["1917-05-25", 72, "Folkestone"], ["1917-06-13", 162, "London and Poplar"], ["1917-09-03", 130, "Chatham drill hall"], ["1916-01-31", 61, "Black Country"]];
+  ann.forEach(([d, v, t]) => { if (nar && t === "Black Country") return; const x = X(d), right = t === "London and Poplar" || x > W - 140; lbl(svg, right ? x - 8 : x + 8, Y(v) - 8, nar && t === "Chatham drill hall" ? "Chatham" : t, "lab s b", right ? "end" : "start"); });
+  lbl(svg, m.l, 12, "Killed", "lab m s");
+});
+
+/* ===== weekly stacked bars with period bands ===== */
+resp(document.getElementById("daily"), (W, nar) => {
+  const H = nar ? 280 : 340, m = { l: 46, r: 10, t: 30, b: 34 };
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Weekly civilian deaths in the United Kingdom, London and elsewhere" }, document.getElementById("daily"));
+  const d0 = Date.parse(D.daily0), wk = [];
+  D.daily.forEach((v, i) => { const k = Math.floor(i / 7); (wk[k] = wk[k] || [0, 0, i]); wk[k][0] += v[0]; wk[k][1] += v[1]; });
+  const end = Date.UTC(1945, 11, 31), nW = Math.ceil((end - d0) / 864e5 / 7), bw = (W - m.l - m.r) / nW;
+  const max = Math.max(...wk.slice(0, nW).map(w => w[0])), Y = v => H - m.b - v / max * (H - m.t - m.b);
+  const X = t => m.l + (t - d0) / 864e5 / 7 * bw;
+  R.periods.filter(p => p.key !== "after" && p.key !== "early").forEach((p, i) => { const x0 = X(Date.parse(p.start)), x1 = X(Date.parse(p.end) + 864e5);
+    el("rect", { x: x0 + 1, y: m.t - 6, width: x1 - x0 - 2, height: H - m.b - m.t + 6, fill: "var(--glow)", opacity: p.key === "mid" ? .07 : .2 }, svg);
+    const short = nar ? { blitz: "Blitz", mid: "", baby: "", vweap: "V-1, V-2" }[p.key] : { blitz: "The Blitz", mid: "Baedeker, tip and run", baby: "Baby Blitz", vweap: "V-1 and V-2" }[p.key];
+    if (short) lbl(svg, p.key === "baby" ? x1 : p.key === "vweap" ? x0 + 4 : (x0 + x1) / 2, m.t - 10, short, "lab s b", p.key === "baby" ? "end" : p.key === "vweap" ? "start" : "middle"); });
+  for (let t = max > 4000 ? 1000 : 500; t <= max; t += max > 4000 ? 1000 : 500) { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(t) + 4, fmt(t), "lab m s", "end"); }
+  wk.slice(0, nW).forEach((w, k) => { const x = m.l + k * bw, out = w[0] - w[1];
+    const g = el("g", {}, svg);
+    el("rect", { x: x + .2, y: Y(w[0]), width: Math.max(.8, bw - .4), height: Y(w[1]) - Y(w[0]), fill: "var(--hot)" }, g);
+    el("rect", { x: x + .2, y: Y(w[1]), width: Math.max(.8, bw - .4), height: H - m.b - Y(w[1]), fill: "var(--fg)" }, g);
+    if (w[0] > 40) { const ds = new Date(d0 + w[2] * 864e5).toISOString().slice(0, 10); hover(g, `<b>Week from ${dlong(ds)}</b><br>${fmt(w[0])} dead: ${fmt(w[1])} in Greater London, ${fmt(out)} elsewhere`); } });
+  [1940, 1941, 1942, 1943, 1944, 1945].forEach(y => { const x = X(Date.UTC(y, 0, 1)); el("line", { x1: x, x2: x, y1: H - m.b, y2: H - m.b + 5, stroke: "var(--muted)" }, svg); lbl(svg, x, H - m.b + 18, y, "lab m s", "middle"); });
+  lbl(svg, m.l, m.t - 26 < 0 ? 10 : 10, "", "lab");
+});
+
+/* ===== horizontal bars helper ===== */
+function hbars(id, rows, opt = {}) {
+  resp(document.getElementById(id), (W, nar) => {
+    const rowH = opt.rowH || 26, gap = nar ? 14 : 0, m = { l: nar ? 0 : (opt.l || 170), r: 64, t: 4, b: 6 }, H = rows.length * (rowH + gap) + m.t + m.b;
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": opt.aria || "" }, document.getElementById(id));
+    const max = opt.max || Math.max(...rows.map(r => r.v)), X = v => m.l + v / max * (W - m.l - m.r);
+    rows.forEach((r, i) => { const y = m.t + i * (rowH + gap) + gap;
+      lbl(svg, nar ? 0 : m.l - 10, nar ? y - 3 : y + rowH / 2 + 4, r.k, "lab" + (r.bold ? " b" : ""), nar ? "start" : "end");
+      const g = el("g", {}, svg);
+      el("rect", { x: m.l, y: y + 3, width: Math.max(2, X(r.v) - m.l), height: rowH - 8, rx: 2, fill: r.c || "var(--hot)" }, g);
+      if (r.v2 != null) el("rect", { x: m.l, y: y + 3, width: Math.max(0, X(r.v2) - m.l), height: rowH - 8, rx: 2, fill: r.c2 || "var(--ember)" }, g);
+      if (r.t) hover(g, r.t);
+      lbl(svg, X(r.v) + 6, y + rowH / 2 + 4, r.lab || fmt(r.v), "lab b"); });
+  });
+}
+(() => { let which = "out"; const H3 = document.getElementById("topH");
+  function draw() { const src = which === "out" ? R.top_outside.slice(0, 20) : R.top_london;
+    H3.textContent = which === "out" ? "The longest rolls outside London" : "The longest rolls in Greater London";
+    document.getElementById("top").innerHTML = "";
+    hbars("top", src.map(a => ({ k: a.name, v: a.deaths, v2: a.blitz, c: "var(--f1)", c2: "var(--f3)", t: `<b>${esc(a.name)}</b> (${esc(a.kind)})<br>${fmt(a.deaths)} dead; ${fmt(a.blitz)} in the Blitz, ${fmt(a.vweap)} from V-1s and V-2s<br>Worst day: ${dlong(a.peak_day)}, ${fmt(a.peak)}` })), { l: 160, rowH: 24, aria: H3.textContent }); }
+  document.querySelectorAll("[data-top]").forEach(b => b.onclick = () => { which = b.dataset.top; document.querySelectorAll("[data-top]").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(); });
+  draw(); })();
+hbars("rates", R.rates.slice(0, 20).map(r => ({ k: r.name, v: r.per1000, lab: f1(r.per1000), bold: r.name === "County of London", c: r.name === "County of London" ? "var(--fg)" : "var(--f2)", t: `<b>${esc(r.name)}</b><br>${fmt(r.deaths)} dead, population about ${fmt(r.population)}<br>${f1(r.per1000)} per 1,000` })), { l: 160, rowH: 22, aria: "Civilian dead per 1,000 people" });
+hbars("ages", R.age.bands.map(b => ({ k: b.band, v: b.n, c: b.band === "0 or not stated" ? "var(--fn)" : /1 to 4|5 to 15/.test(b.band) ? "var(--f3)" : "var(--f1)" })), { l: 130, rowH: 26, aria: "Civilian dead by age band" });
+
+/* periods: 100% bars */
+resp(document.getElementById("periods"), (W, nar) => {
+  const rows = R.periods.filter(p => p.key !== "after"), rowH = 34, gap = nar ? 16 : 0, l = nar ? 0 : 200, H = rows.length * (rowH + gap) + 30;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Share of each period's dead in Greater London" }, document.getElementById("periods"));
+  const X = f => l + f * (W - l - 4);
+  rows.forEach((p, i) => { const y = i * (rowH + gap) + gap;
+    lbl(svg, nar ? 0 : l - 10, nar ? y - 3 : y + 14, p.label, "lab b", nar ? "start" : "end"); lbl(svg, nar ? W : l - 10, nar ? y - 3 : y + 28, fmt(p.uk) + " dead", "lab m s", "end");
+    const g = el("g", {}, svg);
+    el("rect", { x: l, y: y + 4, width: X(p.london_share) - l, height: rowH - 10, fill: "var(--fg)" }, g);
+    el("rect", { x: X(p.london_share), y: y + 4, width: X(1) - X(p.london_share), height: rowH - 10, fill: "var(--hot)" }, g);
+    const xl = X(p.london_share); lbl(svg, xl > l + 50 ? xl - 6 : xl + 6, y + rowH / 2 + 3, Math.round(p.london_share * 100) + "%", "lab b", xl > l + 50 ? "end" : "start").setAttribute("style", xl > l + 50 ? "fill:var(--bg)" : "fill:var(--bg)");
+    hover(g, `<b>${esc(p.label)}</b><br>${dlong(p.start)} to ${dlong(p.end)}<br>${fmt(p.london)} in Greater London, ${fmt(p.outside)} elsewhere`); });
+  lbl(svg, l, H - 6, "Greater London", "lab s b"); lbl(svg, W - 4, H - 6, "Elsewhere in the UK", "lab s b", "end");
+});
+
+/* tables */
+document.getElementById("worst").innerHTML = `<thead><tr><th>Day</th><th class="num">Dead</th><th class="num">Greater London</th><th class="num">Elsewhere</th></tr></thead><tbody>` +
+  R.worst_days.slice(0, 10).map(r => `<tr><td>${dlong(r.date)}</td><td class="num">${fmt(r.uk)}</td><td class="num">${fmt(r.london)}</td><td class="num">${fmt(r.outside)}</td></tr>`).join("") + "</tbody>";
+document.getElementById("baed").innerHTML = `<thead><tr><th>City</th><th class="num">April to June 1942</th><th class="num">Whole war</th></tr></thead><tbody>` +
+  R.baedeker.map(r => `<tr><td>${esc(r.name)}</td><td class="num">${fmt(r.apr_jun_1942)}</td><td class="num">${fmt(r.total)}</td></tr>`).join("") + "</tbody>";
+document.getElementById("cmp").innerHTML = `<thead><tr><th>Place</th><th class="num">On the roll</th><th class="num">Wikipedia</th><th class="wide">Note</th></tr></thead><tbody>` +
+  R.compare.map(r => `<tr><td><a href="${r.source}" target="_blank" rel="noopener">${esc(r.town)}</a></td><td class="num">${fmt(r.cwgc)}</td><td class="num">${fmt(r.wikipedia)}</td><td class="wide"><small>${esc(r.note || (r.n_rolls > 1 ? r.n_rolls + " rolls" : ""))}</small></td></tr>`).join("") + "</tbody>";
+
+/* story cards */
+(() => { const S = R.stories;
+  const C = [
+    ["balham", "14 October 1940", "A bomb fell on the road above Balham's platforms, then used as a shelter; a bus fell into the crater and the tunnels flooded. The CWGC lists 66 dead in the station.", "Wandsworth's dead on 14 and 15 October"],
+    ["coventry", "14 November 1940", "The raid gave German a new verb meaning to annihilate a city. An estimated 568 killed; the exact figure was never confirmed.", "Coventry's dead on 14 to 16 November"],
+    ["bank", "11 January 1941", "A bomb hit the booking hall of Bank station; the blast went down the stairs and escalators. 56 killed.", "the City's dead on 11 and 12 January"],
+    ["cafe", "8 March 1941", "A bomb fell down a ventilation shaft into the basement ballroom of the Café de Paris, killing at least 34, among them the bandleader and his musicians.", "Westminster's dead on 8 and 9 March"],
+    ["clydebank", "13 and 14 March 1941", "Two nights that left only eight of about 12,000 houses undamaged.", "Clydebank's dead on 13 to 15 March"],
+    ["belfast", "15 April 1941", "The Easter Tuesday raid: some 987 dead, the greatest loss of life in a night raid outside London.", "Belfast's dead on 15 to 17 April"],
+    ["northshields", "3 May 1941", "A bomb on the shelter under Wilkinson's lemonade factory: 107 dead, the most killed by a single bomb.", "Tynemouth's dead on 3 and 4 May"],
+    ["liverpool", "1 to 7 May 1941", "Seven nights of bombing, at the peak of the Merseyside Blitz.", "Liverpool's dead on 1 to 8 May"],
+    ["bath", "25 to 27 April 1942", "Baedeker raids: the bombers came low and machine-gunned the streets. 417 killed.", "Bath's dead on 25 to 28 April"],
+    ["sandhurst", "20 January 1943", "A fighter-bomber's bomb on Sandhurst Road School, Catford: 38 children and 6 staff killed.", "Lewisham's dead on 20 and 21 January"],
+    ["bethnal", "3 March 1943", "No bomb fell. In the dark, a woman and child stumbled on the shelter stairs and 173 people, 62 of them children, were crushed.", "Bethnal Green's dead on 3 and 4 March"],
+    ["newcross", "25 November 1944", "A V-2 on Woolworth's in New Cross at lunchtime: 160 killed.", "Deptford's dead on 25 and 26 November"],
+  ];
+  document.getElementById("cards").innerHTML = C.map(([k, d, txt, what]) => { const s = S[k]; return `<div class="card"><b>${esc(s.title)}</b><div class="d">${d}</div><div class="big">${fmt(s.cwgc)} <span>on the roll: ${what}</span></div><div>${esc(txt)}</div><a class="go" data-go="${esc(s.area)}">Show ${esc(s.area)} on the map</a> · <a class="go" href="${s.source}" target="_blank" rel="noopener">Source</a></div>`; }).join("");
+  document.getElementById("cards").addEventListener("click", e => { const a = e.target.closest("[data-go]"); if (!a) return; const p = PL.find(p => p.name === a.dataset.go); if (p) goArea(p); });
+})();
+</script>
+</body>
+</html>

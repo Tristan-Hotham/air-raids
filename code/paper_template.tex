@@ -1,0 +1,225 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={Bombs on Britain: Where the Air Raids Killed, 1914 to 1945},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Bombs on Britain: Where the Air Raids Killed, 1914 to 1945\\[2pt] Civilian Deaths Town by Town from the CWGC Roll\\[2pt] and the First World War Raids\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: \href{https://doi.org/10.5281/zenodo.23729652}{https://doi.org/10.5281/zenodo.23729652}\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+Popular memory places the air war against British civilians in London. I test that picture with the Commonwealth War Graves Commission's roll of civilian war dead of the Second World War, aggregated to counts by civic area, date and age, and set it beside a table of the First World War raids and bombardments built from Wikipedia and checked against its text. The roll holds {{cwgc.rows|int}} civilians, of whom {{cwgc.uk|int}} are filed under places in the United Kingdom. Greater London accounts for {{london.greater|int}} ({{london.greater_share|pct}}); the other {{london.outside|int}} ({{london.outside_share|pct}}) died elsewhere, in {{n_areas_100_outside|int}} civic areas outside London with 100 or more dead each. London's share changed sharply over the war: {{periods.1.london_share|pct}} of the {{periods.1.uk|int}} dead of the Blitz of 1940 to 1941, {{periods.2.london_share|pct}} in the Baedeker and tip-and-run years that followed, and {{periods.4.london_share|pct}} in the flying-bomb and rocket campaign of 1944 to 1945. The deadliest single days for any one place were outside London: Liverpool ({{worst_area_days.0.deaths|int}} on {{worst_area_days.0.date|date}}), Belfast and Coventry. Approximate rates put Coventry ({{rates.0.per1000|f1}} per 1,000) and Plymouth ({{rates.1.per1000|f1}}) above the County of London ({{rates.2.per1000|f1}}). Children under 16 were {{age.under16_share|pct}} of the dead with a stated age. In the First World War, airships and aeroplanes killed {{ww1.air_killed|int}} people, {{ww1.london_share|pct}} of them in the London police district, and the naval bombardment of 16 December 1914 killed {{ww1.dec1914|int}}; Hartlepool lost more people that morning and in a 1918 raid ({{then_and_now.0.ww1|int}}) than on its Second World War rolls ({{then_and_now.0.ww2|int}}). The roll agrees within ten per cent with published city totals in {{compare_within10|int}} of {{compare_n|int}} cases.
+
+\textbf{Keywords:} air raids; the Blitz; civilian war dead; Commonwealth War Graves Commission; First World War; Zeppelin; Second World War; Remembrance; United Kingdom; open data
+\end{quote}
+
+\section{Introduction}
+
+The image of the air war against British civilians is a London image: St Paul's in smoke on 29 December 1940, families on Underground platforms, the East End docks burning on 7 September 1940. Wikipedia's article on the Blitz, a fair summary of the general view, notes that more than 40,000 civilians were killed by Luftwaffe bombing, ``almost half of them in the capital'' (Wikipedia contributors 2026a). The phrase ``almost half'' is the starting point of this note. If London is less than half, where is the rest, and when did it happen?
+
+The question has a longer history than the Second World War. German warships shelled Hartlepool, Scarborough and Whitby on 16 December 1914, and from January 1915 to August 1918 airships and then aeroplanes bombed London and many other towns (Wikipedia contributors 2026b; 2026c). Those raids were small by later standards but were the first sustained attack from the air on a civilian population, and they prompted the air defences, shelter planning and fears of the 1930s.
+
+I ask four questions. Where, town by town, were the civilian dead of the Second World War recorded? How did London's share change over the course of the war? How heavy were the losses for the size of the place? And how does the First World War compare, place for place? An interactive version, with a map that plays the war month by month and a search for every civic area, is at \url{https://tristan-hotham.github.io/air-raids/}. It pairs with my earlier study of the names on the United Kingdom's war memorials (Hotham 2026).
+
+\section{Data}
+
+\subsection{The Commonwealth War Graves Commission's civilian roll}
+
+The Commonwealth War Graves Commission (CWGC) records civilians who died as a result of enemy action in the Second World War in its Civilian War Dead roll, searchable through Find War Dead (Commonwealth War Graves Commission 2026). I exported the roll as CSV on {{cwgc.retrieved|date}}, month by month, and day by day for months that passed the export limit of 1,000 rows. One day, {{worst_days.0.date|date}}, passed the limit even on its own and was collected again by age band; a few people of unknown age on that day may therefore be missing. The export holds {{cwgc.rows|int}} unique records, with dates of death from September 1939 to December 1947 (later deaths are mostly of people who died of their injuries).
+
+Each record has a name, age, date of death, a civic area under which the person is listed (for example ``Coventry, County Borough'' or ``Stepney, Metropolitan Borough'') and free-text additional information, which usually includes an address. This is personal data about named people. I used only the civic area, the date of death and the age, and I publish only counts: by civic area, by date, by civic area and month, and by age band. No name, address or free text appears in any output.
+
+\subsection{The First World War raids}
+
+There is no open, place-by-place dataset of First World War raid deaths. I built a table of {{ww1.n_incidents|int}} raids and bombardments whose death tolls are stated in English Wikipedia, chiefly the article on German bombing of Britain from 1914 to 1918 (Wikipedia contributors 2026c) and articles on the 1914 and 1916 naval bombardments, the Tipton raid, Upper North Street School and Scarborough (Wikipedia contributors 2026b; 2026d; 2026e). For each row the analysis code checks that the quoted sentence appears in the article text as downloaded. Three figures not stated there come from named web pages: the Scarborough toll of 1914 from English Heritage (2026), a Whitby figure implied by ITV News (2014), and the Hull raid of June 1915 from Ian Castle's raid records (Castle 2026). Each incident is placed at one representative settlement. The national totals (airships {{ww1.airship_killed|int}} killed, aeroplanes {{ww1.aeroplane_killed|int}}) and the London figure ({{ww1.london_killed|int}} killed in the Metropolitan Police District) are as stated in Wikipedia (Wikipedia contributors 2026c; 2026f).
+
+\subsection{Places, populations and other sources}
+
+Civic areas are placed using OS Open Names for Great Britain (Ordnance Survey 2026) and Wikidata for Northern Ireland (Wikidata contributors 2026). Population figures for rates come from Wikipedia's list of English towns and cities by historical population, which gives census figures for 1921 and 1951 (Wikipedia contributors 2026g), from the start-of-war figures in the Wikipedia articles on the Plymouth and Hull blitzes, and for the County of London from the article on the history of London from 1900 to 1939, which gives about four million on the eve of the war (Wikipedia contributors 2026h). City totals for comparison are quoted from the Wikipedia articles on each city's blitz. Coastlines in the figures are from Natural Earth.
+
+\section{Methods}
+
+\subsection{Sorting and placing the civic areas}
+
+The roll uses {{cwgc.areas|int}} civic areas. I sorted them into four groups: the United Kingdom ({{cwgc.uk_areas|int}} areas, identified by their local government type, such as county borough, metropolitan borough, municipal borough, urban or rural district, Scottish burgh or county, or a Northern Irish suffix); ships and air crashes at sea ({{cwgc.sea|int}} dead); the Channel Islands and the Isle of Man ({{cwgc.crown|int}}); and places overseas ({{cwgc.overseas|int}}, including {{cwgc.malta|int}} in Malta). Monmouthshire's rolls carry no Welsh suffix and I counted them as Welsh.
+
+Each United Kingdom area is placed at a populated place of the same name in OS Open Names (Northern Ireland: Wikidata). Where several places share a name I take the one with the largest Wikidata population within 8 km, which separates, for example, Croydon in London from a village of the same name in Cambridgeshire. Spelling differences are fixed by a short, published list; rural districts named after old hundreds are placed at their main town; and Scottish county rolls, which cover large areas, are not placed. In all, {{cwgc.uk_placed_areas|int}} areas holding {{cwgc.placed_share|pct1}} of the United Kingdom dead are placed. The point is the town an area is named after, not where bombs fell.
+
+\subsection{London}
+
+I define Greater London as the 28 metropolitan boroughs, the City of London and Westminster (together the County of London) plus every other area whose namesake lies in today's Greater London region in OS Open Names, such as West Ham, Croydon and Ilford. This gives {{london.n_greater_areas|int}} areas.
+
+\subsection{Periods}
+
+I divide the war by date of death into six periods, using the dates in the relevant Wikipedia articles: before the Blitz (3 September 1939 to 6 September 1940, including the raids of the Battle of Britain); the Blitz (7 September 1940 to 16 May 1941); the Baedeker and tip-and-run years (17 May 1941 to 20 January 1944); the Baby Blitz, or Operation Steinbock (21 January to 12 June 1944); flying bombs and rockets (13 June 1944 to 29 March 1945); and after. People who died later of their injuries fall into later periods, and an overnight raid can appear on two dates.
+
+\subsection{Rates}
+
+Wartime populations are not readily available, and evacuation, conscription and nightly ``trekking'' out of the cities changed them constantly. As a rough denominator I take, for English county boroughs that appear in both the 1921 and 1951 lists, the mean of the two census figures; for Plymouth and Hull, the start-of-war figure in their Wikipedia articles; and for the County of London, four million. These rates are approximate and, because real wartime populations were lower, probably too low.
+
+\section{Results}
+
+\subsection{The First World War}
+
+Figure~\ref{fig:ww1} shows the raids and bombardments in my table. The single deadliest attack on civilians was the first, the naval bombardment of 16 December 1914, in which Hartlepool was hit hardest: Wikipedia gives {{ww1.hartlepool_1914|int}} civilians and seven soldiers killed there, with Arthur Marder's higher figure in brackets, while Scarborough lost {{ww1.scarborough_1914|int}} and Whitby about {{ww1.whitby_1914|int}}; the day's total is usually given as {{ww1.dec1914|int}}. The first air raid deaths came at Great Yarmouth and King's Lynn on 19 January 1915. The deadliest air raid was the first daylight Gotha raid on London on 13 June 1917, which killed {{ww1.poplar_june|int}} people, {{ww1.poplar_school|int}} of them children at Upper North Street School in Poplar. The largest loss of life from one bombing, {{ww1.chatham|int}} naval ratings in a drill hall at Chatham in September 1917, was military.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\linewidth]{f_ww1.png}
+\caption{Raids and bombardments of 1914 to 1918 with death tolls stated in the sources, by date and number killed. Blue: airships; orange: aeroplanes; black: warships. {{ww1.n_incidents|int}} incidents holding {{ww1.listed_killed|int}} deaths, including {{ww1.listed_military|int}} soldiers and sailors.}\label{fig:ww1}
+\end{figure}
+
+{{TABLE_WW1}}
+
+Of the {{ww1.air_killed|int}} people killed by air raids, {{ww1.london_killed|int}} ({{ww1.london_share|pct}}) died in the Metropolitan Police District. The other {{ww1.outside_air|int}} died elsewhere: in Hull, raided repeatedly; in the Black Country, where nine Zeppelins aiming for Liverpool killed {{ww1.tipton|int}} people in January 1916; at Folkestone, where {{ww1.folkestone|int}} died in Tontine Street in May 1917; and in many smaller places. Even in the First World War, then, the dead from the air were split roughly evenly between London and the rest of the country.
+
+\subsection{The Second World War: where}
+
+Figure~\ref{fig:map} maps the roll. Of the {{cwgc.uk|int}} civilians filed under United Kingdom areas, {{london.greater|int}} ({{london.greater_share|pct}}) are in Greater London, {{london.county|int}} of them in the County of London; {{london.outside|int}} ({{london.outside_share|pct}}) are elsewhere. England has {{nations.0.deaths|int}}, Scotland {{nations.1.deaths|int}}, Wales {{nations.2.deaths|int}} and Northern Ireland {{nations.3.deaths|int}}. {{n_areas_100|int}} areas have 100 or more dead; {{n_areas_100_outside|int}} of them are outside Greater London.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.78\linewidth]{f_map.png}
+\caption{Civilian dead of 1939 to 1947 on the CWGC roll, by civic area, placed at the town the area is named after. Rings: First World War raids and bombardments in the table, sized by deaths. Coastline: Natural Earth.}\label{fig:map}
+\end{figure}
+
+Table~\ref{tab:top} lists the longest rolls outside London. Liverpool's is the longest of any single area in the country ({{top_areas.0.deaths|int}}), and with Bootle, Birkenhead, Wallasey and the other Merseyside rolls the area's total reaches {{compare_by.Liverpool.cwgc|int}}. Birmingham ({{top_outside.1.deaths|int}}), Bristol, Hull, Plymouth and Coventry each have more than a thousand. Within London the longest rolls are those of Lambeth ({{top_london.0.deaths|int}}), Wandsworth and West Ham.
+
+{{TABLE_TOP}}
+
+\subsection{The Second World War: when}
+
+Figure~\ref{fig:weekly} shows the weekly toll and Figure~\ref{fig:periods} London's share in each period. The Blitz accounts for {{periods.1.uk|int}} deaths, {{periods.1.share|pct}} of the total, split nearly evenly between London ({{periods.1.london_share|pct}}) and the rest. The roll's worst single day is {{worst_days.0.date|date}}, with {{worst_days.0.uk|int}} deaths: {{worst_days.0.london|int}} in London and {{worst_days.0.outside|int}} elsewhere, mostly in Belfast after the Easter Tuesday raid. Of the twelve worst days, {{worst12_outside_majority|int}} were mainly outside London, and the deadliest days for any single area were all outside it: Liverpool, {{worst_area_days.0.deaths|int}} on {{worst_area_days.0.date|date}}; Belfast, {{worst_area_days.1.deaths|int}} on {{worst_area_days.1.date|date}}; Coventry, {{worst_area_days.2.deaths|int}} on {{worst_area_days.2.date|date}}; and Glasgow and Clydebank, {{worst_area_days.3.deaths|int}} and {{worst_area_days.6.deaths|int}} on {{worst_area_days.3.date|date}}.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\linewidth]{f_weekly.png}
+\caption{Civilian dead in the United Kingdom by week, 1939 to 1945: Greater London (black) and elsewhere (orange). Shaded: the Blitz, the Baedeker and tip-and-run years (lighter), the Baby Blitz and the flying-bomb and rocket campaign.}\label{fig:weekly}
+\end{figure}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=\linewidth]{f_periods.png}
+\caption{Share of each period's civilian dead in Greater London and elsewhere.}\label{fig:periods}
+\end{figure}
+
+After May 1941 the dead were overwhelmingly outside London: {{periods.2.outside|int}} of {{periods.2.uk|int}} ({{periods.2.outside_share|pct}}) between May 1941 and January 1944. In April to June 1942 the Baedeker raids killed {{baedeker.1.apr_jun_1942|int}} in Bath, {{baedeker.0.apr_jun_1942|int}} in Exeter, {{baedeker.2.apr_jun_1942|int}} in Norwich, {{baedeker.3.apr_jun_1942|int}} in York and {{baedeker.4.apr_jun_1942|int}} in Canterbury, by their rolls for those three months. Seaside towns on the south coast appear high on the roll in the fighter-bomber period of March 1942 to June 1943: Eastbourne {{seaside.Eastbourne|int}}, Hastings {{seaside.Hastings|int}}, Torquay {{seaside.Torquay|int}} and Bournemouth {{seaside.Bournemouth|int}}. The roll does not record the kind of raid, so these are period totals. Dover, under both bombing and cross-Channel shelling, has deaths in every year from 1940 to 1944, {{dover.total|int}} in all. The last phase reversed the pattern again: {{periods.3.london_share|pct}} of the Baby Blitz dead and {{periods.4.london_share|pct}} of the {{periods.4.uk|int}} dead of the flying-bomb and rocket campaign were in Greater London, concentrated in the south London boroughs of Wandsworth ({{vweap_top.0.deaths|int}}), Deptford, Lambeth and Lewisham.
+
+\subsection{Rates}
+
+Figure~\ref{fig:rates} gives approximate deaths per 1,000 people for the {{rates_n|int}} places with a population. Coventry has the highest rate ({{rates.0.per1000|f1}}), followed by Plymouth ({{rates.1.per1000|f1}}) and the County of London ({{rates.2.per1000|f1}}); Southampton, Hull, Portsmouth, Liverpool, Birkenhead and Bristol follow at around three per 1,000. Northern and inland industrial towns such as Leeds ({{small_rolls.Leeds|int}} dead) and Bradford ({{small_rolls.Bradford|int}}) were scarcely touched. Clydebank, with {{stories.clydebank.cwgc|int}} of its {{stories.clydebank.area_total|int}} dead recorded on 13 to 15 March 1941, has no population in my sources and is not ranked; it is likely to have one of the highest rates of all.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.85\linewidth]{f_rates.png}
+\caption{Approximate civilian dead per 1,000 people, the 16 highest of the {{rates_n|int}} places with a population figure. Black: County of London. Populations: mean of the 1921 and 1951 censuses, start-of-war figures for Plymouth and Hull, four million for the County of London.}\label{fig:rates}
+\end{figure}
+
+\subsection{Who died}
+
+The roll gives an age for {{age.stated|int}} of the United Kingdom dead (Figure~\ref{fig:ages}). Of these, {{age.under16|int}} ({{age.under16_share|pct}}) were under 16, including {{age.under5|int}} under five, and {{age.over60|int}} ({{age.over60_share|pct}}) were 60 or older. An age of nought is recorded for {{age.not_stated|int}} people; this can mean an infant or an unknown age, so I keep these apart.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.85\linewidth]{f_ages.png}
+\caption{Civilian dead in the United Kingdom by age band, 1939 to 1947.}\label{fig:ages}
+\end{figure}
+
+\subsection{Incidents and the roll}
+
+Because the roll is organised by area and date, individual incidents can be checked only approximately. Wandsworth's roll has {{stories.balham.cwgc|int}} deaths on 14 and 15 October 1940, the night the Balham station shelter was hit (66 dead in the station, according to the CWGC as cited by Wikipedia). The City's roll has {{stories.bank.cwgc|int}} on 11 and 12 January 1941, when 56 died at Bank station. Bethnal Green's has {{stories.bethnal.cwgc|int}} on 3 and 4 March 1943, the night 173 people were crushed on the steps of the tube shelter, an incident counted among the civilian war dead although no bomb fell. Tynemouth's has {{stories.northshields.cwgc|int}} on 3 and 4 May 1941, when 107 died in the shelter under Wilkinson's lemonade factory in North Shields. Lewisham's has {{stories.sandhurst.cwgc|int}} on 20 and 21 January 1943, when 38 children and six staff were killed at Sandhurst Road School, and Deptford's {{stories.newcross.cwgc|int}} on 25 and 26 November 1944, when a V-2 struck Woolworth's in New Cross (160 killed). The last civilian killed by enemy action in Britain, in Orpington on 27 March 1945, is the {{stories.orpington.cwgc|int}} death on Orpington's roll that day.
+
+\subsection{The roll against published totals}
+
+Table~\ref{tab:cmp} compares the roll with the totals quoted in Wikipedia's city articles. In {{compare_within10|int}} of {{compare_n|int}} cases they agree within ten per cent. The exceptions are explicable in part: Swansea's figure counts one three-night raid but its roll covers the war; Belfast's ({{compare_by.Belfast.wikipedia|int}}) is for the Easter raid alone yet exceeds the city's whole roll ({{compare_by.Belfast.cwgc|int}}); and Clydebank's article gives {{compare_by.Clydebank.wikipedia|int}}, against {{compare_by.Clydebank.cwgc|int}} on the burgh's roll and 528 named on its memorial. Some of these dead are probably filed under neighbouring areas.
+
+{{TABLE_CMP}}
+
+\subsection{Two wars, the same towns}
+
+Hartlepool lost {{then_and_now.0.ww1|int}} people in the shelling of 1914 and a Zeppelin raid in 1918, more than the {{then_and_now.0.ww2|int}} on its two Second World War rolls (Hartlepool and West Hartlepool). Folkestone lost {{then_and_now.2.ww1|int}} in one raid in 1917 and {{then_and_now.2.ww2|int}} in the whole of the second war. Over the country the Second World War roll is {{ratio_ww2_ww1|x1}} times the First World War toll from the air, but on parts of the North Sea and Channel coasts the first war was the more lethal.
+
+\section{Discussion}
+
+The results support a simple correction to the popular picture. London was the single most heavily bombed place in both wars, but in neither did it hold most of the dead. In the Second World War the balance moved with the Luftwaffe's strategy: an even split during the Blitz, as the bombers turned from London to the ports and industrial cities in the winter of 1940 to 1941; nearly nine in ten outside London during the long middle of the war, when the targets were historic cities and the coast; and nearly nine in ten in London during the V-weapon campaign. A national memory shaped by the beginning and the end of the war is therefore a London memory, while the middle belonged to Bath and Exeter, Hull and Sunderland, Eastbourne and Torquay.
+
+Per head, the heaviest losses fell on mid-sized ports and manufacturing towns hit by a few concentrated raids: Coventry, Plymouth, Southampton, Hull and, on the evidence of its roll, Clydebank. The very local character of the worst days is a reminder that for a small burgh one or two nights could account for almost all of its war.
+
+The First World War comparison matters for Remembrance on the north-east coast. Hartlepool's civilian dead of 1914, killed by naval gunfire rather than bombs, outnumber those on its rolls for the whole of the next war. The town's best-known legend, of a monkey hanged as a French spy during the Napoleonic Wars, is folklore whose earliest evidence is a nineteenth-century comic song (Wikipedia contributors 2026i), but its shelling in 1914 is history, and it is less well remembered.
+
+\section{Limitations}
+
+The roll is the fullest single list of the Second World War's civilian dead, but it is not a raid-by-raid record. The civic area under which a person is listed may be where they died or where they lived, and I could not confirm the rule for every entry; neighbouring rolls may hold some of a town's dead. Dates are dates of death, so later deaths from injuries are separated from the raid that caused them, and one day ({{worst_days.0.date|date}}) may be slightly undercounted because of the export limit. Ages of nought are ambiguous. The placing of areas uses modern gazetteers and marks namesakes, not bomb sites. Population denominators are approximate. The First World War table is limited to incidents with stated tolls; figures differ between sources (for example 162 deaths or 104 civilians for 13 June 1917), and some rows include soldiers and sailors, which I flag. Wikipedia figures are quoted as found and are not independent sources.
+
+\section{Conclusion}
+
+Counting the Commonwealth War Graves Commission's civilian roll town by town shows that a little over half of the Second World War's civilian dead in the United Kingdom died outside London, that London's share swung from under a fifth to nearly nine in ten as German strategy changed, and that the deadliest single days for any one place were in Liverpool, Belfast, Coventry and Clydebank. The First World War raids, about {{ww1.air_killed|int}} dead from the air and {{ww1.dec1914|int}} from one morning's shelling, were divided between London and the rest in much the same way. A Remembrance that includes the civilian dead has to include the provincial cities and the coastal towns as well as the capital.
+
+\section*{Data and code availability}
+
+The aggregated data (counts by civic area, date, month and age band; the First World War incident table with sources; the population and comparison tables; and \texttt{results.json} holding every number in this note), the code and the interactive page are at \url{https://github.com/Tristan-Hotham/air-raids} and \url{https://tristan-hotham.github.io/air-raids/}, archived with this note at \url{https://doi.org/10.5281/zenodo.23729652}. No names, addresses or other personal details from the CWGC roll are published. Derived data and text are released under CC BY-SA 4.0 and the code under the MIT licence.
+
+\section*{AI statement}
+
+I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.
+
+\section*{References}
+\small
+Castle, I. (2026) 6/7 June 1915. Zeppelin raid record. \url{https://iancastlezeppelin.co.uk/6/7-jun-1915} (accessed 28 October 2026).
+
+Commonwealth War Graves Commission (2026) Find War Dead: Civilian War Dead 1939 to 1945. \url{https://www.cwgc.org/find-records/find-war-dead/} (exported 28 October 2026).
+
+English Heritage (2026) The shelling of Scarborough. \url{https://www.english-heritage.org.uk/visit/places/scarborough-castle/history/shelling-of-scarborough} (accessed 28 October 2026).
+
+Hotham, T. (2026) How Many Names on Your War Memorial? Counting the First World War Dead Place by Place in the War Memorials Register. Zenodo. \url{https://doi.org/10.5281/zenodo.23727151}
+
+ITV News (2014) 100th anniversary of WWI bombardments. ITV News Calendar, 16 December 2014. \url{https://itv.com/news/calendar/story/2014-12-16/100th-anniversary-of-wwi-bombardments}
+
+Natural Earth (2026) 1:10m physical vectors, land. \url{https://www.naturalearthdata.com} (public domain).
+
+Ordnance Survey (2026) OS Open Names. Open Government Licence v3.0. \url{https://www.ordnancesurvey.co.uk/products/os-open-names}
+
+Wikidata contributors (2026) Wikidata. CC0. \url{https://www.wikidata.org}
+
+Wikipedia contributors (2026a) The Blitz. \url{https://en.wikipedia.org/wiki/The_Blitz}
+
+Wikipedia contributors (2026b) Raid on Scarborough, Hartlepool and Whitby. \url{https://en.wikipedia.org/wiki/Raid_on_Scarborough,_Hartlepool_and_Whitby}
+
+Wikipedia contributors (2026c) German bombing of Britain, 1914 to 1918. \url{https://en.wikipedia.org/wiki/German_bombing_of_Britain,_1914\%E2\%80\%931918}
+
+Wikipedia contributors (2026d) Bombardment of Yarmouth and Lowestoft. \url{https://en.wikipedia.org/wiki/Bombardment_of_Yarmouth_and_Lowestoft}
+
+Wikipedia contributors (2026e) Mayflower Primary School, Poplar; Tipton Zeppelin raid; Scarborough, North Yorkshire. \url{https://en.wikipedia.org}
+
+Wikipedia contributors (2026f) Timeline of the United Kingdom home front during the First World War. \url{https://en.wikipedia.org/wiki/Timeline_of_the_United_Kingdom_home_front_during_the_First_World_War}
+
+Wikipedia contributors (2026g) List of towns and cities in England by historical population. \url{https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_England_by_historical_population}
+
+Wikipedia contributors (2026h) History of London (1900 to 1939); Plymouth Blitz; Hull Blitz; and the city blitz articles cited in Table~\ref{tab:cmp}. \url{https://en.wikipedia.org}
+
+Wikipedia contributors (2026i) Monkey hanger. \url{https://en.wikipedia.org/wiki/Monkey_hanger}
+
+All Wikipedia articles retrieved 28 October 2026, text under CC BY-SA 4.0.
+\end{document}
