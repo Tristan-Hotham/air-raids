@@ -1,0 +1,1141 @@
+aid,area,scope,name,kind,nation,county_of_london,greater_london,lat,lon,geocode,deaths,first,last,peak_day,peak_deaths,p_early,p_blitz,p_mid,p_baby,p_vweap,p_after,age_stated,under16,over60,median_age
+0,"LIVERPOOL, COUNTY BOROUGH",uk,Liverpool,county borough,England,0,0,53.4094,-2.9785,OS Open Names: Liverpool,2640,1940-05-16,1947-10-27,1941-05-03,669,89,2457,72,4,3,15,2530,459,379,37.0
+1,"BIRMINGHAM, COUNTY BOROUGH",uk,Birmingham,county borough,England,0,0,52.4793,-1.9029,OS Open Names: Birmingham,2128,1940-02-08,1946-06-13,1940-11-19,326,89,1797,238,2,0,2,2093,235,419,39
+2,"LAMBETH, METROPOLITAN BOROUGH",uk,Lambeth,metropolitan borough,England,1,1,51.4967,-0.1171,OS Open Names: Lambeth,1613,1940-08-29,1947-12-15,1941-04-17,147,7,1178,14,58,353,3,1584,161,367,43.0
+3,"MALTA, G.C.",overseas,"Malta, G.C.",overseas,,0,0,,,,1485,,,,0,80,143,1243,3,0,16,1443,331,283,34
+4,"BRISTOL, COUNTY BOROUGH",uk,Bristol,county borough,England,0,0,51.4531,-2.601,OS Open Names: Bristol,1228,1940-06-24,1947-12-25,1940-11-24,156,16,1093,108,1,2,8,1207,151,252,41
+5,"WANDSWORTH, METROPOLITAN BOROUGH",uk,Wandsworth,metropolitan borough,England,1,1,51.4568,-0.1927,OS Open Names: Wandsworth,1176,1940-09-07,1945-10-09,1940-10-14,99,0,617,90,90,377,2,1154,107,275,43.0
+6,"WEST HAM, COUNTY BOROUGH",uk,West Ham,county borough,England,0,1,51.5343,0.0111,OS Open Names: West Ham,1166,1940-08-31,1947-11-14,1941-03-19,150,5,806,20,6,328,1,1137,174,216,39
+7,"KINGSTON-UPON-HULL, COUNTY BOROUGH",uk,Kingston upon Hull,county borough,England,0,0,53.7446,-0.3326,OS Open Names: Kingston upon Hull,1140,1940-08-25,1946-11-09,1941-05-08,227,7,683,431,1,15,3,1099,203,234,40
+8,"PLYMOUTH, COUNTY BOROUGH",uk,Plymouth,county borough,England,0,0,50.37,-4.1421,OS Open Names: Plymouth,1115,1940-07-06,1946-09-20,1941-04-23,186,35,947,113,11,7,2,1076,158,251,42.0
+9,"COVENTRY, COUNTY BOROUGH",uk,Coventry,county borough,England,0,0,52.4077,-1.5069,OS Open Names: Coventry,1096,1940-08-28,1946-06-01,1940-11-14,417,17,1062,14,0,1,2,1069,130,157,38
+10,"LEWISHAM, METROPOLITAN BOROUGH",uk,Lewisham,metropolitan borough,England,1,1,51.4571,-0.0137,OS Open Names: Lewisham,1038,1940-09-01,1947-11-07,1943-01-20,59,1,578,97,10,348,4,1017,156,244,42
+11,WESTMINSTER CITY,uk,Westminster,City,England,1,1,51.501,-0.1261,OS Open Names: City of Westminster,1022,1940-09-07,1945-03-18,1941-05-11,106,0,782,8,27,205,0,1013,33,196,42
+12,"CAMBERWELL, METROPOLITAN BOROUGH",uk,Camberwell,metropolitan borough,England,1,1,51.4763,-0.0938,OS Open Names: Camberwell,1013,1940-09-07,1946-01-22,1941-05-11,73,0,626,30,38,317,2,994,123,248,43.0
+13,"SOUTHWARK, METROPOLITAN BOROUGH",uk,Southwark,metropolitan borough,England,1,1,51.5027,-0.0968,OS Open Names: Southwark,985,1940-08-28,1945-03-07,1941-05-10,107,11,742,21,7,204,0,964,93,218,43.0
+14,"ISLINGTON, METROPOLITAN BOROUGH",uk,Islington,metropolitan borough,England,1,1,51.5376,-0.1029,OS Open Names: Islington,933,1940-09-07,1946-12-31,1944-12-26,68,0,564,13,71,277,8,904,97,232,45.0
+15,"STEPNEY, METROPOLITAN BOROUGH",uk,Stepney,metropolitan borough,England,1,1,51.5211,-0.0497,OS Open Names: Stepney,916,1940-03-21,1946-06-23,1945-03-27,121,16,601,15,1,278,5,893,82,183,40
+16,"ST. PANCRAS, METROPOLITAN BOROUGH",uk,St. Pancras,metropolitan borough,England,1,1,51.5341,-0.1267,OS Open Names: St Pancras,909,1940-03-11,1947-02-05,1941-04-17,107,1,663,20,16,204,5,890,70,174,40.0
+17,"BELFAST, COUNTY BOROUGH, N. IRELAND",uk,Belfast,county borough,Northern Ireland,0,0,54.5939,-5.9294,Wikidata Q1140130,855,1941-04-08,1945-03-25,1941-04-16,565,0,843,9,0,3,0,852,182,149,34.0
+18,"PORTSMOUTH, COUNTY BOROUGH",uk,Portsmouth,county borough,England,0,0,50.7968,-1.0912,OS Open Names: Portsmouth,834,1940-07-11,1947-09-12,1941-01-10,161,147,576,56,34,19,2,807,107,173,41
+19,"CROYDON, COUNTY BOROUGH",uk,Croydon,county borough,England,0,1,51.3736,-0.1002,OS Open Names: Croydon,808,1940-08-15,1947-01-23,1941-04-16,77,49,414,40,53,249,3,791,92,207,46
+20,"UNDIVIDED INDIA, BENGAL PROVINCE",overseas,"Undivided India, Bengal Province",overseas,,0,0,,,,785,,,,0,5,0,663,63,8,46,692,97,34,30.0
+21,"POPLAR, METROPOLITAN BOROUGH",uk,Poplar,metropolitan borough,England,1,1,51.511,-0.0176,OS Open Names: Poplar,761,1940-09-07,1947-11-09,1940-09-07,93,0,552,71,6,127,5,751,75,145,40
+22,"HACKNEY, METROPOLITAN BOROUGH",uk,Hackney,metropolitan borough,England,1,1,51.5448,-0.0554,OS Open Names: Hackney,737,1940-09-07,1947-03-09,1940-09-24,54,0,503,10,8,211,5,721,70,198,45
+23,"BERMONDSEY, METROPOLITAN BOROUGH",uk,Bermondsey,metropolitan borough,England,1,1,51.495,-0.0765,OS Open Names: Bermondsey,698,1940-02-17,1945-09-29,1940-10-25,86,7,546,19,15,110,1,679,98,123,38
+24,"GLASGOW CITY, SCOTLAND",uk,Glasgow,city,Scotland,0,0,55.8636,-4.2369,OS Open Names: Glasgow,686,1940-07-19,1946-11-26,1941-03-13,402,3,653,21,1,5,3,659,124,99,36
+25,"DEPTFORD, METROPOLITAN BOROUGH",uk,Deptford,metropolitan borough,England,1,1,51.4776,-0.026,OS Open Names: Deptford,685,1940-04-17,1945-03-11,1944-11-25,144,1,286,36,2,360,0,671,82,145,43
+26,"WOOLWICH, METROPOLITAN BOROUGH",uk,Woolwich,metropolitan borough,England,1,1,51.4905,0.0635,OS Open Names: Woolwich,671,1940-09-05,1946-09-16,1940-09-07,60,4,406,14,23,222,2,658,53,148,44.0
+27,"GREENWICH, METROPOLITAN BOROUGH",uk,Greenwich,metropolitan borough,England,1,1,51.4787,-0.0108,OS Open Names: Greenwich,626,1940-09-07,1947-12-27,1940-09-11,32,0,365,15,11,233,2,618,51,140,44.0
+28,"SHEFFIELD, COUNTY BOROUGH",uk,Sheffield,county borough,England,0,0,53.3825,-1.4685,OS Open Names: Sheffield,624,1940-08-29,1945-01-02,1940-12-12,251,3,603,14,2,2,0,612,76,128,41.0
+29,"SOUTHAMPTON, COUNTY BOROUGH",uk,Southampton,county borough,England,0,0,50.9049,-1.4043,OS Open Names: Southampton,608,1940-07-30,1946-08-12,1940-12-01,80,13,499,87,6,1,2,596,73,119,40.0
+30,"MANCHESTER, COUNTY BOROUGH",uk,Manchester,county borough,England,0,0,53.4789,-2.2453,OS Open Names: Manchester,581,1940-08-29,1947-06-25,1940-12-23,262,8,500,65,2,4,2,559,92,114,41
+31,"BATTERSEA, METROPOLITAN BOROUGH",uk,Battersea,metropolitan borough,England,1,1,51.4701,-0.1714,OS Open Names: Battersea,514,1939-12-04,1945-11-21,1941-04-17,38,1,271,19,32,189,2,502,64,108,43.0
+32,"ILFORD, MUNICIPAL BOROUGH",uk,Ilford,municipal borough,England,0,1,51.5576,0.0735,OS Open Names: Ilford,513,1940-09-06,1947-03-05,1941-04-19,47,1,243,42,23,201,3,504,68,98,42.0
+33,"BETHNAL GREEN, METROPOLITAN BOROUGH",uk,Bethnal Green,metropolitan borough,England,1,1,51.5275,-0.056,OS Open Names: Bethnal Green,512,1940-09-01,1945-02-08,1943-03-03,164,1,241,169,0,101,0,504,106,99,38.0
+34,"SHOREDITCH, METROPOLITAN BOROUGH",uk,Shoreditch,metropolitan borough,England,1,1,51.5247,-0.0839,OS Open Names: Shoreditch,479,1940-08-25,1946-09-18,1941-04-19,48,5,414,2,8,48,2,471,46,173,50
+35,"UNDIVIDED INDIA, ASSAM PROVINCE",overseas,"Undivided India, Assam Province",overseas,,0,0,,,,478,,,,0,109,0,326,39,4,0,337,73,34,30
+36,"EAST HAM, COUNTY BOROUGH",uk,East Ham,county borough,England,0,1,51.5331,0.0544,OS Open Names: East Ham,470,1940-08-31,1945-03-16,1941-04-20,49,8,321,6,5,130,0,463,50,99,45
+37,"HAMMERSMITH, METROPOLITAN BOROUGH",uk,Hammersmith,metropolitan borough,England,1,1,51.4928,-0.2344,OS Open Names: Hammersmith,466,1940-09-06,1945-02-17,1944-02-20,45,1,257,1,79,128,0,456,62,101,41.0
+38,"CHELSEA, METROPOLITAN BOROUGH",uk,Chelsea,metropolitan borough,England,1,1,51.4878,-0.1679,OS Open Names: Chelsea,456,1940-09-08,1946-11-29,1944-02-23,80,0,346,3,86,19,2,450,28,111,45.0
+39,"LEYTON, MUNICIPAL BOROUGH",uk,Leyton,municipal borough,England,0,1,51.5739,-0.0098,OS Open Names: Leyton,455,1940-08-31,1946-01-14,1944-07-27,30,3,218,15,34,182,3,447,41,124,46
+40,"BOOTLE, COUNTY BOROUGH",uk,Bootle,county borough,England,0,0,53.4545,-2.9914,OS Open Names: Bootle,451,1939-11-09,1947-04-13,1941-05-03,133,10,419,17,2,0,3,439,72,100,40
+41,"BIRKENHEAD, COUNTY BOROUGH",uk,Birkenhead,county borough,England,0,0,53.3939,-3.0145,OS Open Names: Birkenhead,450,1940-08-09,1945-02-13,1941-03-12,234,5,420,24,0,1,0,438,72,71,38.0
+42,"CLYDEBANK, BURGH OF, SCOTLAND",uk,Clydebank,burgh of,Scotland,0,0,55.9099,-4.4268,OS Open Names: Clydebank,448,1941-03-13,1941-09-15,1941-03-13,319,0,445,3,0,0,0,435,124,60,31
+43,"ST. MARYLEBONE, METROPOLITAN BOROUGH",uk,St. Marylebone,metropolitan borough,England,1,1,51.5189,-0.1497,OS Open Names: Marylebone,434,1940-08-13,1947-12-27,1941-05-11,50,2,344,22,2,62,2,430,30,81,43.0
+44,"KENSINGTON, METROPOLITAN BOROUGH",uk,Kensington,metropolitan borough,England,1,1,51.5006,-0.1944,OS Open Names: Kensington,427,1940-09-07,1947-04-17,1941-05-11,25,0,265,5,32,120,5,419,16,121,47
+45,"FULHAM, METROPOLITAN BOROUGH",uk,Fulham,metropolitan borough,England,1,1,51.4716,-0.2112,OS Open Names: Fulham,426,1940-05-07,1947-07-17,1944-02-23,62,1,233,4,130,57,1,412,56,82,38.0
+46,"BATH, COUNTY BOROUGH",uk,Bath,county borough,England,0,0,51.3828,-2.3593,OS Open Names: Bath,414,1941-01-16,1947-08-27,1942-04-26,245,0,18,394,0,0,2,405,62,103,45
+47,"WILLESDEN, MUNICIPAL BOROUGH",uk,Willesden,municipal borough,England,0,1,51.5474,-0.2344,OS Open Names: Willesden,389,1940-08-31,1945-10-12,1940-11-06,30,7,252,10,15,103,2,377,26,74,41
+48,LONDON CITY,uk,London,City,England,1,1,51.5144,-0.0923,OS Open Names: City of London,364,1940-09-08,1945-06-25,1945-03-08,97,0,225,3,0,135,1,363,14,74,46
+49,"SWANSEA, COUNTY BOROUGH, WALES",uk,Swansea,county borough,Wales,0,0,51.6201,-3.9414,OS Open Names: Swansea,356,1940-07-10,1947-03-31,1941-02-20,92,61,260,33,1,0,1,352,52,54,37.0
+50,"BECKENHAM, MUNICIPAL BOROUGH",uk,Beckenham,municipal borough,England,0,1,51.4088,-0.0251,OS Open Names: Beckenham,349,1940-08-30,1945-03-15,1944-08-02,43,6,170,16,7,150,0,342,26,98,48.0
+51,"CARDIFF, COUNTY BOROUGH, WALES",uk,Cardiff,county borough,Wales,0,0,51.48,-3.1769,OS Open Names: Cardiff,343,1940-01-28,1944-04-01,1941-01-02,145,19,259,55,10,0,0,336,41,72,45.0
+52,"NORWICH, COUNTY BOROUGH",uk,Norwich,county borough,England,0,0,52.6289,1.2933,OS Open Names: Norwich,337,1940-07-09,1945-01-14,1942-04-28,85,53,29,252,1,2,0,327,37,94,47
+53,"PADDINGTON, METROPOLITAN BOROUGH",uk,Paddington,metropolitan borough,England,1,1,51.516,-0.175,OS Open Names: Paddington,331,1940-09-06,1946-04-30,1941-05-11,37,1,269,5,24,30,2,329,24,71,42
+54,"FINSBURY, METROPOLITAN BOROUGH",uk,Finsbury,metropolitan borough,England,1,1,51.529,-0.1103,OS Open Names: Finsbury,326,1940-09-08,1945-01-14,1940-10-15,90,0,258,0,3,65,0,318,33,78,44.0
+55,"WALTHAMSTOW, MUNICIPAL BOROUGH",uk,Walthamstow,municipal borough,England,0,1,51.5917,-0.0049,OS Open Names: Walthamstow,315,1940-09-16,1945-03-08,1944-08-16,19,0,148,6,15,146,0,310,32,61,44.0
+56,"WALLASEY, COUNTY BOROUGH",uk,Wallasey,county borough,England,0,0,53.4234,-3.0649,OS Open Names: Wallasey,313,1940-08-10,1946-05-04,1941-03-12,134,8,301,3,0,0,1,304,30,83,48.0
+57,"EALING, MUNICIPAL BOROUGH",uk,Ealing,municipal borough,England,0,1,51.5138,-0.3028,OS Open Names: Ealing,295,1940-09-16,1947-09-09,1940-09-30,34,0,216,12,12,54,1,290,37,47,40.0
+58,"SUNDERLAND, COUNTY BOROUGH",uk,Sunderland,county borough,England,0,0,54.9022,-1.3838,OS Open Names: Sunderland,280,1940-08-09,1944-01-20,1943-05-24,77,12,48,220,0,0,0,272,60,59,39.5
+59,"EXETER, COUNTY BOROUGH",uk,Exeter,county borough,England,0,0,50.7226,-3.5326,OS Open Names: Exeter,271,1940-09-17,1944-10-03,1942-05-04,136,0,12,258,0,1,0,262,30,73,46.0
+60,"SALFORD, COUNTY BOROUGH",uk,Salford,county borough,England,0,0,53.4806,-2.295,OS Open Names: Salford,271,1940-06-16,1947-01-21,1940-12-23,106,1,219,45,0,3,3,266,38,53,36.0
+61,"HOLBORN, METROPOLITAN BOROUGH",uk,Holborn,metropolitan borough,England,1,1,51.517,-0.1128,OS Open Names: Holborn,264,1940-05-10,1946-07-24,1941-04-17,100,2,243,2,2,14,1,260,5,77,47.0
+62,MALAYA,overseas,Malaya,overseas,,0,0,,,,264,,,,0,1,0,125,26,58,54,235,2,103,56
+63,"TOTTENHAM, MUNICIPAL BOROUGH",uk,Tottenham,municipal borough,England,0,1,51.5886,-0.0728,OS Open Names: Tottenham,257,1940-08-24,1946-05-01,1940-09-20,26,3,180,3,9,59,3,252,32,67,42.0
+64,"GREENOCK, BURGH OF, SCOTLAND",uk,Greenock,burgh of,Scotland,0,0,55.9485,-4.7572,OS Open Names: Greenock,252,1939-09-17,1942-07-14,1941-05-07,168,4,247,1,0,0,0,247,57,32,34
+65,"HENDON, MUNICIPAL BOROUGH, MIDDLESEX",uk,Hendon,municipal borough,England,0,1,51.5826,-0.2286,OS Open Names: Hendon,247,1940-09-16,1946-06-19,1941-02-13,70,0,201,7,9,28,2,241,34,53,40
+66,"HESTON AND ISLEWORTH, MUNICIPAL BOROUGH",uk,Heston and Isleworth,municipal borough,England,0,1,51.4691,-0.3288,OS Open Names: Isleworth,233,1940-09-03,1946-06-26,1945-03-21,30,1,126,9,12,82,3,226,40,48,43.5
+67,"TYNEMOUTH, COUNTY BOROUGH",uk,Tynemouth,county borough,England,0,0,55.0178,-1.4255,OS Open Names: Tynemouth,233,1940-08-30,1942-12-10,1941-05-03,98,1,155,77,0,0,0,220,51,36,34.0
+68,"BROMLEY, MUNICIPAL BOROUGH",uk,Bromley,municipal borough,England,0,1,51.4038,0.0151,OS Open Names: Bromley,231,1940-09-07,1946-09-02,1941-04-16,72,0,154,10,4,62,1,226,31,50,43.0
+69,"HAMPSTEAD, METROPOLITAN BOROUGH",uk,Hampstead,metropolitan borough,England,1,1,51.5567,-0.1786,OS Open Names: Hampstead,228,1940-09-08,1945-03-04,1944-02-19,28,0,159,1,29,39,0,223,10,56,48
+70,"BARKING, MUNICIPAL BOROUGH",uk,Barking,municipal borough,England,0,1,51.5382,0.0789,OS Open Names: Barking,226,1940-09-07,1947-11-29,1941-04-19,24,0,129,13,1,82,1,218,38,43,41.0
+71,"WANSTEAD AND WOODFORD, MUNICIPAL BOROUGH",uk,Wanstead and Woodford,municipal borough,England,0,1,51.5787,0.0255,OS Open Names: Wanstead,221,1940-08-23,1945-03-16,1945-01-20,16,1,112,7,2,99,0,217,14,58,49
+72,"STOKE NEWINGTON, METROPOLITAN BOROUGH",uk,Stoke Newington,metropolitan borough,England,1,1,51.5612,-0.0835,OS Open Names: Stoke Newington,216,1940-09-04,1945-01-22,1940-10-13,156,1,184,0,2,29,0,212,7,54,48.0
+73,"HORNSEY, MUNICIPAL BOROUGH",uk,Hornsey,municipal borough,England,0,1,51.5877,-0.1183,OS Open Names: Hornsey,214,1940-08-27,1945-01-17,1940-10-16,18,1,105,1,8,99,0,214,17,57,45.0
+74,"DOVER, MUNICIPAL BOROUGH",uk,Dover,municipal borough,England,0,0,51.1281,1.3084,OS Open Names: Dover,206,1940-06-06,1944-09-26,1942-04-03,16,6,53,98,6,43,0,200,18,51,49.5
+75,"BRIGHTON, COUNTY BOROUGH",uk,Brighton,county borough,England,0,0,50.8224,-0.1377,OS Open Names: Brighton,197,1940-07-15,1945-02-20,1940-09-14,47,4,121,58,12,2,0,190,32,59,48.0
+76,SUMATRA,overseas,Sumatra,overseas,,0,0,,,,195,,,,0,0,0,37,14,94,50,163,1,28,50
+77,"ENFIELD, URBAN DISTRICT",uk,Enfield,urban district,England,0,1,51.6522,-0.0844,OS Open Names: Enfield,194,1940-08-28,1945-08-21,1945-03-25,11,6,108,16,6,55,3,189,17,56,47
+78,"ABERDEEN CITY, SCOTLAND",uk,Aberdeen,city,Scotland,0,0,57.1499,-2.0938,OS Open Names: Aberdeen,188,1940-06-27,1947-05-26,1943-04-21,86,37,32,115,1,1,2,184,21,33,40.0
+79,"EASTBOURNE, COUNTY BOROUGH",uk,Eastbourne,county borough,England,0,0,50.7664,0.2781,OS Open Names: Eastbourne,186,1940-07-07,1946-08-13,1943-04-03,29,5,29,144,0,6,2,184,12,73,54.5
+80,"LOWESTOFT, MUNICIPAL BOROUGH",uk,Lowestoft,municipal borough,England,0,0,52.4774,1.7504,OS Open Names: Lowestoft,186,1940-07-03,1946-10-20,1942-01-13,47,11,61,113,0,0,1,183,17,39,46
+81,"NOTTINGHAM, COUNTY BOROUGH",uk,Nottingham,county borough,England,0,0,52.9562,-1.1512,OS Open Names: Nottingham,185,1940-08-29,1947-10-23,1941-05-09,142,2,168,11,0,3,1,171,32,40,38
+82,"SUTTON AND CHEAM, MUNICIPAL BOROUGH",uk,Sutton and Cheam,municipal borough,England,0,1,51.364,-0.1935,OS Open Names: Sutton,180,1940-08-17,1946-12-21,1940-10-07,17,2,92,4,5,76,1,178,37,48,43.0
+83,HONG KONG,overseas,Hong Kong,overseas,,0,0,,,,178,,,,0,5,0,100,13,43,17,115,3,34,55
+84,"CHISLEHURST AND SIDCUP, URBAN DISTRICT",uk,Chislehurst and Sidcup,urban district,England,0,1,51.4356,0.102,OS Open Names: Sidcup,177,1940-09-18,1945-03-22,1941-04-16,25,0,94,12,3,68,0,172,24,56,47.0
+85,"EDMONTON, MUNICIPAL BOROUGH",uk,Edmonton,municipal borough,England,0,1,51.6245,-0.0606,OS Open Names: Edmonton,177,1940-09-08,1945-03-27,1944-04-19,16,0,119,4,22,32,0,171,8,42,44
+86,"ACTON, MUNICIPAL BOROUGH",uk,Acton,municipal borough,England,0,1,51.5067,-0.2683,OS Open Names: Acton,176,1940-09-19,1944-08-21,1944-02-24,24,0,90,4,54,28,0,171,13,41,44
+87,"DAGENHAM, MUNICIPAL BOROUGH",uk,Dagenham,municipal borough,England,0,1,51.5402,0.1655,OS Open Names: Dagenham,176,1939-12-28,1946-09-20,1940-10-05,24,1,117,4,7,46,1,168,33,16,34.0
+88,"BOURNEMOUTH, COUNTY BOROUGH",uk,Bournemouth,county borough,England,0,0,50.721,-1.8767,OS Open Names: Bournemouth,174,1940-08-21,1947-03-24,1943-05-23,74,4,62,99,5,2,2,168,10,58,49.5
+89,"HARROW, URBAN DISTRICT",uk,Harrow,urban district,England,0,1,51.5708,-0.3395,OS Open Names: Harrow,173,1940-09-14,1946-04-23,1945-03-22,9,0,104,10,6,52,1,169,24,38,46
+90,PAPUA NEW GUINEA,overseas,Papua New Guinea,overseas,,0,0,,,,170,,,,0,7,0,88,60,5,10,78,7,10,46.0
+91,"WIMBLEDON, MUNICIPAL BOROUGH",uk,Wimbledon,municipal borough,England,0,1,51.4203,-0.2049,OS Open Names: Wimbledon,169,1940-08-16,1944-12-06,1940-09-16,14,13,96,2,18,40,0,167,8,60,53
+92,"SOUTH SHIELDS, COUNTY BOROUGH",uk,South Shields,county borough,England,0,0,54.9982,-1.4317,OS Open Names: South Shields,167,1940-07-02,1943-09-06,1941-10-02,57,3,43,121,0,0,0,163,17,36,42
+93,"MERTON AND MORDEN, URBAN DISTRICT",uk,Merton and Morden,urban district,England,0,1,51.4016,-0.1927,OS Open Names: Morden,166,1940-08-16,1945-01-07,1940-08-16,25,30,73,0,0,63,0,163,19,30,41
+94,"ROMFORD, MUNICIPAL BOROUGH",uk,Romford,municipal borough,England,0,1,51.5807,0.185,OS Open Names: Romford,165,1940-08-24,1947-10-28,1941-04-19,39,4,92,1,5,60,3,157,41,17,34
+95,S.S. MONTEVIDEO MARU,sea,S.S. Montevideo Maru,ship or air crash at sea,,0,0,,,,165,,,,0,0,0,165,0,0,0,158,1,14,44.0
+96,"NEWCASTLE-UPON-TYNE, COUNTY BOROUGH",uk,Newcastle upon Tyne,county borough,England,0,0,54.978,-1.6102,OS Open Names: Newcastle upon Tyne,164,1940-07-02,1944-09-20,1941-09-01,44,6,52,104,0,2,0,160,23,31,39.0
+97,"GREAT YARMOUTH, COUNTY BOROUGH",uk,Great Yarmouth,county borough,England,0,0,52.6082,1.7271,OS Open Names: Great Yarmouth,160,1940-02-10,1947-02-22,1941-04-08,14,6,77,74,0,1,2,156,16,38,47.0
+98,"BEXLEY, MUNICIPAL BOROUGH",uk,Bexley,municipal borough,England,0,1,51.4417,0.1505,OS Open Names: Bexley,159,1940-09-06,1945-03-10,1945-03-10,12,1,89,4,5,60,0,151,25,15,38
+99,CHINA,overseas,China,overseas,,0,0,,,,158,,,,0,1,1,50,13,61,32,76,1,35,57.0
+100,BURMA (NOW MYANMAR),overseas,Burma (Now Myanmar),overseas,,0,0,,,,157,,,,0,13,0,142,0,1,1,97,3,4,41
+101,"WEMBLEY, MUNICIPAL BOROUGH",uk,Wembley,municipal borough,England,0,1,51.5537,-0.2934,OS Open Names: Wembley,154,1940-09-25,1946-03-26,1940-11-16,15,0,95,7,19,32,1,153,19,25,36
+102,"HASTINGS, COUNTY BOROUGH",uk,Hastings,county borough,England,0,0,50.8563,0.5812,OS Open Names: Hastings,153,1940-07-26,1944-07-20,1943-03-11,33,4,38,101,5,5,0,150,12,67,56.0
+103,"HORNCHURCH, URBAN DISTRICT",uk,Hornchurch,urban district,England,0,1,51.5619,0.2206,OS Open Names: Hornchurch,150,1940-08-31,1945-05-11,1944-09-19,15,3,57,2,1,85,2,147,28,33,41
+104,"MITCHAM, MUNICIPAL BOROUGH",uk,Mitcham,municipal borough,England,0,1,51.4025,-0.1705,OS Open Names: Mitcham,149,1940-09-12,1944-09-19,1944-06-18,18,0,77,2,6,64,0,147,20,27,40
+105,"GRIMSBY, COUNTY BOROUGH",uk,Grimsby,county borough,England,0,0,53.5651,-0.0838,OS Open Names: Grimsby,147,1940-08-19,1945-03-07,1943-06-14,53,1,16,124,4,2,0,145,10,46,52
+106,"TWICKENHAM, MUNICIPAL BOROUGH",uk,Twickenham,municipal borough,England,0,1,51.4482,-0.3253,OS Open Names: Twickenham,144,1940-09-13,1944-08-29,1940-11-29,60,0,102,1,2,39,0,141,12,33,46
+107,"ORPINGTON, URBAN DISTRICT",uk,Orpington,urban district,England,0,1,51.3757,0.0992,OS Open Names: Orpington,140,1940-08-18,1947-05-28,1940-08-30,12,24,62,12,7,33,2,140,10,40,47.0
+108,"CHELMSFORD, MUNICIPAL BOROUGH",uk,Chelmsford,municipal borough,England,0,0,51.7371,0.4736,OS Open Names: Chelmsford,138,1940-08-19,1945-06-05,1944-12-19,38,4,33,61,0,39,1,137,10,33,40
+109,"NUNEATON, MUNICIPAL BOROUGH",uk,Nuneaton,municipal borough,England,0,0,52.5221,-1.4677,OS Open Names: Nuneaton,133,1940-08-28,1945-05-07,1941-05-17,95,3,16,113,0,0,1,130,29,26,30.5
+110,"STRETFORD, MUNICIPAL BOROUGH",uk,Stretford,municipal borough,England,0,0,53.4461,-2.3074,OS Open Names: Stretford,132,1940-10-07,1942-04-18,1940-12-23,86,0,130,2,0,0,0,128,10,25,42.0
+111,"TORQUAY, MUNICIPAL BOROUGH",uk,Torquay,municipal borough,England,0,0,50.4688,-3.5314,OS Open Names: Torquay,132,1940-11-12,1944-09-22,1943-05-30,39,0,15,93,23,1,0,130,35,32,44.0
+112,"SOUTHGATE, MUNICIPAL BOROUGH",uk,Southgate,municipal borough,England,0,1,51.6295,-0.1278,OS Open Names: Southgate,131,1940-09-17,1944-12-28,1941-03-15,22,0,85,1,3,42,0,128,11,35,45.5
+113,S.S. CERAMIC,sea,S.S. Ceramic,ship or air crash at sea,,0,0,,,,124,,,,0,0,0,124,0,0,0,123,15,8,29
+114,"DARTFORD, MUNICIPAL BOROUGH",uk,Dartford,municipal borough,England,0,0,51.4561,0.2467,OS Open Names: Dartford,123,1940-09-05,1947-08-30,1940-09-06,24,25,48,11,16,22,1,118,13,26,41.0
+115,S.S. CITY OF BENARES,sea,S.S. City of Benares,ship or air crash at sea,,0,0,,,,122,,,,0,0,122,0,0,0,0,122,81,11,12.0
+116,"LEICESTER, COUNTY BOROUGH",uk,Leicester,county borough,England,0,0,52.6336,-1.1335,OS Open Names: Leicester,120,1940-08-21,1947-12-16,1940-11-20,70,6,105,4,2,2,1,118,19,23,37.0
+117,"CANTERBURY, COUNTY BOROUGH",uk,Canterbury,county borough,England,0,0,51.2797,1.0789,OS Open Names: Canterbury,118,1940-08-12,1944-09-14,1942-06-01,39,6,26,83,0,3,0,114,12,31,47.5
+118,ISRAEL,overseas,Israel,overseas,,0,0,,,,118,,,,0,13,94,11,0,0,0,115,22,13,31
+119,"CROSBY, MUNICIPAL BOROUGH",uk,Crosby,municipal borough,England,0,0,53.4763,-3.0228,OS Open Names: Crosby,115,1940-08-30,1942-08-08,1941-05-08,22,8,91,16,0,0,0,112,29,14,31.0
+120,"ERITH, MUNICIPAL BOROUGH",uk,Erith,municipal borough,England,0,1,51.4808,0.1792,OS Open Names: Erith,110,1940-09-07,1947-10-22,1941-04-20,15,0,57,4,2,46,1,106,14,18,40.0
+121,"WALTON AND WEYBRIDGE, URBAN DISTRICT",uk,Walton and Weybridge,urban district,England,0,0,51.385,-0.4184,OS Open Names: Walton-on-Thames,109,1940-08-25,1944-06-19,1940-09-04,63,74,16,0,15,4,0,106,11,6,32.5
+122,"LUTON, MUNICIPAL BOROUGH",uk,Luton,municipal borough,England,0,0,51.8795,-0.4174,OS Open Names: Luton,108,1940-08-30,1944-11-20,1940-08-30,51,58,25,6,0,19,0,102,9,18,39.5
+123,"WESTON-SUPER-MARE, MUNICIPAL BOROUGH",uk,Weston-Super-Mare,municipal borough,England,0,0,51.3461,-2.9763,OS Open Names: Weston-Super-Mare,108,1940-09-03,1947-02-23,1942-06-28,43,3,28,75,1,0,1,106,17,32,39.0
+124,"GOSPORT, MUNICIPAL BOROUGH",uk,Gosport,municipal borough,England,0,0,50.7945,-1.1227,OS Open Names: Gosport,102,1940-02-22,1946-12-10,1941-03-10,14,15,57,25,4,0,1,99,19,20,36
+125,"PENGE, URBAN DISTRICT",uk,Penge,urban district,England,0,1,51.4158,-0.0539,OS Open Names: Penge,102,1940-09-12,1944-08-03,1944-06-18,13,0,39,0,1,62,0,99,13,32,50
+126,"RICHMOND, MUNICIPAL BOROUGH",uk,Richmond,municipal borough,England,0,1,51.4596,-0.3064,OS Open Names: Richmond upon Thames,102,1940-09-09,1944-11-24,1940-11-29,26,0,88,3,1,10,0,102,14,20,44.0
+127,"YORK, CITY AND COUNTY BOROUGH",uk,York,city and county borough,England,0,0,53.962,-1.0837,OS Open Names: York,101,1940-06-07,1945-03-05,1942-04-29,77,2,4,89,1,5,0,99,13,30,47
+128,"KINGSTON UPON THAMES, MUNICIPAL BOROUGH",uk,Kingston upon Thames,municipal borough,England,0,1,51.409,-0.3036,OS Open Names: Kingston Upon Thames,100,1940-05-10,1946-12-27,1940-12-29,17,16,53,1,3,26,1,97,13,28,43
+129,"PAISLEY, BURGH OF, SCOTLAND",uk,Paisley,burgh of,Scotland,0,0,55.8451,-4.4284,OS Open Names: Paisley,100,1940-07-13,1947-12-24,1941-05-06,92,1,98,0,0,0,1,100,0,4,31.0
+130,"MIDDLESBROUGH, COUNTY BOROUGH",uk,Middlesbrough,county borough,England,0,0,54.5764,-1.2368,OS Open Names: Middlesbrough,99,1940-06-22,1947-03-03,1942-04-15,22,2,27,65,0,2,3,89,13,16,39
+131,"FOLKESTONE, MUNICIPAL BOROUGH",uk,Folkestone,municipal borough,England,0,0,51.0817,1.1803,OS Open Names: Folkestone,98,1940-07-08,1944-10-06,1940-11-18,13,8,34,36,4,16,0,94,6,33,50.5
+132,"LEEDS, COUNTY BOROUGH",uk,Leeds,county borough,England,0,0,53.8007,-1.5503,OS Open Names: Leeds,95,1940-08-25,1946-02-21,1941-03-15,53,5,68,18,2,1,1,91,7,15,43
+133,"SODBURY, RURAL DISTRICT",uk,Sodbury,rural district,England,0,0,51.5382,-2.3935,OS Open Names: Chipping Sodbury,95,1940-09-25,1947-10-13,1940-09-25,55,0,92,2,0,0,1,94,1,3,32.0
+134,"THURROCK, URBAN DISTRICT",uk,Thurrock,urban district,England,0,0,51.4793,0.3261,OS Open Names: Grays,95,1940-08-16,1944-11-08,1940-11-02,10,8,73,7,1,6,0,95,16,15,41
+135,"EPSOM AND EWELL, MUNICIPAL BOROUGH",uk,Epsom and Ewell,municipal borough,England,0,0,51.3332,-0.267,OS Open Names: Epsom,94,1940-09-09,1946-03-21,1940-10-11,6,0,55,9,2,26,2,94,3,35,54.5
+136,GERMANY,overseas,Germany,overseas,,0,0,,,,91,,,,0,4,1,25,10,42,9,61,4,21,50
+137,"ASHFORD, URBAN DISTRICT",uk,Ashford,urban district,England,0,0,51.1484,0.8711,OS Open Names: Ashford,90,1940-07-17,1944-09-10,1943-03-24,47,2,13,70,0,5,0,90,10,24,43.0
+138,"ROCHESTER, MUNICIPAL BOROUGH",uk,Rochester,municipal borough,England,0,0,51.3898,0.5036,OS Open Names: Rochester,90,1940-07-18,1946-10-15,1944-03-02,18,9,32,3,26,17,3,87,8,20,42
+139,"FRIERN BARNET, URBAN DISTRICT",uk,Friern Barnet,urban district,England,0,1,51.6129,-0.1586,OS Open Names: Friern Barnet,89,1940-09-02,1945-01-11,1940-11-16,23,1,68,1,1,18,0,88,5,22,50.0
+140,"COWES, URBAN DISTRICT",uk,Cowes,urban district,England,0,0,50.7624,-1.2979,OS Open Names: Cowes,87,1940-04-20,1944-05-16,1942-05-05,56,1,4,73,9,0,0,85,11,21,40
+141,S.S. KUALA,sea,S.S. Kuala,ship or air crash at sea,,0,0,,,,86,,,,0,0,0,86,0,0,0,54,6,6,41.0
+142,"RAMSGATE, MUNICIPAL BOROUGH",uk,Ramsgate,municipal borough,England,0,0,51.3347,1.418,OS Open Names: Ramsgate,85,1940-01-27,1947-04-19,1940-08-24,25,30,27,24,0,2,2,83,7,23,51
+143,S.S. TANDJONG PINANG,sea,S.S. Tandjong Pinang,ship or air crash at sea,,0,0,,,,85,,,,0,0,0,85,0,0,0,45,4,0,35
+144,"WOOD GREEN, MUNICIPAL BOROUGH",uk,Wood Green,municipal borough,England,0,1,51.5972,-0.1099,OS Open Names: Wood Green,84,1940-09-24,1945-03-03,1940-10-13,18,0,51,0,0,33,0,82,21,22,41.0
+145,"BARROW IN FURNESS, COUNTY BOROUGH",uk,Barrow In Furness,county borough,England,0,0,54.1114,-3.2272,OS Open Names: Barrow-in-Furness,83,1940-09-13,1944-03-18,1941-04-16,20,0,80,1,2,0,0,82,6,21,49.0
+146,"GRANTHAM, MUNICIPAL BOROUGH",uk,Grantham,municipal borough,England,0,0,52.9121,-0.6422,OS Open Names: Grantham,83,1940-09-30,1944-08-10,1942-10-24,27,0,50,32,0,1,0,77,18,13,37
+147,"IPSWICH, COUNTY BOROUGH",uk,Ipswich,county borough,England,0,0,52.0571,1.1528,OS Open Names: Ipswich,79,1940-06-07,1945-07-30,1943-06-02,11,5,26,36,1,9,2,77,6,11,42
+148,"SMETHWICK, COUNTY BOROUGH",uk,Smethwick,county borough,England,0,0,52.4907,-1.9678,OS Open Names: Smethwick,78,1940-10-25,1942-07-30,1941-04-10,28,0,61,17,0,0,0,78,27,6,25.5
+149,"CARSHALTON, URBAN DISTRICT",uk,Carshalton,urban district,England,0,1,51.3655,-0.16,OS Open Names: Carshalton,77,1940-02-24,1945-12-14,1944-07-03,7,3,33,0,3,37,1,77,17,13,37
+150,"TEIGNMOUTH, URBAN DISTRICT",uk,Teignmouth,urban district,England,0,0,50.5459,-3.4956,OS Open Names: Teignmouth,77,1940-07-08,1943-01-12,1943-01-10,19,1,14,62,0,0,0,74,7,32,55.5
+151,"FINCHLEY, MUNICIPAL BOROUGH",uk,Finchley,municipal borough,England,0,1,51.6004,-0.1949,OS Open Names: Finchley,76,1940-09-19,1947-03-27,1940-11-06,13,0,68,0,0,7,1,75,18,13,39
+152,"WEYMOUTH AND MELCOMBE REGIS, MUNICIPAL BOROUGH",uk,Weymouth and Melcombe Regis,municipal borough,England,0,0,50.607,-2.4555,OS Open Names: Weymouth,76,1940-07-08,1944-05-28,1942-04-02,21,3,37,32,4,0,0,75,10,21,45
+153,CEYLON,overseas,Ceylon,overseas,,0,0,,,,75,,,,0,0,0,72,0,0,3,4,0,0,35.0
+154,"COULSDON AND PURLEY, URBAN DISTRICT",uk,Coulsdon and Purley,urban district,England,0,1,51.3385,-0.1169,OS Open Names: Purley,75,1940-08-18,1944-10-31,1944-10-31,14,3,39,0,4,29,0,72,6,20,45.5
+155,"EAST GRINSTEAD, URBAN DISTRICT",uk,East Grinstead,urban district,England,0,0,51.1241,-0.0083,OS Open Names: East Grinstead,75,1939-10-08,1944-07-29,1943-07-09,58,2,4,63,1,5,0,75,13,14,39
+156,"BARNES, MUNICIPAL BOROUGH",uk,Barnes,municipal borough,England,0,1,51.4738,-0.2495,OS Open Names: Barnes,73,1940-08-25,1944-09-12,1940-09-26,15,2,52,0,11,8,0,72,2,21,51.0
+157,"MAIDSTONE, MUNICIPAL BOROUGH",uk,Maidstone,municipal borough,England,0,0,51.273,0.5206,OS Open Names: Maidstone,73,1939-09-15,1947-10-22,1940-09-27,22,5,52,2,3,10,1,69,7,24,49
+158,"POOLE, MUNICIPAL BOROUGH",uk,Poole,municipal borough,England,0,0,50.7189,-1.9798,OS Open Names: Poole,73,1940-08-21,1946-01-11,1941-03-27,32,2,44,22,3,0,2,73,12,14,39
+159,"PORT GLASGOW, BURGH OF, SCOTLAND",uk,Port Glasgow,burgh of,Scotland,0,0,55.9345,-4.6903,OS Open Names: Port Glasgow,72,1941-05-06,1941-05-14,1941-05-06,67,0,72,0,0,0,0,69,25,2,24
+160,S.S. AVOCETA,sea,S.S. Avoceta,ship or air crash at sea,,0,0,,,,71,,,,0,0,0,71,0,0,0,70,20,13,37.5
+161,"BRENTFORD AND CHISWICK, MUNICIPAL BOROUGH",uk,Brentford and Chiswick,municipal borough,England,0,1,51.4924,-0.2628,OS Open Names: Chiswick,70,1940-09-17,1945-09-30,1940-11-29,8,0,43,0,14,12,1,69,6,17,50
+162,"REIGATE, MUNICIPAL BOROUGH",uk,Reigate,municipal borough,England,0,0,51.2377,-0.2058,OS Open Names: Reigate,70,1940-08-18,1944-08-03,1944-06-19,10,9,27,5,4,25,0,69,8,18,42
+163,"CHINGFORD, MUNICIPAL BOROUGH",uk,Chingford,municipal borough,England,0,1,51.6304,0.001,OS Open Names: Chingford,69,1940-09-10,1945-03-04,1941-03-19,13,0,54,0,0,15,0,67,9,12,42
+164,"CRAYFORD, URBAN DISTRICT",uk,Crayford,urban district,England,0,1,51.4528,0.177,OS Open Names: Crayford,68,1940-09-13,1944-12-20,1944-07-13,18,0,30,0,2,36,0,65,16,6,33
+165,"UXBRIDGE, URBAN DISTRICT",uk,Uxbridge,urban district,England,0,1,51.5462,-0.4796,OS Open Names: Uxbridge,68,1940-08-27,1947-01-04,1940-10-06,11,2,46,2,4,13,1,65,6,14,41
+166,"STAINES, URBAN DISTRICT",uk,Staines,urban district,England,0,0,51.4338,-0.5118,OS Open Names: Staines-upon-Thames,67,1940-08-25,1945-10-16,1944-02-23,10,3,25,3,14,21,1,66,6,16,42.5
+167,PHILIPPINES,overseas,Philippines,overseas,,0,0,,,,66,,,,0,0,0,31,5,29,1,62,1,31,59.5
+168,"DARTFORD, RURAL DISTRICT",uk,Dartford,rural district,England,0,0,51.4561,0.2467,OS Open Names: Dartford,65,1940-09-07,1945-03-22,1945-03-14,10,0,39,1,3,22,0,61,14,16,43
+169,"MALDEN AND COOMBE, MUNICIPAL BOROUGH",uk,Malden and Coombe,municipal borough,England,0,1,51.4002,-0.2557,OS Open Names: New Malden,65,1940-08-16,1944-08-22,1940-08-16,24,24,33,0,1,7,0,64,6,13,41.5
+170,"SOUTHEND ON SEA, COUNTY BOROUGH",uk,Southend on Sea,county borough,England,0,0,51.5401,0.7114,OS Open Names: Southend-on-Sea,65,1940-04-02,1946-06-03,1941-02-04,14,7,28,11,3,13,3,59,6,15,50
+171,"CHIGWELL, URBAN DISTRICT",uk,Chigwell,urban district,England,0,0,51.6196,0.0756,OS Open Names: Chigwell,64,1940-07-26,1944-11-26,1941-04-19,32,2,55,0,3,4,0,64,4,5,38.0
+172,S.S. ATHENIA,sea,S.S. Athenia,ship or air crash at sea,,0,0,,,,64,,,,0,64,0,0,0,0,0,62,6,15,49.0
+173,AIR CRASHES AT SEA,sea,Air Crashes At Sea,ship or air crash at sea,,0,0,,,,63,,,,0,2,0,42,0,11,8,43,5,2,38
+174,"BEBINGTON, MUNICIPAL BOROUGH",uk,Bebington,municipal borough,England,0,0,53.3321,-2.9778,OS Open Names: Bebington,63,1940-09-04,1942-10-24,1941-03-12,28,1,54,8,0,0,0,63,7,14,43
+175,"DEAL, MUNICIPAL BOROUGH",uk,Deal,municipal borough,England,0,0,51.2227,1.4,OS Open Names: Deal,63,1940-08-01,1944-09-26,1942-10-22,14,2,11,49,0,1,0,61,13,14,41
+176,"HAYES AND HARLINGTON, URBAN DISTRICT",uk,Hayes and Harlington,urban district,England,0,1,51.5072,-0.4187,OS Open Names: Hayes,62,1940-08-26,1944-08-16,1944-07-07,34,3,9,1,10,39,0,61,4,9,36
+177,"COLCHESTER, MUNICIPAL BOROUGH",uk,Colchester,municipal borough,England,0,0,51.8897,0.8993,OS Open Names: Colchester,61,1940-10-03,1945-12-29,1942-08-11,34,0,7,52,1,0,1,61,2,24,55
+178,"EXMOUTH, URBAN DISTRICT",uk,Exmouth,urban district,England,0,0,50.6187,-3.4124,OS Open Names: Exmouth,59,1941-01-18,1945-01-01,1943-02-26,22,0,17,41,0,1,0,57,9,23,54
+179,"KING'S LYNN, MUNICIPAL BOROUGH",uk,King's Lynn,municipal borough,England,0,0,52.7519,0.3954,OS Open Names: King'S Lynn,59,1940-11-13,1945-06-16,1942-06-12,27,0,11,47,0,0,1,59,6,14,47
+180,"SEVENOAKS, RURAL DISTRICT",uk,Sevenoaks,rural district,England,0,0,51.2705,0.192,OS Open Names: Sevenoaks,59,1940-08-16,1947-12-03,1944-06-30,28,2,15,0,9,32,1,41,15,5,25
+181,"PLYMPTON ST. MARY, RURAL DISTRICT",uk,Plympton St. Mary,rural district,England,0,0,50.3875,-4.0504,OS Open Names: Plympton,58,1940-11-27,1944-04-30,1944-04-30,17,0,32,9,17,0,0,57,12,5,32
+182,"WATFORD, MUNICIPAL BOROUGH",uk,Watford,municipal borough,England,0,0,51.6551,-0.3958,OS Open Names: Watford,58,1940-09-22,1944-07-30,1944-07-30,33,0,22,3,0,33,0,57,11,14,45
+183,"WEST BROMWICH, COUNTY BOROUGH",uk,West Bromwich,county borough,England,0,0,52.5202,-1.9969,OS Open Names: West Bromwich,58,1940-08-12,1943-03-14,1940-11-19,47,1,54,3,0,0,0,55,15,10,29
+184,"OLDHAM, COUNTY BOROUGH",uk,Oldham,county borough,England,0,0,53.5422,-2.116,OS Open Names: Oldham,57,1941-10-12,1945-02-25,1944-12-24,25,0,0,28,0,29,0,55,11,14,49
+185,"WORTHING, MUNICIPAL BOROUGH",uk,Worthing,municipal borough,England,0,0,50.8143,-0.3712,OS Open Names: Worthing,56,1940-09-14,1946-09-25,1943-02-08,8,0,13,40,0,1,2,53,6,26,59
+186,"EAST BARNET, URBAN DISTRICT",uk,East Barnet,urban district,England,0,1,51.6387,-0.1679,OS Open Names: East Barnet,55,1940-10-04,1946-12-10,1944-08-23,20,0,11,7,3,33,1,55,4,9,39
+187,"GRAVESEND, MUNICIPAL BOROUGH",uk,Gravesend,municipal borough,England,0,0,51.4425,0.3694,OS Open Names: Gravesend,55,1940-08-16,1945-01-17,1944-02-04,8,4,23,5,9,14,0,53,10,8,42
+188,"MALLING, RURAL DISTRICT",uk,Malling,rural district,England,0,0,51.2947,0.4088,OS Open Names: West Malling,55,1940-08-10,1944-08-09,1944-08-05,10,6,29,5,0,15,0,54,10,13,46.0
+189,R.M.S. LADY HAWKINS,sea,R.M.S. Lady Hawkins,ship or air crash at sea,,0,0,,,,55,,,,0,0,0,55,0,0,0,37,3,4,39
+190,"BARNET, URBAN DISTRICT",uk,Barnet,urban district,England,0,1,51.6497,-0.1713,OS Open Names: Barnet,54,1940-10-01,1945-01-21,1940-11-15,17,0,40,0,2,12,0,53,2,17,40
+191,"NEWPORT, COUNTY BOROUGH",uk,Newport,county borough,Wales,0,0,51.5879,-2.9967,OS Open Names: Newport,54,1940-06-27,1942-01-28,1941-07-01,35,2,7,45,0,0,0,53,8,7,38
+192,S.S. BRITANNIA,sea,S.S. Britannia,ship or air crash at sea,,0,0,,,,54,,,,0,0,54,0,0,0,0,54,0,1,32.5
+193,"CHICHESTER, MUNICIPAL BOROUGH",uk,Chichester,municipal borough,England,0,0,50.8365,-0.779,OS Open Names: Chichester,53,1940-08-18,1944-11-22,1943-02-10,15,4,15,22,10,2,0,51,5,19,51
+194,EIRE,overseas,Eire,overseas,,0,0,,,,53,,,,0,3,3,47,0,0,0,49,10,6,27
+195,BORNEO,overseas,Borneo,overseas,,0,0,,,,52,,,,0,3,0,27,0,5,17,28,2,3,39.0
+196,"GILLINGHAM, MUNICIPAL BOROUGH",uk,Gillingham,municipal borough,England,0,0,51.3692,0.5786,OS Open Names: Gillingham,52,1940-07-18,1944-06-06,1940-08-27,11,22,24,0,6,0,0,50,5,11,42.5
+197,"STOKE-ON-TRENT, COUNTY BOROUGH",uk,Stoke-On-Trent,county borough,England,0,0,53.0222,-2.1734,OS Open Names: Stoke-On-Trent,52,1940-06-27,1944-03-30,1941-01-16,14,4,37,10,1,0,0,52,6,10,36.5
+198,"SURBITON, MUNICIPAL BOROUGH",uk,Surbiton,municipal borough,England,0,1,51.3933,-0.2987,OS Open Names: Surbiton,52,1940-09-09,1944-11-15,1944-06-17,16,0,20,7,0,25,0,52,11,17,41.0
+199,"SWANSCOMBE, URBAN DISTRICT",uk,Swanscombe,urban district,England,0,0,51.4531,0.2844,OS Open Names: Swanscombe,52,1940-09-14,1945-02-27,1940-11-10,19,0,27,0,0,25,0,50,4,15,49.0
+200,"DERBY, COUNTY BOROUGH",uk,Derby,county borough,England,0,0,52.9247,-1.4781,OS Open Names: Derby,51,1940-06-25,1944-07-27,1942-07-27,18,6,19,24,0,2,0,50,3,7,34.0
+201,"BRENTWOOD, URBAN DISTRICT",uk,Brentwood,urban district,England,0,0,51.6214,0.3057,OS Open Names: Brentwood,50,1940-09-29,1945-08-25,1940-10-20,6,0,23,7,1,18,1,49,9,11,43
+202,"SWINDON, MUNICIPAL BOROUGH",uk,Swindon,municipal borough,England,0,0,51.5615,-1.7855,OS Open Names: Swindon,50,1940-09-19,1946-11-19,1942-08-17,23,0,15,33,0,0,2,47,3,13,46
+203,AUSTRALIA,overseas,Australia,overseas,,0,0,,,,49,,,,0,4,0,42,0,1,2,26,0,2,37.0
+204,"SEAHAM, URBAN DISTRICT",uk,Seaham,urban district,England,0,0,54.8366,-1.334,OS Open Names: Seaham,49,1940-08-15,1947-04-16,1943-05-16,29,10,4,33,0,0,2,45,10,6,33
+205,"WEST HARTLEPOOL, COUNTY BOROUGH",uk,West Hartlepool,county borough,England,0,0,54.6854,-1.2129,OS Open Names: Hartlepool,49,1940-06-19,1946-12-25,1941-08-19,20,16,2,29,0,1,1,48,12,9,37.5
+206,"CHATHAM, MUNICIPAL BOROUGH",uk,Chatham,municipal borough,England,0,0,51.3849,0.5255,OS Open Names: Chatham,48,1940-08-19,1944-11-30,1940-12-14,14,5,35,5,0,3,0,48,7,9,40.0
+207,"BEDDINGTON AND WALLINGTON, MUNICIPAL BOROUGH",uk,Beddington and Wallington,municipal borough,England,0,1,51.3573,-0.1494,OS Open Names: Wallington,47,1940-08-15,1944-08-15,1940-11-19,7,5,24,0,3,15,0,46,9,12,45.0
+208,"CHERTSEY, URBAN DISTRICT",uk,Chertsey,urban district,England,0,0,51.3922,-0.5037,OS Open Names: Chertsey,47,1940-09-04,1947-04-29,1944-10-05,6,3,31,1,3,8,1,45,4,17,47
+209,"FYLDE, RURAL DISTRICT",uk,Fylde,rural district,England,0,0,53.7825,-2.8713,OS Open Names: Kirkham,47,1942-05-29,1944-09-04,1944-08-23,41,0,0,1,1,45,0,46,40,2,5.0
+210,FRANCE,overseas,France,overseas,,0,0,,,,46,,,,0,5,4,24,1,10,2,42,4,10,54.5
+211,"PEMBROKE, MUNICIPAL BOROUGH, WALES",uk,Pembroke,municipal borough,Wales,0,0,51.675,-4.9137,OS Open Names: Pembroke,46,1940-08-21,1941-06-11,1941-05-12,35,5,38,3,0,0,0,44,3,12,41.0
+212,"SANDOWN AND SHANKLIN, URBAN DISTRICT",uk,Sandown and Shanklin,urban district,England,0,0,50.6276,-1.1796,OS Open Names: Shanklin,45,1940-08-23,1944-07-07,1943-01-03,21,1,3,36,3,2,0,45,2,15,49
+213,"ECCLES, MUNICIPAL BOROUGH",uk,Eccles,municipal borough,England,0,0,53.4829,-2.338,OS Open Names: Eccles,44,1940-12-18,1941-05-22,1940-12-22,23,0,43,1,0,0,0,43,9,8,39
+214,"LITHERLAND, URBAN DISTRICT",uk,Litherland,urban district,England,0,0,53.471,-3.0002,OS Open Names: Litherland,44,1940-09-23,1941-05-31,1941-04-16,17,0,41,3,0,0,0,42,5,11,36.5
+215,"YEOVIL, MUNICIPAL BOROUGH",uk,Yeovil,municipal borough,England,0,0,50.9408,-2.6335,OS Open Names: Yeovil,43,1940-09-25,1942-09-29,1940-10-07,14,0,34,9,0,0,0,43,4,4,31
+216,"DEBEN, RURAL DISTRICT",uk,Deben,rural district,England,0,0,52.0932,1.3187,OS Open Names: Woodbridge,41,1940-10-27,1945-02-20,1942-08-25,12,0,3,33,0,5,0,39,13,4,29
+217,"EASINGTON, RURAL DISTRICT",uk,Easington,rural district,England,0,0,54.7854,-1.3523,OS Open Names: Easington,41,1940-07-06,1945-05-30,1940-08-15,10,14,0,25,0,0,2,39,8,5,30
+218,"EDINBURGH CITY, SCOTLAND",uk,Edinburgh,city,Scotland,0,0,55.9533,-3.1891,OS Open Names: Edinburgh,41,1940-03-10,1947-03-11,1940-07-18,7,12,16,5,0,2,6,37,5,14,41
+219,"NEWARK ON TRENT, MUNICIPAL BOROUGH",uk,Newark on Trent,municipal borough,England,0,0,53.0758,-0.8077,OS Open Names: Newark-on-Trent,41,1941-01-30,1941-05-07,1941-03-07,36,0,41,0,0,0,0,41,0,2,32
+220,"MARGATE, MUNICIPAL BOROUGH",uk,Margate,municipal borough,England,0,0,51.3874,1.3808,OS Open Names: Margate,40,1940-10-19,1944-10-14,1943-06-01,9,0,10,29,0,1,0,40,4,21,60.0
+221,"WEST BRIDGFORD, URBAN DISTRICT",uk,West Bridgford,urban district,England,0,0,52.9367,-1.134,OS Open Names: West Bridgford,40,1941-05-09,1947-05-28,1941-05-09,39,0,39,0,0,0,1,40,8,11,43.0
+222,"ESHER, URBAN DISTRICT",uk,Esher,urban district,England,0,0,51.3694,-0.3657,OS Open Names: Esher,39,1940-08-16,1944-08-23,1944-08-08,9,3,19,0,1,16,0,38,5,7,43.0
+223,"LEATHERHEAD, URBAN DISTRICT",uk,Leatherhead,urban district,England,0,0,51.2962,-0.3311,OS Open Names: Leatherhead,39,1940-08-30,1945-03-10,1940-08-30,4,4,17,1,2,15,0,37,2,20,60
+224,"NORTHFLEET, URBAN DISTRICT",uk,Northfleet,urban district,England,0,0,51.4392,0.3462,OS Open Names: Northfleet,39,1940-08-16,1944-02-11,1940-08-16,26,26,6,4,3,0,0,37,10,4,31
+225,"ST. ALBANS, RURAL DISTRICT",uk,St. Albans,rural district,England,0,0,51.7523,-0.3391,OS Open Names: St Albans,39,1939-12-16,1944-12-30,1940-11-09,5,1,16,4,2,16,0,38,1,11,48.0
+226,"CAMBRIDGE, MUNICIPAL BOROUGH",uk,Cambridge,municipal borough,England,0,0,52.2049,0.1197,OS Open Names: Cambridge,38,1940-06-19,1945-07-04,1940-06-19,9,11,16,7,1,2,1,37,5,9,37
+227,"CHELTENHAM, MUNICIPAL BOROUGH",uk,Cheltenham,municipal borough,England,0,0,51.9007,-2.0767,OS Open Names: Cheltenham,38,1940-12-11,1942-07-27,1940-12-11,20,0,27,11,0,0,0,38,9,4,38.0
+228,GUERNSEY,crown,Guernsey,Crown dependency,,0,0,,,,38,,,,0,33,2,2,1,0,0,38,2,10,41.0
+229,"PETERHEAD, BURGH OF, SCOTLAND",uk,Peterhead,burgh of,Scotland,0,0,57.5082,-1.7835,OS Open Names: Peterhead,38,1940-08-22,1945-07-18,1941-09-29,29,3,0,34,0,0,1,36,12,8,37.0
+230,"WARWICK, MUNICIPAL BOROUGH",uk,Warwick,municipal borough,England,0,0,52.2835,-1.5892,OS Open Names: Warwick,38,1940-11-16,1943-05-27,1941-04-09,11,0,35,3,0,0,0,38,1,9,40.5
+231,"READING, COUNTY BOROUGH",uk,Reading,county borough,England,0,0,51.4538,-0.9738,OS Open Names: Reading,37,1943-02-10,1943-02-16,1943-02-10,34,0,0,37,0,0,0,37,3,15,58
+232,JAVA,overseas,Java,overseas,,0,0,,,,36,,,,0,0,0,3,3,14,16,10,0,2,48.0
+233,"NEWPORT, MUNICIPAL BOROUGH",uk,Newport,municipal borough,England,0,0,50.7002,-1.2937,OS Open Names: Newport,36,1940-12-20,1944-06-25,1943-04-07,17,0,1,34,0,1,0,34,8,9,51.0
+234,"RUISLIP AND NORTHWOOD, URBAN DISTRICT",uk,Ruislip and Northwood,urban district,England,0,1,51.5769,-0.4271,OS Open Names: Ruislip,36,1940-09-16,1945-03-14,1940-10-25,8,0,22,9,0,5,0,34,6,7,41.0
+235,"SOLIHULL, URBAN DISTRICT",uk,Solihull,urban district,England,0,0,52.4128,-1.7775,OS Open Names: Solihull,36,1940-11-19,1942-07-27,1942-07-27,10,0,26,10,0,0,0,36,3,2,37.0
+236,"LANARK COUNTY, SCOTLAND",uk,Lanark,county,Scotland,0,0,,,,35,1941-03-15,1947-12-27,1941-05-06,5,0,18,11,0,3,3,35,2,11,47
+237,"PORTLAND, URBAN DISTRICT",uk,Portland,urban district,England,0,0,50.5588,-2.4415,OS Open Names: Fortuneswell,35,1940-07-04,1943-03-09,1941-04-15,12,17,16,2,0,0,0,35,4,2,26
+238,"CREWE, MUNICIPAL BOROUGH",uk,Crewe,municipal borough,England,0,0,53.095,-2.4418,OS Open Names: Crewe,34,1940-09-28,1941-11-29,1940-12-29,15,0,33,1,0,0,0,32,2,3,24.5
+239,"FRASERBURGH, BURGH OF, SCOTLAND",uk,Fraserburgh,burgh of,Scotland,0,0,57.6935,-2.0051,OS Open Names: Fraserburgh,34,1940-08-13,1943-02-20,1940-11-05,21,1,29,4,0,0,0,34,3,2,31.0
+240,"GLOUCESTER, COUNTY BOROUGH",uk,Gloucester,county borough,England,0,0,51.8646,-2.2469,OS Open Names: Gloucester,34,1940-10-21,1946-03-08,1941-01-02,16,0,27,3,3,0,1,34,4,7,36.0
+241,"FELTHAM, URBAN DISTRICT",uk,Feltham,urban district,England,0,1,51.4469,-0.4094,OS Open Names: Feltham,33,1940-11-29,1944-08-20,1944-08-20,10,0,8,7,8,10,0,33,6,6,43
+242,"JARROW, MUNICIPAL BOROUGH",uk,Jarrow,municipal borough,England,0,0,54.9813,-1.4909,OS Open Names: Jarrow,33,1940-07-02,1941-04-10,1941-04-10,21,11,22,0,0,0,0,32,10,9,26.0
+243,"REDCAR, MUNICIPAL BOROUGH",uk,Redcar,municipal borough,England,0,0,54.6178,-1.07,OS Open Names: Redcar,33,1941-05-08,1942-01-13,1941-10-21,15,0,1,32,0,0,0,33,1,7,46
+244,"RYDE, MUNICIPAL BOROUGH",uk,Ryde,municipal borough,England,0,0,50.73,-1.1632,OS Open Names: Ryde,33,1940-08-01,1944-05-19,1941-06-22,12,3,4,25,1,0,0,30,6,5,37.0
+245,"SCARBOROUGH, MUNICIPAL BOROUGH",uk,Scarborough,municipal borough,England,0,0,54.2816,-0.4022,OS Open Names: Scarborough,33,1940-07-04,1941-09-14,1941-03-18,15,2,29,2,0,0,0,31,12,6,19
+246,"CATERHAM AND WARLINGHAM, URBAN DISTRICT",uk,Caterham and Warlingham,urban district,England,0,0,51.2819,-0.0788,OS Open Names: Caterham,32,1940-08-18,1946-02-13,1941-04-16,6,6,14,3,3,5,1,32,3,9,48.0
+247,"DUNBARTON COUNTY, SCOTLAND",uk,Dunbarton,county,Scotland,0,0,,,,32,1941-03-13,1944-03-15,1941-03-13,12,0,30,1,1,0,0,32,7,5,36.0
+248,"ESTON, URBAN DISTRICT",uk,Eston,urban district,England,0,0,54.5595,-1.1437,OS Open Names: Eston,32,1940-08-25,1943-04-26,1941-02-16,13,8,14,10,0,0,0,32,6,6,33.5
+249,"STIRLING COUNTY, SCOTLAND",uk,Stirling,county,Scotland,0,0,,,,32,1941-03-14,1942-09-23,1941-03-14,8,0,22,10,0,0,0,31,6,6,41
+250,"SWINTON AND PENDLEBURY, MUNICIPAL BOROUGH",uk,Swinton and Pendlebury,municipal borough,England,0,0,53.5122,-2.3403,OS Open Names: Swinton,32,1940-12-22,1942-08-26,1940-12-22,13,0,31,1,0,0,0,31,3,7,48
+251,"WALLSEND, MUNICIPAL BOROUGH",uk,Wallsend,municipal borough,England,0,0,54.9911,-1.5336,OS Open Names: Wallsend,32,1941-04-10,1943-02-18,1941-04-25,14,0,17,15,0,0,0,30,3,4,32.5
+252,"CUCKFIELD, URBAN DISTRICT",uk,Cuckfield,urban district,England,0,0,51.0077,-0.1416,OS Open Names: Cuckfield,31,1940-09-27,1945-02-09,1940-09-27,1,0,8,7,5,11,0,29,5,5,44
+253,"PETWORTH, RURAL DISTRICT",uk,Petworth,rural district,England,0,0,50.9856,-0.6085,OS Open Names: Petworth,31,1942-09-01,1944-07-17,1942-09-29,28,0,0,29,0,2,0,30,26,1,10.0
+254,"POTTERS BAR, URBAN DISTRICT",uk,Potters Bar,urban district,England,0,0,51.6951,-0.1936,OS Open Names: Potters Bar,31,1940-07-31,1945-01-20,1945-01-20,19,1,11,0,0,19,0,29,7,11,42
+255,"FALMOUTH, MUNICIPAL BOROUGH",uk,Falmouth,municipal borough,England,0,0,50.1535,-5.074,OS Open Names: Falmouth,30,1940-07-08,1944-05-30,1940-07-08,5,9,9,9,3,0,0,30,2,9,48.0
+256,"GODSTONE, RURAL DISTRICT",uk,Godstone,rural district,England,0,0,51.2474,-0.0667,OS Open Names: Godstone,30,1940-09-11,1947-02-13,1940-11-10,5,0,14,8,2,5,1,28,3,6,39.0
+257,"HATFIELD, RURAL DISTRICT",uk,Hatfield,rural district,England,0,0,51.7651,-0.2201,OS Open Names: Hatfield,30,1940-10-03,1944-10-10,1940-10-03,21,0,21,0,0,9,0,29,1,3,33
+258,"SOUTHPORT, COUNTY BOROUGH",uk,Southport,county borough,England,0,0,53.6473,-3.0073,OS Open Names: Southport,30,1940-09-04,1947-09-24,1940-09-04,5,5,18,5,0,0,2,28,3,11,51.5
+259,"SUNBURY-ON-THAMES, URBAN DISTRICT",uk,Sunbury-On-Thames,urban district,England,0,0,51.4187,-0.4184,OS Open Names: Sunbury-On-Thames,30,1940-09-29,1944-08-12,1940-11-29,15,0,18,2,8,2,0,30,8,3,33.5
+260,"HAILSHAM, RURAL DISTRICT",uk,Hailsham,rural district,England,0,0,50.8647,0.2579,OS Open Names: Hailsham,29,1940-08-16,1944-08-04,1944-08-04,5,1,8,4,3,13,0,29,3,10,51
+261,"HOVE, MUNICIPAL BOROUGH",uk,Hove,municipal borough,England,0,0,50.8278,-0.1713,OS Open Names: Hove,29,1940-07-15,1946-07-03,1943-03-09,10,2,0,26,0,0,1,27,2,9,51
+262,"NEW FOREST, RURAL DISTRICT",uk,New Forest,rural district,England,0,0,50.8725,-1.5738,OS Open Names: Lyndhurst,29,1940-09-15,1944-05-15,1941-06-22,8,0,8,18,3,0,0,28,2,5,44.0
+263,"CHICHESTER, RURAL DISTRICT",uk,Chichester,rural district,England,0,0,50.8365,-0.779,OS Open Names: Chichester,28,1940-08-16,1944-01-30,1940-08-18,7,13,12,1,2,0,0,27,3,5,40
+264,"EASTRY, RURAL DISTRICT",uk,Eastry,rural district,England,0,0,51.247,1.3079,OS Open Names: Eastry,28,1940-08-12,1944-09-25,1941-05-06,9,5,16,4,2,1,0,28,4,1,41.5
+265,"STOCKTON ON TEES, MUNICIPAL BOROUGH",uk,Stockton on Tees,municipal borough,England,0,0,54.564,-1.3127,OS Open Names: Stockton-on-Tees,28,1940-08-26,1944-05-17,1941-05-12,8,1,8,18,1,0,0,27,6,4,44
+266,"WHITLEY AND MONKSEATON, URBAN DISTRICT",uk,Whitley and Monkseaton,urban district,England,0,0,55.0447,-1.4479,OS Open Names: Whitley Bay,28,1940-08-28,1942-12-14,1941-04-16,14,2,14,12,0,0,0,28,4,5,47.0
+267,"DARTMOUTH, MUNICIPAL BOROUGH",uk,Dartmouth,municipal borough,England,0,0,50.3516,-3.5799,OS Open Names: Dartmouth,27,1942-09-18,1944-07-26,1943-02-13,15,0,0,26,0,1,0,27,3,6,37
+268,"EPPING, URBAN DISTRICT",uk,Epping,urban district,England,0,0,51.6983,0.1106,OS Open Names: Epping,27,1940-09-03,1946-08-12,1940-10-09,8,1,12,2,2,7,3,26,0,9,42.0
+269,"HARTLEPOOL, MUNICIPAL BOROUGH",uk,Hartlepool,municipal borough,England,0,0,54.6854,-1.2129,OS Open Names: Hartlepool,27,1940-09-13,1945-08-31,1941-05-12,12,0,15,11,0,0,1,25,7,2,28
+270,"HAVANT AND WATERLOO, URBAN DISTRICT",uk,Havant and Waterloo,urban district,England,0,0,50.8567,-0.9861,OS Open Names: Havant,27,1940-08-24,1943-08-16,1941-04-17,7,2,18,7,0,0,0,27,6,6,48
+271,"RHONDDA, URBAN DISTRICT, WALES",uk,Rhondda,urban district,Wales,0,0,51.6476,-3.4878,OS Open Names: Rhondda,27,1940-10-09,1941-05-17,1941-04-29,23,0,26,1,0,0,0,26,5,4,42.5
+272,"BASINGSTOKE, RURAL DISTRICT",uk,Basingstoke,rural district,England,0,0,51.2677,-1.0883,OS Open Names: Basingstoke,26,1940-08-24,1944-07-08,1940-09-16,2,1,16,7,1,1,0,26,2,15,65.0
+273,"BLACKPOOL, COUNTY BOROUGH",uk,Blackpool,county borough,England,0,0,53.8209,-3.0515,OS Open Names: Blackpool,26,1940-09-12,1946-12-24,1941-08-27,12,0,8,15,0,1,2,26,5,5,41.5
+274,"NEWMARKET, URBAN DISTRICT",uk,Newmarket,urban district,England,0,0,52.2436,0.4053,OS Open Names: Newmarket,26,1941-02-18,1942-07-29,1941-02-18,16,0,20,6,0,0,0,25,0,12,54
+275,"WARRINGTON, COUNTY BOROUGH",uk,Warrington,county borough,England,0,0,53.3896,-2.5909,OS Open Names: Warrington,26,1940-09-12,1944-12-12,1940-09-14,15,0,25,0,0,1,0,25,6,5,30
+276,"BERWICK ON TWEED, MUNICIPAL BOROUGH",uk,Berwick on Tweed,municipal borough,England,0,0,55.7712,-2.0042,OS Open Names: Berwick-upon-Tweed,25,1941-06-03,1942-01-20,1941-06-03,11,0,0,25,0,0,0,25,3,9,52
+277,"BILLERICAY, URBAN DISTRICT",uk,Billericay,urban district,England,0,0,51.6246,0.4166,OS Open Names: Billericay,25,1940-09-22,1945-03-09,1944-02-04,5,0,8,2,7,8,0,25,5,10,56
+278,"CLEETHORPES, MUNICIPAL BOROUGH",uk,Cleethorpes,municipal borough,England,0,0,53.561,-0.0299,OS Open Names: Cleethorpes,25,1942-07-27,1945-01-27,1943-07-13,19,0,0,24,0,1,0,25,4,8,43
+279,"EASTLEIGH, MUNICIPAL BOROUGH",uk,Eastleigh,municipal borough,England,0,0,50.9694,-1.3533,OS Open Names: Eastleigh,25,1940-08-15,1944-07-15,1941-01-19,5,5,10,6,0,4,0,24,1,8,55.5
+280,"GUILDFORD, MUNICIPAL BOROUGH",uk,Guildford,municipal borough,England,0,0,51.2394,-0.5759,OS Open Names: Guildford,25,1940-09-28,1946-12-10,1942-12-16,3,0,9,5,1,9,1,25,1,11,58
+281,"KENILWORTH, URBAN DISTRICT",uk,Kenilworth,urban district,England,0,0,52.3426,-1.5791,OS Open Names: Kenilworth,25,1940-11-07,1940-11-21,1940-11-21,23,0,25,0,0,0,0,25,0,6,51
+282,"LEAMINGTON, MUNICIPAL BOROUGH",uk,Leamington,municipal borough,England,0,0,52.292,-1.5358,OS Open Names: Royal Leamington Spa,25,1940-11-14,1945-03-21,1940-11-14,4,0,15,9,0,1,0,25,0,5,45
+283,"LYMINGTON, MUNICIPAL BOROUGH",uk,Lymington,municipal borough,England,0,0,50.7583,-1.542,OS Open Names: Lymington,25,1940-08-23,1943-01-22,1940-08-23,17,18,1,6,0,0,0,25,6,2,30
+284,"WINCHESTER, RURAL DISTRICT",uk,Winchester,rural district,England,0,0,51.0618,-1.311,OS Open Names: Winchester,25,1940-11-23,1942-06-22,1941-06-26,9,0,8,17,0,0,0,25,8,3,32
+285,"CHESHUNT, URBAN DISTRICT",uk,Cheshunt,urban district,England,0,0,51.7026,-0.0428,OS Open Names: Cheshunt,24,1940-10-13,1945-01-14,1945-01-02,7,0,4,0,1,19,0,22,1,4,47.0
+286,"DORKING, URBAN DISTRICT",uk,Dorking,urban district,England,0,0,51.2328,-0.3299,OS Open Names: Dorking,24,1940-08-30,1944-10-08,1944-01-05,9,1,10,9,0,4,0,22,10,3,21.5
+287,POLAND,overseas,Poland,overseas,,0,0,,,,24,,,,0,0,3,19,2,0,0,15,0,3,53
+288,"SEVENOAKS, URBAN DISTRICT",uk,Sevenoaks,urban district,England,0,0,51.2705,0.192,OS Open Names: Sevenoaks,24,1940-08-18,1945-03-11,1945-03-03,9,3,6,1,1,13,0,22,5,1,34.5
+289,"WALTON-LE-DALE, URBAN DISTRICT",uk,Walton-Le-Dale,urban district,England,0,0,53.7434,-2.6762,OS Open Names: Walton-le-Dale,24,1940-10-27,1940-10-27,1940-10-27,24,0,24,0,0,0,0,24,11,1,18.0
+290,ADEN,overseas,Aden,overseas,,0,0,,,,23,,,,0,19,4,0,0,0,0,21,3,0,30
+291,"ALTRINCHAM, MUNICIPAL BOROUGH",uk,Altrincham,municipal borough,England,0,0,53.3881,-2.3515,OS Open Names: Altrincham,23,1940-12-23,1947-08-12,1940-12-23,12,0,13,9,0,0,1,23,4,6,36
+292,"BATTLE, RURAL DISTRICT",uk,Battle,rural district,England,0,0,50.9185,0.4823,OS Open Names: Battle,23,1940-08-20,1944-07-07,1943-01-09,3,1,1,18,0,3,0,23,0,7,51
+293,"BOGNOR REGIS, URBAN DISTRICT",uk,Bognor Regis,urban district,England,0,0,50.7844,-0.6707,OS Open Names: Bognor Regis,23,1940-09-15,1944-08-27,1942-08-14,8,0,5,17,0,1,0,23,1,12,60
+294,"BOLTON, COUNTY BOROUGH",uk,Bolton,county borough,England,0,0,53.5777,-2.431,OS Open Names: Bolton,23,1940-12-22,1947-05-17,1941-10-12,10,0,5,14,1,1,2,22,1,4,44.5
+295,"BRIDGE BLEAN, RURAL DISTRICT",uk,Bridge Blean,rural district,England,0,0,51.2473,1.124,OS Open Names: Bridge,23,1940-07-03,1944-08-04,1941-11-18,13,6,1,15,0,1,0,22,6,3,45.5
+296,"BRIDLINGTON, MUNICIPAL BOROUGH",uk,Bridlington,municipal borough,England,0,0,54.0844,-0.1932,OS Open Names: Bridlington,23,1940-07-11,1943-07-25,1941-06-18,7,11,3,9,0,0,0,23,1,7,50
+297,"CHESTER, RURAL DISTRICT",uk,Chester,rural district,England,0,0,53.1902,-2.8916,OS Open Names: Chester,23,1940-11-29,1941-05-06,1940-11-29,14,0,23,0,0,0,0,23,1,4,46
+298,S.S. MELBOURNE STAR,sea,S.S. Melbourne Star,ship or air crash at sea,,0,0,,,,23,,,,0,0,0,23,0,0,0,23,2,2,35
+299,"SLOUGH, MUNICIPAL BOROUGH",uk,Slough,municipal borough,England,0,0,51.5089,-0.593,OS Open Names: Slough,23,1940-07-13,1944-07-16,1940-10-13,4,2,15,4,1,1,0,23,2,9,52
+300,"WATFORD, RURAL DISTRICT",uk,Watford,rural district,England,0,0,51.6551,-0.3958,OS Open Names: Watford,23,1940-09-13,1941-12-12,1941-05-10,9,0,19,4,0,0,0,23,2,3,41
+301,"DUMFRIES COUNTY, SCOTLAND",uk,Dumfries,county,Scotland,0,0,,,,22,1941-04-07,1941-04-07,1941-04-07,22,0,22,0,0,0,0,22,1,3,41.5
+302,"GLOUCESTER, RURAL DISTRICT",uk,Gloucester,rural district,England,0,0,51.8646,-2.2469,OS Open Names: Gloucester,22,1940-10-21,1943-09-06,1942-04-04,16,0,2,20,0,0,0,20,1,4,37.5
+303,M.V. MAMUTU,sea,M.V. Mamutu,ship or air crash at sea,,0,0,,,,22,,,,0,0,0,22,0,0,0,0,0,0,
+304,"NEWTON ABBOT, URBAN DISTRICT",uk,Newton Abbot,urban district,England,0,0,50.5307,-3.6095,OS Open Names: Newton Abbot,22,1940-08-20,1944-07-28,1940-08-20,11,15,0,6,0,1,0,22,2,6,42.0
+305,"STOCKPORT, COUNTY BOROUGH",uk,Stockport,county borough,England,0,0,53.408,-2.159,OS Open Names: Stockport,22,1940-10-02,1947-10-08,1940-12-23,5,0,17,2,0,1,2,22,0,9,58.0
+306,"TUNBRIDGE WELLS, MUNICIPAL BOROUGH",uk,Tunbridge Wells,municipal borough,England,0,0,51.1333,0.2635,OS Open Names: Royal Tunbridge Wells,22,1940-09-10,1945-01-25,1940-09-12,9,0,17,0,0,5,0,22,2,6,50.5
+307,"BEXHILL, MUNICIPAL BOROUGH",uk,Bexhill,municipal borough,England,0,0,50.8416,0.4715,OS Open Names: Bexhill-on-Sea,21,1940-09-19,1943-12-23,1943-01-02,4,0,12,9,0,0,0,21,1,8,54
+308,"DONCASTER, COUNTY BOROUGH",uk,Doncaster,county borough,England,0,0,53.5227,-1.1323,OS Open Names: Doncaster,21,1940-12-22,1942-09-05,1941-05-09,16,0,19,2,0,0,0,20,2,0,30.0
+309,"HEBBURN, URBAN DISTRICT",uk,Hebburn,urban district,England,0,0,54.9726,-1.5172,OS Open Names: Hebburn,21,1940-08-25,1942-10-11,1941-10-21,13,2,1,18,0,0,0,20,3,0,37.5
+310,"MERIDEN, RURAL DISTRICT",uk,Meriden,rural district,England,0,0,52.4364,-1.6464,OS Open Names: Meriden,21,1940-10-28,1946-06-01,1945-02-20,5,0,11,3,0,6,1,21,3,4,38
+311,S.S. REDANG,sea,S.S. Redang,ship or air crash at sea,,0,0,,,,21,,,,0,0,0,21,0,0,0,7,0,0,43
+312,"SMALLBURGH, RURAL DISTRICT",uk,Smallburgh,rural district,England,0,0,52.7656,1.4453,OS Open Names: Smallburgh,21,1940-08-19,1941-05-04,1941-04-26,12,3,18,0,0,0,0,20,0,3,39.0
+313,"BRIXHAM, URBAN DISTRICT",uk,Brixham,urban district,England,0,0,50.3941,-3.5159,OS Open Names: Brixham,20,1941-05-19,1942-09-18,1942-09-18,15,0,0,20,0,0,0,20,1,3,36.0
+314,"FAREHAM, URBAN DISTRICT",uk,Fareham,urban district,England,0,0,50.8524,-1.1759,OS Open Names: Fareham,20,1940-08-28,1944-06-25,1941-04-17,5,3,9,3,4,1,0,19,7,5,35
+315,"LINCOLN, COUNTY BOROUGH",uk,Lincoln,county borough,England,0,0,53.2348,-0.5384,OS Open Names: Lincoln,20,1941-03-24,1943-06-29,1941-05-09,4,0,6,14,0,0,0,20,4,4,40.0
+316,"ROWLEY REGIS, MUNICIPAL BOROUGH",uk,Rowley Regis,municipal borough,England,0,0,52.4842,-2.0451,OS Open Names: Rowley Regis,20,1940-11-19,1941-08-12,1940-11-19,9,0,16,4,0,0,0,20,6,0,27.5
+317,"SEAFORD, URBAN DISTRICT",uk,Seaford,urban district,England,0,0,50.7703,0.1011,OS Open Names: Seaford,20,1940-09-23,1942-11-05,1942-10-25,13,0,2,18,0,0,0,20,0,13,68.0
+318,"SHERBORNE, URBAN DISTRICT",uk,Sherborne,urban district,England,0,0,50.9482,-2.516,OS Open Names: Sherborne,20,1940-09-30,1946-04-04,1940-09-30,15,0,17,2,0,0,1,19,6,5,21
+319,"HYTHE, MUNICIPAL BOROUGH",uk,Hythe,municipal borough,England,0,0,51.0714,1.0829,OS Open Names: Hythe,19,1940-10-04,1944-09-15,1944-08-15,4,0,8,5,0,6,0,19,0,11,65
+320,"NEWCASTLE-UNDER-LYME, MUNICIPAL BOROUGH",uk,Newcastle-Under-Lyme,municipal borough,England,0,0,53.0112,-2.228,OS Open Names: Newcastle-Under-Lyme,19,1940-06-26,1943-03-01,1940-12-14,11,1,16,2,0,0,0,19,7,2,30
+321,S.S. PHEMIUS,sea,S.S. Phemius,ship or air crash at sea,,0,0,,,,19,,,,0,0,0,19,0,0,0,19,1,0,29
+322,"SOUTHALL, MUNICIPAL BOROUGH",uk,Southall,municipal borough,England,0,1,51.5112,-0.3756,OS Open Names: Southall,19,1940-09-26,1944-08-29,1940-09-30,5,0,16,0,0,3,0,18,4,4,44.5
+323,"WARRINGTON, RURAL DISTRICT",uk,Warrington,rural district,England,0,0,53.3896,-2.5909,OS Open Names: Warrington,19,1940-12-13,1945-02-25,1940-12-13,1,0,6,11,1,1,0,16,1,4,41.5
+324,"WINCHESTER, MUNICIPAL BOROUGH",uk,Winchester,municipal borough,England,0,0,51.0618,-1.311,OS Open Names: Winchester,19,1940-08-29,1946-06-26,1943-02-09,6,1,5,10,1,1,1,17,2,6,49
+325,"CARDIFF, RURAL DISTRICT, WALES",uk,Cardiff,rural district,Wales,0,0,51.48,-3.1769,OS Open Names: Cardiff,18,1941-02-26,1946-11-10,1941-02-26,4,0,10,7,0,0,1,16,1,8,61.5
+326,"DUMBARTON, BURGH OF, SCOTLAND",uk,Dumbarton,burgh of,Scotland,0,0,55.9457,-4.5667,OS Open Names: Dumbarton,18,1941-03-13,1941-05-06,1941-05-06,16,0,18,0,0,0,0,18,2,1,37.5
+327,"KINGSBRIDGE, URBAN DISTRICT",uk,Kingsbridge,urban district,England,0,0,50.2838,-3.777,OS Open Names: Kingsbridge,18,1942-09-09,1943-02-25,1943-01-02,13,0,0,18,0,0,0,17,3,3,38
+328,"RUGBY, MUNICIPAL BOROUGH",uk,Rugby,municipal borough,England,0,0,52.3722,-1.2627,OS Open Names: Rugby,18,1940-11-15,1944-06-26,1941-01-09,6,0,16,1,0,1,0,18,2,6,40.0
+329,S.S. CITY OF CAIRO,sea,S.S. City of Cairo,ship or air crash at sea,,0,0,,,,18,,,,0,0,0,18,0,0,0,18,0,4,48.5
+330,S.S. YORKSHIRE,sea,S.S. Yorkshire,ship or air crash at sea,,0,0,,,,18,,,,0,18,0,0,0,0,0,17,7,0,19
+331,"SITTINGBOURNE AND MILTON, URBAN DISTRICT",uk,Sittingbourne and Milton,urban district,England,0,0,51.34,0.7358,OS Open Names: Sittingbourne,18,1940-08-18,1946-06-07,1940-09-29,6,1,16,0,0,0,1,16,4,5,36.0
+332,"STROOD, RURAL DISTRICT",uk,Strood,rural district,England,0,0,51.3957,0.4953,OS Open Names: Strood,18,1940-10-26,1945-02-19,1941-03-05,7,0,11,3,3,1,0,18,0,5,51.0
+333,"SWANAGE, URBAN DISTRICT",uk,Swanage,urban district,England,0,0,50.6081,-1.9563,OS Open Names: Swanage,18,1942-04-20,1943-02-04,1942-08-17,8,0,0,18,0,0,0,17,0,4,51
+334,"UCKFIELD, RURAL DISTRICT",uk,Uckfield,rural district,England,0,0,50.9695,0.0959,OS Open Names: Uckfield,18,1940-07-17,1944-07-22,1940-10-25,3,3,11,1,0,3,0,18,2,5,49.0
+335,"VENTNOR, URBAN DISTRICT",uk,Ventnor,urban district,England,0,0,50.595,-1.2059,OS Open Names: Ventnor,18,1942-01-06,1943-06-01,1943-01-17,5,0,0,18,0,0,0,18,0,8,54.0
+336,"ATHERSTONE, RURAL DISTRICT",uk,Atherstone,rural district,England,0,0,52.5772,-1.5464,OS Open Names: Atherstone,17,1941-06-05,1941-06-05,1941-06-05,17,0,0,17,0,0,0,17,6,2,30
+337,"FLAXTON, RURAL DISTRICT",uk,Flaxton,rural district,England,0,0,54.0567,-0.968,OS Open Names: Flaxton,17,1942-04-29,1945-03-23,1942-04-29,12,0,0,16,0,1,0,16,4,3,37.5
+338,"HEDON, MUNICIPAL BOROUGH, YORKSHIRE",uk,Hedon,municipal borough,England,0,0,53.7395,-0.1988,OS Open Names: Hedon,17,1941-05-08,1943-08-18,1941-05-08,11,0,11,6,0,0,0,17,4,2,44
+339,"LITTLEHAMPTON, URBAN DISTRICT",uk,Littlehampton,urban district,England,0,0,50.8092,-0.5406,OS Open Names: Littlehampton,17,1940-09-14,1945-02-17,1942-07-18,7,0,1,13,0,3,0,17,4,2,48
+340,"MAGOR AND ST. MELLONS, RURAL DISTRICT",uk,Magor and St. Mellons,rural district,Wales,0,0,51.5797,-2.8313,OS Open Names: Magor,17,1941-05-31,1941-10-07,1941-10-07,10,0,0,17,0,0,0,17,2,4,55
+341,"NEWHAVEN, URBAN DISTRICT",uk,Newhaven,urban district,England,0,0,50.7935,0.0471,OS Open Names: Newhaven,17,1940-07-03,1942-03-23,1940-12-11,11,2,13,2,0,0,0,16,3,1,39.0
+342,"PENRYN, MUNICIPAL BOROUGH",uk,Penryn,municipal borough,England,0,0,50.1682,-5.1031,OS Open Names: Penryn,17,1941-05-13,1941-05-13,1941-05-13,17,0,17,0,0,0,0,17,5,4,37
+343,S.S. NERISSA,sea,S.S. Nerissa,ship or air crash at sea,,0,0,,,,17,,,,0,0,17,0,0,0,0,17,4,0,35
+344,"ST. HELENS, COUNTY BOROUGH",uk,St. Helens,county borough,England,0,0,53.4553,-2.7382,OS Open Names: St Helens,17,1940-09-05,1945-06-12,1940-09-06,5,9,3,2,0,0,3,16,1,5,47.5
+345,"SUNDERLAND, RURAL DISTRICT",uk,Sunderland,rural district,England,0,0,54.9022,-1.3838,OS Open Names: Sunderland,17,1940-08-16,1944-03-31,1941-10-21,7,1,0,15,1,0,0,17,1,1,26
+346,"TORPOINT, URBAN DISTRICT",uk,Torpoint,urban district,England,0,0,50.3765,-4.1972,OS Open Names: Torpoint,17,1941-04-02,1943-04-26,1941-04-23,8,0,16,1,0,0,0,16,3,2,39.5
+347,"WOKING, URBAN DISTRICT",uk,Woking,urban district,England,0,0,51.3184,-0.5581,OS Open Names: Woking,17,1940-09-16,1944-10-05,1940-09-16,1,0,14,1,0,2,0,16,1,7,55.0
+348,"WOLVERHAMPTON, COUNTY BOROUGH",uk,Wolverhampton,county borough,England,0,0,52.5862,-2.1299,OS Open Names: Wolverhampton,17,1940-08-20,1944-09-29,1942-07-31,8,2,2,12,0,1,0,17,4,1,35
+349,"ALNWICK, RURAL DISTRICT",uk,Alnwick,rural district,England,0,0,55.4116,-1.7056,OS Open Names: Alnwick,16,1941-01-28,1943-12-01,1941-11-08,5,0,2,14,0,0,0,15,5,3,34
+350,"BENTLY WITH ARKSEY, URBAN DISTRICT",uk,Bently With Arksey,urban district,England,0,0,53.5462,-1.1465,OS Open Names: Bentley,16,1940-12-21,1940-12-21,1940-12-21,16,0,16,0,0,0,0,16,4,3,36.5
+351,"BOSTON, MUNICIPAL BOROUGH",uk,Boston,municipal borough,England,0,0,52.9763,-0.0272,OS Open Names: Boston,16,1941-06-12,1945-07-30,1941-06-12,9,0,0,14,0,1,1,16,5,4,23.0
+352,"BROMSGROVE, URBAN DISTRICT",uk,Bromsgrove,urban district,England,0,0,52.3352,-2.0593,OS Open Names: Bromsgrove,16,1940-11-23,1942-09-10,1941-04-10,2,0,8,8,0,0,0,16,1,3,45.0
+353,"CROMER, URBAN DISTRICT",uk,Cromer,urban district,England,0,0,52.9312,1.2989,OS Open Names: Cromer,16,1940-11-17,1942-10-19,1942-07-22,7,0,2,14,0,0,0,15,2,3,49
+354,"EGHAM, URBAN DISTRICT",uk,Egham,urban district,England,0,0,51.4314,-0.5495,OS Open Names: Egham,16,1940-10-13,1944-09-30,1941-01-09,6,0,13,0,2,1,0,16,7,0,25.0
+355,"ETON, RURAL DISTRICT",uk,Eton,rural district,England,0,0,51.4896,-0.6094,OS Open Names: Eton,16,1940-09-25,1944-06-17,1941-04-03,8,0,12,2,0,2,0,15,3,3,28
+356,H.M.S. GIANG BEE,sea,H.M.S. Giang Bee,ship or air crash at sea,,0,0,,,,16,,,,0,0,0,16,0,0,0,11,0,2,42
+357,M.V. GEORGIC,sea,M.V. Georgic,ship or air crash at sea,,0,0,,,,16,,,,0,0,0,16,0,0,0,6,2,2,39.5
+358,M.V. STENTOR,sea,M.V. Stentor,ship or air crash at sea,,0,0,,,,16,,,,0,0,0,16,0,0,0,16,0,0,43.0
+359,"PAIGNTON, URBAN DISTRICT",uk,Paignton,urban district,England,0,0,50.436,-3.5678,OS Open Names: Paignton,16,1941-04-12,1943-11-16,1942-09-04,13,0,2,14,0,0,0,16,1,5,46.5
+360,"RENFREW COUNTY, SCOTLAND",uk,Renfrew,county,Scotland,0,0,,,,16,1941-03-14,1942-03-31,1941-05-07,8,0,14,2,0,0,0,15,3,3,53
+361,"SALCOMBE, URBAN DISTRICT",uk,Salcombe,urban district,England,0,0,50.2377,-3.7673,OS Open Names: Salcombe,16,1942-08-13,1943-03-30,1942-09-08,8,0,0,16,0,0,0,15,5,5,37
+362,SOLOMON ISLANDS,overseas,Solomon Islands,overseas,,0,0,,,,16,,,,0,0,0,0,0,15,1,0,0,0,
+363,"WREXHAM, RURAL DISTRICT, WALES",uk,Wrexham,rural district,Wales,0,0,53.0479,-2.9948,OS Open Names: Wrexham,16,1940-08-30,1943-06-07,1940-08-31,9,14,0,2,0,0,0,16,4,4,34.0
+364,"AXBRIDGE, RURAL DISTRICT",uk,Axbridge,rural district,England,0,0,51.2872,-2.8174,OS Open Names: Axbridge,15,1940-09-04,1944-03-28,1940-09-04,5,5,5,1,4,0,0,15,1,5,49
+365,"BRADFORD, COUNTY BOROUGH",uk,Bradford,county borough,England,0,0,53.7908,-1.7546,OS Open Names: Bradford,15,1940-09-01,1947-10-29,1941-05-05,3,1,3,6,1,0,4,13,1,4,50
+366,"DENTON, URBAN DISTRICT",uk,Denton,urban district,England,0,0,53.4562,-2.1138,OS Open Names: Denton,15,1940-12-16,1941-10-12,1941-10-12,14,0,1,14,0,0,0,15,0,5,53
+367,"ELHAM, RURAL DISTRICT",uk,Elham,rural district,England,0,0,51.154,1.1115,OS Open Names: Elham,15,1940-08-12,1940-09-07,1940-08-30,6,9,6,0,0,0,0,15,0,5,55
+368,"FIFE COUNTY, SCOTLAND",uk,Fife,county,Scotland,0,0,,,,15,1940-06-30,1944-09-14,1941-01-23,4,1,6,6,1,1,0,15,4,1,38
+369,"HORSHAM, RURAL DISTRICT",uk,Horsham,rural district,England,0,0,51.0621,-0.3281,OS Open Names: Horsham,15,1940-09-09,1945-06-16,1944-07-10,7,0,4,3,0,7,1,15,0,5,42
+370,"LOUTH, MUNICIPAL BOROUGH",uk,Louth,municipal borough,England,0,0,53.3671,-0.0039,OS Open Names: Louth,15,1941-02-19,1943-08-25,1941-02-19,7,0,7,8,0,0,0,14,2,4,41.5
+371,"MALDON, MUNICIPAL BOROUGH",uk,Maldon,municipal borough,England,0,0,51.7315,0.6784,OS Open Names: Maldon,15,1942-05-30,1943-05-16,1942-05-30,8,0,0,15,0,0,0,15,1,6,47
+372,"NEWBURY, MUNICIPAL BOROUGH",uk,Newbury,municipal borough,England,0,0,51.4003,-1.3231,OS Open Names: Newbury,15,1943-02-10,1943-02-10,1943-02-10,15,0,0,15,0,0,0,15,3,7,54
+373,"ROSS AND WHITCHURCH, RURAL DISTRICT",uk,Ross and Whitchurch,rural district,England,0,0,51.9139,-2.5837,OS Open Names: Ross-on-Wye,15,1942-06-07,1942-07-27,1942-07-27,11,0,0,15,0,0,0,15,0,0,40
+374,S.S. LACONIA,sea,S.S. Laconia,ship or air crash at sea,,0,0,,,,15,,,,0,0,0,15,0,0,0,13,4,0,26
+375,"SHERINGHAM, URBAN DISTRICT",uk,Sheringham,urban district,England,0,0,52.9435,1.211,OS Open Names: Sheringham,15,1940-09-22,1942-07-27,1942-07-27,9,0,1,14,0,0,0,14,1,5,53.0
+376,"SWALE, RURAL DISTRICT",uk,Swale,rural district,England,0,0,51.3153,0.8918,OS Open Names: Faversham,15,1940-10-04,1944-10-24,1944-08-16,4,0,4,2,1,8,0,15,0,4,55
+377,"TONBRIDGE, RURAL DISTRICT",uk,Tonbridge,rural district,England,0,0,51.1925,0.2722,OS Open Names: Tonbridge,15,1940-08-31,1944-08-20,1940-10-08,2,1,6,1,0,7,0,14,3,4,46.5
+378,"AMERSHAM, RURAL DISTRICT",uk,Amersham,rural district,England,0,0,51.6769,-0.6076,OS Open Names: Amersham,14,1940-10-14,1944-12-23,1940-11-16,4,0,7,1,1,5,0,13,1,6,37
+379,"BODMIN, MUNICIPAL BOROUGH",uk,Bodmin,municipal borough,England,0,0,50.4713,-4.7176,OS Open Names: Bodmin,14,1941-04-02,1942-08-07,1942-08-07,8,0,5,9,0,0,0,14,2,6,52.0
+380,"CHELMSFORD, RURAL DISTRICT",uk,Chelmsford,rural district,England,0,0,51.7371,0.4736,OS Open Names: Chelmsford,14,1940-10-30,1945-02-18,1943-05-14,7,0,4,8,0,2,0,14,0,9,73.5
+381,COUNTRY CRAFT MAJLIS,sea,Country Craft Majlis,ship or air crash at sea,,0,0,,,,14,,,,0,0,0,14,0,0,0,14,1,0,30.0
+382,"FAILSWORTH, URBAN DISTRICT",uk,Failsworth,urban district,England,0,0,53.5086,-2.163,OS Open Names: Failsworth,14,1940-11-07,1940-11-28,1940-11-28,13,0,14,0,0,0,0,14,3,2,34.0
+383,"GUILDFORD, RURAL DISTRICT",uk,Guildford,rural district,England,0,0,51.2394,-0.5759,OS Open Names: Guildford,14,1940-08-16,1944-08-21,1944-08-21,4,1,3,2,0,8,0,14,2,3,38.5
+384,"HUYTON-WITH-ROBY, URBAN DISTRICT",uk,Huyton-With-Roby,urban district,England,0,0,53.4151,-2.8363,OS Open Names: Huyton,14,1940-06-25,1941-05-04,1941-05-04,10,1,13,0,0,0,0,14,2,2,37.0
+385,"OXFORD, COUNTY BOROUGH",uk,Oxford,county borough,England,0,0,51.752,-1.2576,OS Open Names: Oxford,14,1939-09-25,1945-01-09,1940-08-16,3,5,1,5,0,3,0,12,3,2,31.5
+386,S.S. AVILA STAR,sea,S.S. Avila Star,ship or air crash at sea,,0,0,,,,14,,,,0,0,0,14,0,0,0,14,0,2,33.0
+387,S.S. KEMMENDINE,sea,S.S. Kemmendine,ship or air crash at sea,,0,0,,,,14,,,,0,0,14,0,0,0,0,9,5,0,7
+388,"ST. ANDREWS, BURGH OF, SCOTLAND",uk,St. Andrews,burgh of,Scotland,0,0,56.3394,-2.795,OS Open Names: St Andrews,14,1940-10-25,1942-08-13,1942-08-06,10,0,1,13,0,0,0,14,3,3,43.5
+389,"WINCANTON, RURAL DISTRICT",uk,Wincanton,rural district,England,0,0,51.0561,-2.4113,OS Open Names: Wincanton,14,1940-11-27,1944-05-15,1942-09-05,9,0,1,12,1,0,0,14,1,1,45.0
+390,"BASINGSTOKE, MUNICIPAL BOROUGH",uk,Basingstoke,municipal borough,England,0,0,51.2677,-1.0883,OS Open Names: Basingstoke,13,1940-08-16,1944-02-23,1940-08-16,10,10,2,0,1,0,0,13,2,2,37
+391,"BEDFORD, MUNICIPAL BOROUGH",uk,Bedford,municipal borough,England,0,0,52.1368,-0.4685,OS Open Names: Bedford,13,1942-07-30,1944-02-21,1942-07-30,8,0,0,12,1,0,0,13,5,1,33
+392,"BURTON-UPON-TRENT, COUNTY BOROUGH",uk,Burton upon Trent,county borough,England,0,0,52.8074,-1.6448,OS Open Names: Burton upon Trent,13,1940-08-30,1945-06-20,1945-04-16,5,5,0,0,0,2,6,11,1,4,58
+393,CANADA,overseas,Canada,overseas,,0,0,,,,13,,,,0,0,0,3,10,0,0,10,2,0,35.5
+394,"CLACTON, URBAN DISTRICT",uk,Clacton,urban district,England,0,0,51.7899,1.1535,OS Open Names: Clacton-on-Sea,13,1940-04-30,1945-03-12,1941-03-07,3,2,6,4,0,1,0,13,1,3,52
+395,CYPRUS,overseas,Cyprus,overseas,,0,0,,,,13,,,,0,0,1,11,0,1,0,8,0,2,39.0
+396,"HINCKLEY, URBAN DISTRICT",uk,Hinckley,urban district,England,0,0,52.541,-1.3738,OS Open Names: Hinckley,13,1940-03-21,1941-05-17,1941-05-17,12,1,0,12,0,0,0,13,1,2,32
+397,"KERRIER, RURAL DISTRICT",uk,Kerrier,rural district,England,0,0,50.1009,-5.2745,OS Open Names: Helston,13,1940-08-08,1944-07-23,1942-08-17,4,1,2,9,0,1,0,12,3,2,42.0
+398,"PENARTH, URBAN DISTRICT, WALES",uk,Penarth,urban district,Wales,0,0,51.4366,-3.174,OS Open Names: Penarth,13,1941-01-02,1945-10-02,1941-03-04,5,0,11,1,0,0,1,12,0,5,56.5
+399,"PENZANCE, MUNICIPAL BOROUGH",uk,Penzance,municipal borough,England,0,0,50.1184,-5.5393,OS Open Names: Penzance,13,1940-11-07,1942-09-26,1941-06-08,7,0,3,10,0,0,0,12,3,5,55.0
+400,"RUSHDEN, URBAN DISTRICT",uk,Rushden,urban district,England,0,0,52.2908,-0.5979,OS Open Names: Rushden,13,1940-10-03,1942-08-03,1940-10-03,8,0,11,2,0,0,0,13,7,1,15
+401,"SKEGNESS, URBAN DISTRICT",uk,Skegness,urban district,England,0,0,53.1445,0.3362,OS Open Names: Skegness,13,1940-08-23,1944-06-11,1942-07-27,5,2,3,7,1,0,0,13,4,3,44
+402,"ST. FAITH'S AND AYLSHAM, RURAL DISTRICT",uk,St. Faith's and Aylsham,rural district,England,0,0,52.795,1.2511,OS Open Names: Aylsham,13,1940-07-09,1944-09-21,1940-07-09,3,3,3,6,0,1,0,13,0,7,64
+403,"WAKEFIELD, COUNTY BOROUGH",uk,Wakefield,county borough,England,0,0,53.6837,-1.4982,OS Open Names: Wakefield,13,1941-03-14,1943-10-17,1941-03-14,5,0,6,7,0,0,0,13,2,4,37
+404,"WHITSTABLE, URBAN DISTRICT",uk,Whitstable,urban district,England,0,0,51.3585,1.0247,OS Open Names: Whitstable,13,1940-08-13,1946-04-28,1940-09-10,3,2,4,3,2,1,1,13,1,6,55
+405,"WICK, BURGH OF, SCOTLAND",uk,Wick,burgh of,Scotland,0,0,58.4427,-3.0919,OS Open Names: Wick,13,1940-07-01,1941-04-25,1940-07-01,10,10,3,0,0,0,0,13,4,1,20
+406,"WILLENHALL, URBAN DISTRICT",uk,Willenhall,urban district,England,0,0,52.5831,-2.0543,OS Open Names: Willenhall,13,1940-11-21,1942-07-31,1940-11-21,11,0,11,2,0,0,0,13,4,0,22
+407,"WINSLOW, RURAL DISTRICT",uk,Winslow,rural district,England,0,0,51.9412,-0.8815,OS Open Names: Winslow,13,1943-08-07,1943-08-07,1943-08-07,13,0,0,13,0,0,0,12,2,2,47.5
+408,"ABERDEEN COUNTY, SCOTLAND",uk,Aberdeen,county,Scotland,0,0,,,,12,1940-09-23,1945-05-26,1941-04-02,2,0,3,7,0,1,1,12,6,2,24.0
+409,"BISHOP'S STORTFORD, URBAN DISTRICT",uk,Bishop's Stortford,urban district,England,0,0,51.8706,0.1606,OS Open Names: Bishop'S Stortford,12,1940-10-11,1944-09-02,1940-10-11,4,0,9,0,0,3,0,12,0,4,48.5
+410,"BLOFIELD AND FLEGG, RURAL DISTRICT",uk,Blofield and Flegg,rural district,England,0,0,52.6345,1.4479,OS Open Names: Blofield,12,1940-01-30,1943-05-11,1941-04-01,2,1,4,7,0,0,0,12,1,1,48.0
+411,"CHESTERFIELD, RURAL DISTRICT",uk,Chesterfield,rural district,England,0,0,53.2363,-1.4292,OS Open Names: Chesterfield,12,1941-03-15,1943-02-20,1941-03-15,11,0,11,1,0,0,0,10,0,0,27.5
+412,"COSFORD, RURAL DISTRICT",uk,Cosford,rural district,England,0,0,52.0431,0.9544,OS Open Names: Hadleigh,12,1941-05-12,1944-10-12,1941-05-12,10,0,10,0,0,2,0,10,1,6,68.5
+413,"DARLASTON, URBAN DISTRICT",uk,Darlaston,urban district,England,0,0,52.5689,-2.0333,OS Open Names: Darlaston,12,1941-06-05,1942-07-31,1941-06-05,11,0,0,12,0,0,0,11,1,2,41
+414,"EPPING, RURAL DISTRICT",uk,Epping,rural district,England,0,0,51.6983,0.1106,OS Open Names: Epping,12,1940-09-03,1944-11-12,1944-11-12,10,1,1,0,0,10,0,11,5,1,20
+415,GIBRALTAR,overseas,Gibraltar,overseas,,0,0,,,,12,,,,0,5,7,0,0,0,0,12,2,2,41.0
+416,"HALIFAX, COUNTY BOROUGH",uk,Halifax,county borough,England,0,0,53.7228,-1.8602,OS Open Names: Halifax,12,1940-11-22,1944-09-14,1940-11-22,7,0,11,0,0,1,0,12,0,6,55.5
+417,"HAMBLEDON, RURAL DISTRICT",uk,Hambledon,rural district,England,0,0,50.9314,-1.081,OS Open Names: Hambledon,12,1940-10-23,1944-09-27,1940-10-23,5,0,5,3,0,4,0,11,1,2,41
+418,JAPAN,overseas,Japan,overseas,,0,0,,,,12,,,,0,1,0,4,3,3,1,1,0,0,30
+419,"LONG ASHTON, RURAL DISTRICT",uk,Long Ashton,rural district,England,0,0,51.4296,-2.6624,OS Open Names: Long Ashton,12,1940-12-19,1943-05-22,1941-04-12,4,0,9,3,0,0,0,12,4,3,33.0
+420,"MAIDSTONE, RURAL DISTRICT",uk,Maidstone,rural district,England,0,0,51.273,0.5206,OS Open Names: Maidstone,12,1940-09-15,1945-06-28,1941-02-04,4,0,8,2,0,1,1,12,2,0,41.0
+421,"NEATH, MUNICIPAL BOROUGH, WALES",uk,Neath,municipal borough,Wales,0,0,51.6642,-3.8034,OS Open Names: Neath,12,1940-08-13,1945-07-03,1940-08-20,5,8,2,1,0,0,1,12,1,2,42.0
+422,"RAYLEIGH, URBAN DISTRICT",uk,Rayleigh,urban district,England,0,0,51.5867,0.6062,OS Open Names: Rayleigh,12,1943-04-15,1944-11-15,1943-04-15,5,0,0,5,0,7,0,12,4,3,37.5
+423,"ROSEHEARTY, BURGH OF, SCOTLAND",uk,Rosehearty,burgh of,Scotland,0,0,57.6967,-2.1145,OS Open Names: Rosehearty,12,1942-01-29,1942-01-29,1942-01-29,12,0,0,12,0,0,0,12,7,2,12.5
+424,S.S. CALIFORNIA,sea,S.S. California,ship or air crash at sea,,0,0,,,,12,,,,0,0,0,12,0,0,0,12,0,0,38.5
+425,S.S. EMPIRE CITIZEN,sea,S.S. Empire Citizen,ship or air crash at sea,,0,0,,,,12,,,,0,0,12,0,0,0,0,12,0,0,36.0
+426,"ST. ALBANS, MUNICIPAL BOROUGH",uk,St. Albans,municipal borough,England,0,0,51.7523,-0.3391,OS Open Names: St Albans,12,1940-09-13,1944-04-02,1940-11-15,3,0,10,1,1,0,0,12,2,3,35.0
+427,"ST. IVES, RURAL DISTRICT",uk,St. Ives,rural district,England,0,0,50.2114,-5.4808,OS Open Names: St Ives,12,1942-10-05,1943-11-26,1942-10-05,10,0,0,12,0,0,0,10,1,5,55.0
+428,"THORNBURY, RURAL DISTRICT",uk,Thornbury,rural district,England,0,0,51.6094,-2.526,OS Open Names: Thornbury,12,1940-09-27,1946-01-05,1940-09-27,3,0,6,5,0,0,1,11,2,3,33
+429,"UNDIVIDED INDIA, MADRAS PROVINCE",overseas,"Undivided India, Madras Province",overseas,,0,0,,,,12,,,,0,0,0,11,0,0,1,12,0,1,33.0
+430,"URMSTON, URBAN DISTRICT",uk,Urmston,urban district,England,0,0,53.4576,-2.3578,OS Open Names: Urmston,12,1940-12-23,1943-08-07,1940-12-23,5,0,11,1,0,0,0,12,1,2,46.5
+431,"WIDNES, MUNICIPAL BOROUGH",uk,Widnes,municipal borough,England,0,0,53.3621,-2.7341,OS Open Names: Widnes,12,1940-09-05,1941-11-09,1941-10-20,7,4,0,8,0,0,0,12,2,1,26.0
+432,"WORTLEY, RURAL DISTRICT",uk,Wortley,rural district,England,0,0,53.4828,-1.5948,OS Open Names: Stocksbridge,12,1940-12-14,1941-03-20,1940-12-24,3,0,12,0,0,0,0,12,0,6,58.0
+433,"BANSTEAD, URBAN DISTRICT",uk,Banstead,urban district,England,0,0,51.3219,-0.2046,OS Open Names: Banstead,11,1940-11-20,1944-11-02,1940-11-20,3,0,3,0,1,7,0,11,1,5,48
+434,"BUCKHAVEN AND METHIL, BURGH OF, SCOTLAND",uk,Buckhaven and Methil,burgh of,Scotland,0,0,56.1865,-3.0199,OS Open Names: Methil,11,1940-05-07,1941-06-04,1941-06-02,8,1,0,10,0,0,0,11,8,0,14
+435,"DUNMOW, RURAL DISTRICT",uk,Dunmow,rural district,England,0,0,51.8712,0.3638,OS Open Names: Great Dunmow,11,1940-08-16,1941-01-02,1940-12-09,7,3,8,0,0,0,0,11,2,4,52
+436,"FRINTON AND WALTON, URBAN DISTRICT",uk,Frinton and Walton,urban district,England,0,0,51.8324,1.2453,OS Open Names: Frinton-on-Sea,11,1941-06-28,1946-05-27,1943-03-14,4,0,0,9,0,1,1,11,0,7,66
+437,"HARWICH, MUNICIPAL BOROUGH",uk,Harwich,municipal borough,England,0,0,51.9464,1.2873,OS Open Names: Harwich,11,1941-02-25,1945-12-23,1941-05-03,3,0,7,3,0,0,1,11,3,1,23
+438,"HOLDERNESS, RURAL DISTRICT",uk,Holderness,rural district,England,0,0,53.7395,-0.1988,OS Open Names: Hedon,11,1941-08-31,1946-03-17,1941-08-31,3,0,0,10,0,0,1,11,2,3,45
+439,"HYDE, MUNICIPAL BOROUGH",uk,Hyde,municipal borough,England,0,0,53.4513,-2.0798,OS Open Names: Hyde,11,1940-12-22,1944-12-24,1940-12-22,8,0,9,0,0,2,0,11,2,4,44
+440,JERSEY,crown,Jersey,Crown dependency,,0,0,,,,11,,,,0,10,1,0,0,0,0,8,0,3,55.5
+441,"LOSSIEMOUTH, BURGH OF, SCOTLAND",uk,Lossiemouth,burgh of,Scotland,0,0,57.7222,-3.2816,OS Open Names: Lossiemouth,11,1941-07-12,1945-05-20,1945-05-20,7,0,0,4,0,0,7,11,4,5,37
+442,"ROCHFORD, RURAL DISTRICT",uk,Rochford,rural district,England,0,0,51.5823,0.7072,OS Open Names: Rochford,11,1940-08-28,1945-06-23,1942-04-01,2,1,1,5,0,3,1,11,4,2,33
+443,S.S. VILLE DE TAMATAVE,sea,S.S. Ville De Tamatave,ship or air crash at sea,,0,0,,,,11,,,,0,0,0,11,0,0,0,11,1,1,27
+444,"SOUTH WESTMORLAND, RURAL DISTRICT",uk,South Westmorland,rural district,England,0,0,54.3304,-2.7474,OS Open Names: Kendal,11,1941-04-16,1941-04-16,1941-04-16,11,0,11,0,0,0,0,11,3,4,42
+445,"WINDSOR, MUNICIPAL BOROUGH",uk,Windsor,municipal borough,England,0,0,51.4798,-0.6105,OS Open Names: Windsor,11,1940-10-13,1944-08-30,1941-02-19,4,0,9,1,0,1,0,11,0,3,35
+446,"WITHERNSEA, URBAN DISTRICT",uk,Withernsea,urban district,England,0,0,53.7314,0.0314,OS Open Names: Withernsea,11,1942-07-24,1942-07-24,1942-07-24,11,0,0,11,0,0,0,10,3,2,33.0
+447,"BARRY, MUNICIPAL BOROUGH, WALES",uk,Barry,municipal borough,Wales,0,0,51.4035,-3.2727,OS Open Names: Barry,10,1939-11-15,1944-06-25,1941-04-30,4,2,4,3,0,1,0,10,1,0,37.5
+448,"BILLINGHAM, URBAN DISTRICT",uk,Billingham,urban district,England,0,0,54.6075,-1.2961,OS Open Names: Billingham,10,1941-05-07,1942-09-07,1942-07-08,6,0,2,8,0,0,0,10,2,1,37.5
+449,"CUCKFIELD, RURAL DISTRICT",uk,Cuckfield,rural district,England,0,0,51.0077,-0.1416,OS Open Names: Cuckfield,10,1940-10-03,1943-03-12,1940-10-03,5,0,7,3,0,0,0,8,0,6,66.5
+450,"GOUROCK, BURGH OF, SCOTLAND",uk,Gourock,burgh of,Scotland,0,0,55.9613,-4.8186,OS Open Names: Gourock,10,1940-10-24,1941-10-24,1940-10-24,5,0,8,2,0,0,0,9,1,3,43
+451,"LONDONDERRY, RURAL DISTRICT, N. IRELAND",uk,Londonderry,rural district,Northern Ireland,0,0,54.9917,-7.3417,Wikidata Q163584,10,1941-04-16,1941-04-16,1941-04-16,10,0,10,0,0,0,0,10,2,1,41.5
+452,M.V. ABOSSO,sea,M.V. Abosso,ship or air crash at sea,,0,0,,,,10,,,,0,0,0,10,0,0,0,9,0,3,28
+453,"MABLETHORPE AND SUTTON, URBAN DISTRICT",uk,Mablethorpe and Sutton,urban district,England,0,0,53.3412,0.2595,OS Open Names: Mablethorpe,10,1943-01-06,1944-10-18,1943-01-06,9,0,0,9,0,1,0,10,4,0,24.5
+454,NAURU,overseas,Nauru,overseas,,0,0,,,,10,,,,0,0,0,9,0,1,0,0,0,0,
+455,"NORTHAMPTON, COUNTY BOROUGH",uk,Northampton,county borough,England,0,0,52.2379,-0.8951,OS Open Names: Northampton,10,1940-08-27,1942-08-06,1940-10-03,2,1,6,3,0,0,0,10,3,3,36.5
+456,"RENFREW, BURGH OF, SCOTLAND",uk,Renfrew,burgh of,Scotland,0,0,55.8799,-4.3853,OS Open Names: Renfrew,10,1941-03-13,1947-04-08,1941-03-14,5,0,9,0,0,0,1,10,1,1,37.5
+457,"RYE, MUNICIPAL BOROUGH",uk,Rye,municipal borough,England,0,0,50.9511,0.7336,OS Open Names: Rye,10,1940-08-18,1944-07-03,1942-09-22,4,2,0,7,0,1,0,10,0,3,53.0
+458,"SEATON, URBAN DISTRICT",uk,Seaton,urban district,England,0,0,50.7056,-3.0719,OS Open Names: Seaton,10,1942-08-12,1942-10-26,1942-08-12,5,0,0,10,0,0,0,10,2,5,58.5
+459,"SPILSBY, RURAL DISTRICT",uk,Spilsby,rural district,England,0,0,53.1737,0.0979,OS Open Names: Spilsby,10,1940-11-09,1945-03-04,1943-01-10,3,0,4,4,0,2,0,10,1,2,48.5
+460,"WEST ASHFORD, RURAL DISTRICT",uk,West Ashford,rural district,England,0,0,51.1484,0.8711,OS Open Names: Ashford,10,1943-09-15,1944-08-29,1944-06-24,4,0,0,1,0,9,0,8,2,3,44.5
+461,"WHISTON, RURAL DISTRICT",uk,Whiston,rural district,England,0,0,53.4168,-2.795,OS Open Names: Whiston,10,1940-08-30,1946-01-03,1940-08-30,2,2,4,1,0,2,1,10,0,1,43.0
+462,"ZETLAND COUNTY, SCOTLAND",uk,Zetland,county,Scotland,0,0,,,,10,1941-02-09,1946-06-05,1941-05-19,3,0,2,6,1,0,1,10,2,0,43.0
+463,"BOLDON, URBAN DISTRICT",uk,Boldon,urban district,England,0,0,54.9442,-1.4316,OS Open Names: East Boldon,9,1941-04-08,1943-03-12,1943-03-12,5,0,2,7,0,0,0,9,0,2,28
+464,"BRIDGWATER, MUNICIPAL BOROUGH",uk,Bridgwater,municipal borough,England,0,0,51.1278,-3.0064,OS Open Names: Bridgwater,9,1940-08-25,1943-02-02,1940-08-25,7,7,1,1,0,0,0,9,2,3,36
+465,"CAITHNESS COUNTY, SCOTLAND",uk,Caithness,county,Scotland,0,0,,,,9,1940-07-02,1942-11-25,1940-07-02,2,4,4,1,0,0,0,9,6,1,10
+466,"CRANBROOK, RURAL DISTRICT",uk,Cranbrook,rural district,England,0,0,51.0964,0.5348,OS Open Names: Cranbrook,9,1940-11-16,1944-08-08,1944-06-17,3,0,1,2,0,6,0,9,1,4,47
+467,"DROXFORD, RURAL DISTRICT",uk,Droxford,rural district,England,0,0,50.9608,-1.1392,OS Open Names: Droxford,9,1940-11-17,1944-03-28,1941-06-22,6,0,2,6,1,0,0,8,1,1,40.5
+468,"DUNDEE CITY, SCOTLAND",uk,Dundee,city,Scotland,0,0,56.4584,-2.9737,OS Open Names: Dundee,9,1939-10-03,1944-04-24,1940-11-05,3,1,4,3,1,0,0,8,0,4,59.0
+469,"ERPINGHAM, RURAL DISTRICT",uk,Erpingham,rural district,England,0,0,52.795,1.2511,OS Open Names: Aylsham,9,1940-10-29,1947-04-05,1940-10-29,2,0,3,5,0,0,1,8,3,1,40.0
+470,H.M.S. VYNER BROOKE,sea,H.M.S. Vyner Brooke,ship or air crash at sea,,0,0,,,,9,,,,0,0,0,9,0,0,0,1,0,0,34
+471,"HALTEMPRICE, URBAN DISTRICT",uk,Haltemprice,urban district,England,0,0,53.7808,-0.414,OS Open Names: Cottingham,9,1940-08-16,1941-09-01,1941-05-08,2,1,4,4,0,0,0,9,1,2,30
+472,"KINGSBRIDGE, RURAL DISTRICT",uk,Kingsbridge,rural district,England,0,0,50.2838,-3.777,OS Open Names: Kingsbridge,9,1942-07-26,1943-02-16,1942-07-26,6,0,0,9,0,0,0,7,3,0,23
+473,"LLANELLI, RURAL DISTRICT, WALES",uk,Llanelli,rural district,Wales,0,0,51.6821,-4.1637,OS Open Names: Llanelli,9,1940-07-10,1943-08-09,1940-07-10,7,7,0,2,0,0,0,9,2,0,31
+474,M.V. ACCRA,sea,M.V. Accra,ship or air crash at sea,,0,0,,,,9,,,,0,9,0,0,0,0,0,8,0,0,45.0
+475,"MARYPORT, URBAN DISTRICT",uk,Maryport,urban district,England,0,0,54.7144,-3.4995,OS Open Names: Maryport,9,1940-07-21,1943-05-31,1940-07-21,7,7,0,2,0,0,0,8,0,4,59.5
+476,"MELTON AND BELVOIR, RURAL DISTRICT",uk,Melton and Belvoir,rural district,England,0,0,52.7664,-0.8881,OS Open Names: Melton Mowbray,9,1940-11-23,1944-08-08,1940-11-23,4,0,4,2,0,3,0,9,5,2,12
+477,"MONTROSE, BURGH OF, SCOTLAND",uk,Montrose,burgh of,Scotland,0,0,56.7092,-2.4672,OS Open Names: Montrose,9,1940-07-18,1941-08-16,1941-08-16,4,3,1,5,0,0,0,9,1,2,33
+478,"ROMSEY AND STOCKBRIDGE, RURAL DISTRICT",uk,Romsey and Stockbridge,rural district,England,0,0,50.9891,-1.4998,OS Open Names: Romsey,9,1940-07-09,1943-01-23,1941-06-22,4,2,1,6,0,0,0,9,3,3,16
+479,S.S. TILAWA,sea,S.S. Tilawa,ship or air crash at sea,,0,0,,,,9,,,,0,0,0,9,0,0,0,4,1,0,29.5
+480,"SALTASH, MUNICIPAL BOROUGH",uk,Saltash,municipal borough,England,0,0,50.4087,-4.2118,OS Open Names: Saltash,9,1941-04-28,1941-04-29,1941-04-28,8,0,9,0,0,0,0,9,0,5,60
+481,"SELBY, URBAN DISTRICT",uk,Selby,urban district,England,0,0,53.7839,-1.0698,OS Open Names: Selby,9,1943-01-29,1944-05-10,1944-05-10,8,0,0,1,8,0,0,8,3,2,37.5
+482,"SOUTHWOLD, MUNICIPAL BOROUGH",uk,Southwold,municipal borough,England,0,0,52.3262,1.679,OS Open Names: Southwold,9,1943-05-15,1943-05-15,1943-05-15,9,0,0,9,0,0,0,9,1,3,45
+483,"ST. THOMAS, RURAL DISTRICT",uk,St. Thomas,rural district,England,0,0,50.7226,-3.5326,OS Open Names: Exeter,9,1942-04-23,1944-06-04,1942-04-23,4,0,0,8,1,0,0,9,0,7,68
+484,THAILAND,overseas,Thailand,overseas,,0,0,,,,9,,,,0,0,0,5,1,1,2,2,0,0,39.5
+485,"TIPTON, MUNICIPAL BOROUGH",uk,Tipton,municipal borough,England,0,0,52.5412,-2.0398,OS Open Names: Tipton,9,1940-11-19,1941-05-17,1941-05-17,6,0,3,6,0,0,0,9,2,2,42
+486,"TRURO, MUNICIPAL BOROUGH",uk,Truro,municipal borough,England,0,0,50.2633,-5.051,OS Open Names: Truro,9,1942-08-06,1944-05-18,1942-08-06,8,0,0,8,1,0,0,9,1,2,34
+487,"TRURO, RURAL DISTRICT",uk,Truro,rural district,England,0,0,50.2633,-5.051,OS Open Names: Truro,9,1941-11-13,1943-09-13,1941-11-13,3,0,0,9,0,0,0,9,5,0,13
+488,"WELLINGBOROUGH, RURAL DISTRICT",uk,Wellingborough,rural district,England,0,0,52.3022,-0.6921,OS Open Names: Wellingborough,9,1941-05-20,1941-05-20,1941-05-20,9,0,0,9,0,0,0,9,3,2,27
+489,"BANBURY, MUNICIPAL BOROUGH",uk,Banbury,municipal borough,England,0,0,52.0621,-1.3336,OS Open Names: Banbury,8,1940-10-03,1943-08-10,1940-10-03,5,0,6,2,0,0,0,8,2,2,41.5
+490,"BANGOR CITY, BOROUGH, WALES",uk,Bangor City,borough,Wales,0,0,53.228,-4.1282,OS Open Names: Bangor,8,1941-10-24,1945-03-12,1941-10-24,3,0,0,4,1,3,0,8,3,2,34.5
+491,"BEDWORTH, URBAN DISTRICT",uk,Bedworth,urban district,England,0,0,52.4785,-1.4719,OS Open Names: Bedworth,8,1940-11-14,1941-04-09,1940-11-14,7,0,8,0,0,0,0,8,3,1,34.5
+492,"BLAYDON, URBAN DISTRICT",uk,Blaydon,urban district,England,0,0,54.9647,-1.714,OS Open Names: Blaydon,8,1941-09-01,1944-12-05,1941-09-01,5,0,0,7,0,1,0,8,0,3,47.5
+493,"BLYTH, MUNICIPAL BOROUGH",uk,Blyth,municipal borough,England,0,0,55.1272,-1.5077,OS Open Names: Blyth,8,1941-02-24,1944-04-13,1944-04-13,3,0,3,2,3,0,0,7,0,2,43
+494,"CAMPBELTOWN, BURGH OF, SCOTLAND",uk,Campbeltown,burgh of,Scotland,0,0,55.4239,-5.6056,OS Open Names: Campbeltown,8,1940-11-06,1941-12-31,1940-11-06,3,0,6,2,0,0,0,7,0,2,35
+495,"DUDLEY, COUNTY BOROUGH",uk,Dudley,county borough,England,0,0,52.51,-2.0832,OS Open Names: Dudley,8,1940-11-20,1941-08-12,1940-12-21,2,0,7,1,0,0,0,8,0,0,20.0
+496,"GAINSBOROUGH, URBAN DISTRICT",uk,Gainsborough,urban district,England,0,0,53.4005,-0.774,OS Open Names: Gainsborough,8,1942-02-12,1945-03-04,1942-04-29,3,0,0,5,0,3,0,8,1,4,59.5
+497,"GATESHEAD, COUNTY BOROUGH",uk,Gateshead,county borough,England,0,0,54.9599,-1.605,OS Open Names: Gateshead,8,1941-05-04,1944-02-07,1941-08-15,3,0,1,6,1,0,0,7,2,2,16
+498,"GIPPING, RURAL DISTRICT",uk,Gipping,rural district,England,0,0,52.1557,1.05,OS Open Names: Needham Market,8,1940-09-13,1944-12-27,1941-08-31,2,0,2,5,0,1,0,7,0,3,59
+499,H.M. DRIFTER OCEAN REWARD,sea,H.M. Drifter Ocean Reward,ship or air crash at sea,,0,0,,,,8,,,,0,8,0,0,0,0,0,0,0,0,
+500,"HOLLINGBOURNE, RURAL DISTRICT",uk,Hollingbourne,rural district,England,0,0,51.2664,0.6413,OS Open Names: Hollingbourne,8,1940-08-13,1944-10-29,1940-10-12,3,2,5,0,0,1,0,8,0,1,52.5
+501,"HORSHAM, URBAN DISTRICT",uk,Horsham,urban district,England,0,0,51.0621,-0.3281,OS Open Names: Horsham,8,1940-09-10,1940-11-29,1940-11-29,7,0,8,0,0,0,0,8,3,1,22.5
+502,"HUDDERSFIELD, COUNTY BOROUGH",uk,Huddersfield,county borough,England,0,0,53.6443,-1.7822,OS Open Names: Huddersfield,8,1943-06-07,1946-04-11,1944-07-06,3,0,0,1,0,4,3,8,2,1,32.0
+503,"LLANELLI, BOROUGH, WALES",uk,Llanelli,borough,Wales,0,0,51.6821,-4.1637,OS Open Names: Llanelli,8,1940-07-10,1946-05-25,1940-07-10,3,4,1,1,0,1,1,8,0,2,50.5
+504,M.V. HENRY STANLEY,sea,M.V. Henry Stanley,ship or air crash at sea,,0,0,,,,8,,,,0,0,0,8,0,0,0,8,0,0,53.0
+505,M.V. SEAFORTH,sea,M.V. Seaforth,ship or air crash at sea,,0,0,,,,8,,,,0,0,8,0,0,0,0,8,0,0,36.5
+506,M.V. SIAMESE PRINCE,sea,M.V. Siamese Prince,ship or air crash at sea,,0,0,,,,8,,,,0,0,8,0,0,0,0,8,0,3,59.0
+507,"NORTH KESTEVEN, RURAL DISTRICT",uk,North Kesteven,rural district,England,0,0,52.9995,-0.4104,OS Open Names: Sleaford,8,1941-05-09,1944-07-27,1941-05-09,7,0,7,0,0,1,0,8,0,1,27.0
+508,"PORT TALBOT, MUNICIPAL BOROUGH, WALES",uk,Port Talbot,municipal borough,Wales,0,0,51.5958,-3.7837,OS Open Names: Port Talbot,8,1941-02-13,1945-07-05,1941-02-13,6,0,6,0,0,0,2,8,3,0,21.0
+509,"PRESTON, COUNTY BOROUGH",uk,Preston,county borough,England,0,0,53.7606,-2.6985,OS Open Names: Preston,8,1940-10-21,1947-12-23,1940-10-21,2,0,3,2,0,2,1,7,1,0,29
+510,S.S. CARIBOU,sea,S.S. Caribou,ship or air crash at sea,,0,0,,,,8,,,,0,0,0,8,0,0,0,3,2,0,4
+511,S.S. GLOUCESTER CASTLE,sea,S.S. Gloucester Castle,ship or air crash at sea,,0,0,,,,8,,,,0,0,0,8,0,0,0,8,2,0,26.5
+512,S.S. JONATHAN HOLT,sea,S.S. Jonathan Holt,ship or air crash at sea,,0,0,,,,8,,,,0,0,8,0,0,0,0,8,0,0,37.5
+513,"SHEPTON MALLET, RURAL DISTRICT",uk,Shepton Mallet,rural district,England,0,0,51.1898,-2.5473,OS Open Names: Shepton Mallet,8,1943-05-15,1943-05-15,1943-05-15,8,0,0,8,0,0,0,8,7,0,14.0
+514,"SHOREHAM BY SEA, URBAN DISTRICT",uk,Shoreham By Sea,urban district,England,0,0,50.8331,-0.2731,OS Open Names: Shoreham-by-Sea,8,1940-10-08,1942-08-27,1940-10-21,5,0,6,2,0,0,0,8,0,1,38.0
+515,"WINDSOR, RURAL DISTRICT",uk,Windsor,rural district,England,0,0,51.4798,-0.6105,OS Open Names: Windsor,8,1940-10-10,1944-08-09,1940-10-10,1,0,6,0,0,2,0,8,0,5,68.0
+516,"WORCESTER, COUNTY BOROUGH",uk,Worcester,county borough,England,0,0,52.1929,-2.2211,OS Open Names: Worcester,8,1940-10-03,1947-06-19,1940-10-03,7,0,7,0,0,0,1,8,0,3,50.5
+517,"WORTHING, RURAL DISTRICT",uk,Worthing,rural district,England,0,0,50.8143,-0.3712,OS Open Names: Worthing,8,1940-07-10,1945-05-20,1940-11-12,3,2,5,0,0,0,1,8,1,1,40.5
+518,"ANDOVER, RURAL DISTRICT",uk,Andover,rural district,England,0,0,51.2075,-1.4792,OS Open Names: Andover,7,1942-01-09,1944-07-15,1944-07-15,5,0,0,1,0,6,0,6,0,1,34.5
+519,"ANTRIM, RURAL DISTRICT, N. IRELAND",uk,Antrim,rural district,Northern Ireland,0,0,54.7173,-6.2055,Wikidata Q609235,7,1941-05-11,1941-07-19,1941-07-19,6,0,1,6,0,0,0,7,0,0,25
+520,"ARGYLL COUNTY, SCOTLAND",uk,Argyll,county,Scotland,0,0,,,,7,1941-09-01,1943-07-03,1943-07-03,4,0,0,7,0,0,0,6,0,0,34.5
+521,"AYLESBURY, RURAL DISTRICT",uk,Aylesbury,rural district,England,0,0,51.8171,-0.8107,OS Open Names: Aylesbury,7,1941-02-14,1944-09-28,1942-10-30,2,0,1,5,0,1,0,7,0,2,36
+522,"AYR COUNTY, SCOTLAND",uk,Ayr,county,Scotland,0,0,,,,7,1940-07-17,1944-09-23,1941-05-07,2,1,4,1,0,1,0,7,1,1,43
+523,"BIGGLESWADE, RURAL DISTRICT",uk,Biggleswade,rural district,England,0,0,52.0869,-0.2632,OS Open Names: Biggleswade,7,1940-10-13,1945-01-20,1941-03-23,2,0,3,0,1,3,0,7,0,6,72
+524,"BRIDPORT, MUNICIPAL BOROUGH",uk,Bridport,municipal borough,England,0,0,50.7336,-2.7584,OS Open Names: Bridport,7,1942-08-02,1947-05-21,1942-08-02,3,0,0,6,0,0,1,7,1,3,53
+525,EAST AFRICA,overseas,East Africa,overseas,,0,0,,,,7,,,,0,0,2,0,0,0,5,7,0,0,39
+526,"EAST LOTHIAN COUNTY, SCOTLAND",uk,East Lothian,county,Scotland,0,0,,,,7,1941-08-17,1944-10-22,1944-10-22,4,0,0,3,0,4,0,7,1,4,62
+527,"HARTLEY WINTNEY, RURAL DISTRICT",uk,Hartley Wintney,rural district,England,0,0,51.3057,-0.9011,OS Open Names: Hartley Wintney,7,1940-10-18,1944-07-04,1940-10-18,4,0,4,1,0,2,0,7,0,0,51
+528,"HEREFORD, MUNICIPAL BOROUGH",uk,Hereford,municipal borough,England,0,0,52.056,-2.7176,OS Open Names: Hereford,7,1942-07-27,1944-10-26,1944-05-30,2,0,0,4,2,1,0,7,0,0,41
+529,"ISLE OF WIGHT, RURAL DISTRICT",uk,Isle of Wight,rural district,England,0,0,50.7002,-1.2937,OS Open Names: Newport,7,1941-03-11,1943-06-01,1942-03-05,3,0,3,4,0,0,0,7,1,4,70
+530,ITALY,overseas,Italy,overseas,,0,0,,,,7,,,,0,0,0,5,0,2,0,5,0,1,45
+531,"KIRKCUDBRIGHT COUNTY, SCOTLAND",uk,Kirkcudbright,county,Scotland,0,0,,,,7,1942-04-17,1944-07-18,1944-07-18,4,0,0,3,0,4,0,6,2,0,24.5
+532,"LANGPORT, RURAL DISTRICT",uk,Langport,rural district,England,0,0,51.0377,-2.828,OS Open Names: Langport,7,1942-09-29,1942-09-29,1942-09-29,7,0,0,7,0,0,0,7,0,0,40
+533,"LEIGH, MUNICIPAL BOROUGH",uk,Leigh,municipal borough,England,0,0,53.4973,-2.5188,OS Open Names: Leigh,7,1941-01-12,1944-04-20,1941-05-08,2,0,3,3,1,0,0,6,0,1,52.5
+534,"LOTHINGLAND, RURAL DISTRICT",uk,Lothingland,rural district,England,0,0,52.5714,1.7332,OS Open Names: Gorleston-on-Sea,7,1942-10-19,1944-11-19,1942-10-19,2,0,0,3,1,3,0,6,1,1,45.5
+535,M.V. SWEDRU,sea,M.V. Swedru,ship or air crash at sea,,0,0,,,,7,,,,0,0,7,0,0,0,0,7,0,0,43
+536,"PETERSFIELD, RURAL DISTRICT",uk,Petersfield,rural district,England,0,0,51.004,-0.9377,OS Open Names: Petersfield,7,1941-04-18,1943-04-27,1941-04-18,6,0,6,1,0,0,0,7,1,2,36
+537,"PETERSFIELD, URBAN DISTRICT",uk,Petersfield,urban district,England,0,0,51.004,-0.9377,OS Open Names: Petersfield,7,1940-11-21,1940-11-22,1940-11-21,6,0,7,0,0,0,0,7,0,5,65
+538,"RAMSEY, URBAN DISTRICT",uk,Ramsey,urban district,England,0,0,52.4483,-0.1063,OS Open Names: Ramsey,7,1942-08-22,1942-08-22,1942-08-22,7,0,0,7,0,0,0,7,0,2,34
+539,"RICKMANSWORTH, URBAN DISTRICT",uk,Rickmansworth,urban district,England,0,0,51.6388,-0.4692,OS Open Names: Rickmansworth,7,1940-04-20,1940-11-19,1940-11-19,4,1,6,0,0,0,0,7,1,3,36
+540,S.S. ALMEDA STAR,sea,S.S. Almeda Star,ship or air crash at sea,,0,0,,,,7,,,,0,0,7,0,0,0,0,7,3,0,27
+541,S.S. NAPIER STAR,sea,S.S. Napier Star,ship or air crash at sea,,0,0,,,,7,,,,0,0,7,0,0,0,0,7,0,0,29
+542,S.S. ST. PATRICK,sea,S.S. St. Patrick,ship or air crash at sea,,0,0,,,,7,,,,0,0,0,7,0,0,0,5,1,0,27
+543,S.S. VAALAREN,sea,S.S. Vaalaren,ship or air crash at sea,,0,0,,,,7,,,,0,0,0,7,0,0,0,7,0,0,23
+544,"SHEPPEY, RURAL DISTRICT",uk,Sheppey,rural district,England,0,0,,,,7,1940-08-31,1944-06-11,1940-09-02,2,4,1,1,1,0,0,7,0,0,56
+545,"WALSALL, COUNTY BOROUGH",uk,Walsall,county borough,England,0,0,52.5862,-1.9803,OS Open Names: Walsall,7,1940-11-14,1942-08-02,1941-06-12,5,0,1,6,0,0,0,7,0,1,30
+546,"WAREHAM AND PURBECK, RURAL DISTRICT",uk,Wareham and Purbeck,rural district,England,0,0,50.686,-2.1099,OS Open Names: Wareham,7,1941-05-03,1944-05-15,1941-08-02,3,0,1,3,3,0,0,7,3,1,21
+547,"WEST LANCASHIRE, RURAL DISTRICT",uk,West Lancashire,rural district,England,0,0,53.5688,-2.8849,OS Open Names: Ormskirk,7,1940-09-18,1941-12-16,1940-09-18,3,0,5,2,0,0,0,7,0,0,33
+548,ALGERIA,overseas,Algeria,overseas,,0,0,,,,6,,,,0,0,0,6,0,0,0,6,0,0,47.0
+549,"ASHINGTON, URBAN DISTRICT",uk,Ashington,urban district,England,0,0,55.1831,-1.5691,OS Open Names: Ashington,6,1940-06-06,1941-11-27,1940-06-06,3,3,0,3,0,0,0,6,0,1,43.0
+550,"BASFORD, RURAL DISTRICT",uk,Basford,rural district,England,0,0,53.0031,-1.2084,OS Open Names: Bulwell,6,1940-08-30,1943-05-18,1940-08-30,2,2,2,2,0,0,0,6,0,1,32.0
+551,"BEESTON AND STAPLEFORD, URBAN DISTRICT",uk,Beeston and Stapleford,urban district,England,0,0,52.9274,-1.2159,OS Open Names: Beeston,6,1940-08-30,1941-11-11,1940-08-30,4,4,1,1,0,0,0,6,0,2,48.0
+552,"BENFLEET, URBAN DISTRICT",uk,Benfleet,urban district,England,0,0,51.5536,0.5598,OS Open Names: South Benfleet,6,1940-11-24,1944-11-17,1940-11-24,3,0,5,0,0,1,0,5,1,2,56
+553,"BERKHAMSTEAD, RURAL DISTRICT",uk,Berkhamstead,rural district,England,0,0,,,,6,1941-01-30,1944-10-09,1941-01-30,1,0,2,0,0,4,0,6,1,3,56.0
+554,"BEVERLEY, MUNICIPAL BOROUGH",uk,Beverley,municipal borough,England,0,0,53.8434,-0.4335,OS Open Names: Beverley,6,1941-05-09,1942-08-05,1941-05-09,1,0,1,5,0,0,0,6,0,4,61.5
+555,"BLYTH, RURAL DISTRICT",uk,Blyth,rural district,England,0,0,55.1272,-1.5077,OS Open Names: Blyth,6,1940-10-06,1942-06-25,1942-06-25,3,0,2,4,0,0,0,6,1,2,37.5
+556,"BUDLEIGH SALTERTON, URBAN DISTRICT",uk,Budleigh Salterton,urban district,England,0,0,50.6295,-3.327,OS Open Names: Budleigh Salterton,6,1941-07-05,1941-07-06,1941-07-05,5,0,0,6,0,0,0,6,2,2,36.0
+557,"BURY, COUNTY BOROUGH",uk,Bury,county borough,England,0,0,53.5927,-2.2988,OS Open Names: Bury,6,1940-12-22,1945-02-20,1940-12-22,1,0,3,2,0,1,0,6,1,3,51.5
+558,"CHAPEL-EN-LE-FRITH, RURAL DISTRICT",uk,Chapel-En-Le-Frith,rural district,England,0,0,53.3242,-1.912,OS Open Names: Chapel-En-Le-Frith,6,1942-07-03,1942-07-03,1942-07-03,6,0,0,6,0,0,0,6,1,1,34.0
+559,"CHESTER, COUNTY BOROUGH",uk,Chester,county borough,England,0,0,53.1902,-2.8916,OS Open Names: Chester,6,1940-11-29,1943-07-23,1940-11-29,2,0,5,1,0,0,0,6,0,1,29.5
+560,"DARWEN, MUNICIPAL BOROUGH",uk,Darwen,municipal borough,England,0,0,53.6951,-2.4673,OS Open Names: Darwen,6,1940-10-21,1940-10-21,1940-10-21,6,0,6,0,0,0,0,6,0,2,43.5
+561,"DEWSBURY, COUNTY BOROUGH",uk,Dewsbury,county borough,England,0,0,53.6917,-1.6277,OS Open Names: Dewsbury,6,1940-12-12,1947-03-09,1940-12-12,2,0,3,1,1,0,1,6,0,1,43.0
+562,"DRIFFIELD, RURAL DISTRICT",uk,Driffield,rural district,England,0,0,54.0057,-0.4401,OS Open Names: Driffield,6,1940-08-15,1943-01-29,1941-03-19,4,1,4,1,0,0,0,6,2,1,40.5
+563,"FAVERSHAM, MUNICIPAL BOROUGH",uk,Faversham,municipal borough,England,0,0,51.3153,0.8918,OS Open Names: Faversham,6,1940-10-04,1940-11-21,1940-10-04,4,0,6,0,0,0,0,6,0,2,53.0
+564,"FELIXSTOWE, URBAN DISTRICT",uk,Felixstowe,urban district,England,0,0,51.9637,1.3517,OS Open Names: Felixstowe,6,1940-06-13,1941-05-12,1941-05-12,3,1,5,0,0,0,0,5,0,2,50
+565,"FLEET, URBAN DISTRICT",uk,Fleet,urban district,England,0,0,51.2803,-0.8433,OS Open Names: Fleet,6,1940-06-26,1942-11-05,1942-11-05,5,1,0,5,0,0,0,6,2,1,30.5
+566,GILBERT ISLANDS,overseas,Gilbert Islands,overseas,,0,0,,,,6,,,,0,0,0,5,0,0,1,3,0,1,33
+567,"GLANFORD BRIGG, RURAL DISTRICT",uk,Glanford Brigg,rural district,England,0,0,53.5519,-0.4865,OS Open Names: Brigg,6,1941-05-12,1942-05-30,1941-05-12,4,0,4,2,0,0,0,6,0,0,40.0
+568,"HARTISMERE, RURAL DISTRICT",uk,Hartismere,rural district,England,0,0,52.6096,-0.1867,OS Open Names: Eye,6,1940-10-10,1944-07-09,1943-11-10,3,0,1,3,1,1,0,6,0,0,45.0
+569,"HEMEL HEMPSTEAD, MUNICIPAL BOROUGH",uk,Hemel Hempstead,municipal borough,England,0,0,51.7526,-0.4723,OS Open Names: Hemel Hempstead,6,1940-09-17,1944-11-14,1940-09-17,1,0,3,0,1,2,0,6,0,2,44.5
+570,"HEMSWORTH, RURAL DISTRICT",uk,Hemsworth,rural district,England,0,0,53.6137,-1.3535,OS Open Names: Hemsworth,6,1940-09-01,1940-09-01,1940-09-01,6,6,0,0,0,0,0,6,0,0,35.5
+571,M.V. APAPA,sea,M.V. Apapa,ship or air crash at sea,,0,0,,,,6,,,,0,0,6,0,0,0,0,6,0,0,38.5
+572,M.V. EMPIRE STAR,sea,M.V. Empire Star,ship or air crash at sea,,0,0,,,,6,,,,0,0,0,6,0,0,0,6,2,1,34.0
+573,M.V. RANGITANE,sea,M.V. Rangitane,ship or air crash at sea,,0,0,,,,6,,,,0,0,6,0,0,0,0,6,0,0,36.5
+574,M.V. WESTERN PRINCE,sea,M.V. Western Prince,ship or air crash at sea,,0,0,,,,6,,,,0,0,6,0,0,0,0,6,0,0,34.5
+575,"NEWARK, RURAL DISTRICT",uk,Newark,rural district,England,0,0,52.5952,-0.2122,OS Open Names: Newark,6,1941-08-16,1941-08-16,1941-08-16,6,0,0,6,0,0,0,6,5,0,12.5
+576,"ONGAR, RURAL DISTRICT",uk,Ongar,rural district,England,0,0,,,,6,1940-08-24,1946-06-08,1945-01-23,2,1,0,0,0,4,1,6,0,1,37.5
+577,"PRESTON, RURAL DISTRICT",uk,Preston,rural district,England,0,0,53.7606,-2.6985,OS Open Names: Preston,6,1940-10-21,1941-12-31,1940-12-24,3,0,5,1,0,0,0,6,0,3,52.5
+578,"REDDITCH, URBAN DISTRICT",uk,Redditch,urban district,England,0,0,52.3069,-1.9415,OS Open Names: Redditch,6,1940-12-11,1940-12-11,1940-12-11,6,0,6,0,0,0,0,5,2,1,35
+579,"RUTHERGLEN, BURGH OF, SCOTLAND",uk,Rutherglen,burgh of,Scotland,0,0,55.8289,-4.2135,OS Open Names: Rutherglen,6,1940-09-11,1941-05-07,1941-05-07,5,0,6,0,0,0,0,5,3,0,7
+580,S.S. AGUILA,sea,S.S. Aguila,ship or air crash at sea,,0,0,,,,6,,,,0,0,0,6,0,0,0,6,0,0,37.0
+581,S.S. BODEGRAVEN,sea,S.S. Bodegraven,ship or air crash at sea,,0,0,,,,6,,,,0,0,0,0,0,6,0,6,0,3,53.0
+582,S.S. UMONA,sea,S.S. Umona,ship or air crash at sea,,0,0,,,,6,,,,0,0,6,0,0,0,0,3,0,0,31
+583,"SEATON VALLEY, URBAN DISTRICT",uk,Seaton Valley,urban district,England,0,0,55.0723,-1.5257,OS Open Names: Seaton Delaval,6,1941-04-25,1945-06-27,1941-04-25,5,0,5,0,0,0,1,6,2,0,19.0
+584,"SHEERNESS, URBAN DISTRICT",uk,Sheerness,urban district,England,0,0,51.4399,0.7623,OS Open Names: Sheerness,6,1941-03-10,1941-06-17,1941-06-15,3,0,2,4,0,0,0,5,0,0,43
+585,"SOUTHWICK, URBAN DISTRICT",uk,Southwick,urban district,England,0,0,50.8344,-0.2379,OS Open Names: Southwick,6,1940-10-28,1942-08-04,1942-08-04,3,0,2,4,0,0,0,5,0,1,34
+586,"ST. AUSTELL, URBAN DISTRICT",uk,St. Austell,urban district,England,0,0,50.3385,-4.7912,OS Open Names: St Austell,6,1940-11-17,1942-08-18,1942-08-18,3,0,3,3,0,0,0,5,1,1,48
+587,"SUDBURY, MUNICIPAL BOROUGH",uk,Sudbury,municipal borough,England,0,0,52.0392,0.7319,OS Open Names: Sudbury,6,1940-11-07,1944-10-16,1940-11-07,1,0,2,2,0,2,0,6,1,0,23.0
+588,"TENDRING, RURAL DISTRICT",uk,Tendring,rural district,England,0,0,51.8753,1.1118,OS Open Names: Tendring,6,1941-04-16,1944-09-27,1944-09-27,4,0,2,0,0,4,0,6,2,1,29.0
+589,"TENTERDEN, MUNICIPAL BOROUGH",uk,Tenterden,municipal borough,England,0,0,51.0673,0.6842,OS Open Names: Tenterden,6,1940-08-28,1944-08-08,1940-08-28,2,2,3,0,0,1,0,6,1,1,46.0
+590,"TONBRIDGE, URBAN DISTRICT",uk,Tonbridge,urban district,England,0,0,51.1925,0.2722,OS Open Names: Tonbridge,6,1940-10-21,1946-04-17,1942-12-16,3,0,2,3,0,0,1,6,1,2,53.5
+591,"TOTTINGTON, URBAN DISTRICT",uk,Tottington,urban district,England,0,0,53.6121,-2.3403,OS Open Names: Tottington,6,1944-12-24,1944-12-24,1944-12-24,6,0,0,0,0,6,0,6,0,1,53.0
+592,"WANTAGE, RURAL DISTRICT",uk,Wantage,rural district,England,0,0,51.5883,-1.4257,OS Open Names: Wantage,6,1940-08-26,1940-08-26,1940-08-26,6,6,0,0,0,0,0,6,0,2,54.5
+593,"WARE, URBAN DISTRICT",uk,Ware,urban district,England,0,0,51.8138,-0.0344,OS Open Names: Ware,6,1940-09-18,1940-09-18,1940-09-18,6,0,6,0,0,0,0,6,0,2,41.5
+594,"WELLINGBOROUGH, URBAN DISTRICT",uk,Wellingborough,urban district,England,0,0,52.3022,-0.6921,OS Open Names: Wellingborough,6,1940-10-06,1942-08-03,1942-08-03,5,0,1,5,0,0,0,6,0,2,57.0
+595,"WITNEY, RURAL DISTRICT",uk,Witney,rural district,England,0,0,51.7864,-1.4848,OS Open Names: Witney,6,1940-08-16,1942-07-21,1940-08-16,3,3,0,3,0,0,0,4,0,1,46.0
+596,"ABERDARE, URBAN DISTRICT, WALES",uk,Aberdare,urban district,Wales,0,0,51.7136,-3.4478,OS Open Names: Aberdare,5,1941-05-31,1942-08-09,1941-05-31,4,0,0,5,0,0,0,5,0,2,50
+597,"ALTON, URBAN DISTRICT",uk,Alton,urban district,England,0,0,51.1486,-0.9758,OS Open Names: Alton,5,1941-03-13,1941-03-15,1941-03-13,4,0,5,0,0,0,0,5,0,3,65
+598,"ANGUS COUNTY, SCOTLAND",uk,Angus,county,Scotland,0,0,,,,5,1942-07-14,1945-03-15,1942-07-14,1,0,0,4,0,1,0,5,1,0,47
+599,"ASHTON-UNDER-LYNE, MUNICIPAL BOROUGH",uk,Ashton-Under-Lyne,municipal borough,England,0,0,53.4903,-2.0938,OS Open Names: Ashton-Under-Lyne,5,1941-05-02,1941-05-12,1941-05-08,3,0,5,0,0,0,0,5,0,1,35
+600,"BANGOR, BOROUGH, N. IRELAND",uk,Bangor,borough,Northern Ireland,0,0,54.66,-5.67,Wikidata Q806551,5,1941-04-16,1941-04-17,1941-04-16,4,0,5,0,0,0,0,5,0,1,41
+601,"BLACKBURN, COUNTY BOROUGH",uk,Blackburn,county borough,England,0,0,53.7501,-2.4815,OS Open Names: Blackburn,5,1940-08-31,1942-12-27,1940-08-31,1,1,3,1,0,0,0,5,0,2,54
+602,"BORDER RURAL DISTRICT, CUMBERLAND",uk,Border,rural district,England,0,0,52.3218,-0.2239,OS Open Names: Brampton,5,1941-04-12,1943-03-11,1941-04-12,2,0,2,3,0,0,0,5,0,2,52
+603,"BRACKLEY, RURAL DISTRICT",uk,Brackley,rural district,England,0,0,52.0326,-1.1437,OS Open Names: Brackley,5,1942-12-01,1944-11-25,1944-11-25,3,0,0,2,0,3,0,5,2,0,35
+604,"BRAINTREE, RURAL DISTRICT",uk,Braintree,rural district,England,0,0,51.8782,0.5531,OS Open Names: Braintree,5,1940-10-27,1943-12-16,1940-10-27,3,0,3,2,0,0,0,5,1,0,25
+605,"BRIERLEY HILL, URBAN DISTRICT",uk,Brierley Hill,urban district,England,0,0,52.4725,-2.1045,OS Open Names: Brierley Hill,5,1940-12-14,1944-03-16,1940-12-14,1,0,2,2,1,0,0,5,0,1,54
+606,"BROADSTAIRS AND ST. PETERS, URBAN DISTRICT",uk,Broadstairs and St. Peters,urban district,England,0,0,51.3595,1.4374,OS Open Names: Broadstairs,5,1941-08-03,1941-08-16,1941-08-16,4,0,0,5,0,0,0,5,0,2,54
+607,"BURNHAM ON CROUCH, URBAN DISTRICT",uk,Burnham on Crouch,urban district,England,0,0,51.6253,0.8177,OS Open Names: Burnham-on-Crouch,5,1940-09-21,1940-09-21,1940-09-21,5,0,5,0,0,0,0,5,1,0,33
+608,"BURY ST. EDMUNDS, MUNICIPAL BOROUGH",uk,Bury St. Edmunds,municipal borough,England,0,0,52.2463,0.7138,OS Open Names: Bury St Edmunds,5,1940-11-17,1942-06-23,1941-02-27,3,0,4,1,0,0,0,5,3,0,15
+609,"CAISTOR, RURAL DISTRICT",uk,Caistor,rural district,England,0,0,53.4976,-0.3168,OS Open Names: Caistor,5,1942-02-18,1943-08-10,1943-08-10,2,0,0,5,0,0,0,4,1,1,41.0
+610,"CALNE AND CHIPPENHAM, RURAL DISTRICT",uk,Calne and Chippenham,rural district,England,0,0,51.4582,-2.1139,OS Open Names: Chippenham,5,1942-04-24,1944-12-12,1942-04-25,2,0,0,4,0,1,0,4,0,3,70.0
+611,"CAMBORNE AND REDRUTH, URBAN DISTRICT",uk,Camborne and Redruth,urban district,England,0,0,50.2138,-5.3004,OS Open Names: Camborne,5,1941-03-20,1942-08-11,1941-03-20,4,0,4,1,0,0,0,4,0,1,49.0
+612,"CLUTTON, RURAL DISTRICT",uk,Clutton,rural district,England,0,0,51.331,-2.5402,OS Open Names: Clutton,5,1940-08-25,1941-05-25,1940-08-25,3,3,1,1,0,0,0,5,3,0,12
+613,"COWDENBEATH, BURGH OF, SCOTLAND",uk,Cowdenbeath,burgh of,Scotland,0,0,56.1118,-3.3441,OS Open Names: Cowdenbeath,5,1942-01-28,1944-08-17,1942-01-28,4,0,0,4,0,1,0,5,1,2,52
+614,"CRICKLADE AND WOOTON BASSETT, RURAL DISTRICT",uk,Cricklade and Wooton Bassett,rural district,England,0,0,51.5415,-1.9051,OS Open Names: Royal Wootton Bassett,5,1940-09-16,1945-11-23,1942-01-09,3,0,1,3,0,0,1,5,1,2,23
+615,"DORKING AND HORLEY, RURAL DISTRICT",uk,Dorking and Horley,rural district,England,0,0,51.2328,-0.3299,OS Open Names: Dorking,5,1940-10-12,1944-07-04,1944-07-04,2,0,1,0,1,3,0,5,0,2,54
+616,"DOVER, RURAL DISTRICT",uk,Dover,rural district,England,0,0,51.1281,1.3084,OS Open Names: Dover,5,1940-11-14,1947-03-02,1940-11-14,1,0,1,3,0,0,1,5,1,0,41
+617,"EAST ASHFORD, RURAL DISTRICT",uk,East Ashford,rural district,England,0,0,51.1484,0.8711,OS Open Names: Ashford,5,1940-09-15,1944-07-28,1940-09-15,1,0,1,0,0,4,0,4,2,2,34.5
+618,"EAST KESTEVEN, RURAL DISTRICT",uk,East Kesteven,rural district,England,0,0,52.9995,-0.4104,OS Open Names: Sleaford,5,1941-03-09,1941-03-09,1941-03-09,5,0,5,0,0,0,0,5,0,2,28
+619,"EVESHAM, MUNICIPAL BOROUGH",uk,Evesham,municipal borough,England,0,0,52.0926,-1.9474,OS Open Names: Evesham,5,1940-10-14,1941-04-11,1940-10-14,1,0,5,0,0,0,0,5,0,1,39
+620,"FARNBOROUGH, URBAN DISTRICT",uk,Farnborough,urban district,England,0,0,51.2904,-0.7548,OS Open Names: Farnborough,5,1940-08-16,1946-09-12,1944-02-23,3,1,0,0,3,0,1,5,0,0,36
+621,"GOOLE, MUNICIPAL BOROUGH",uk,Goole,municipal borough,England,0,0,53.7038,-0.8713,OS Open Names: Goole,5,1942-08-03,1943-08-31,1942-08-03,3,0,0,5,0,0,0,5,1,1,41
+622,"HITCHIN, RURAL DISTRICT",uk,Hitchin,rural district,England,0,0,51.9495,-0.2801,OS Open Names: Hitchin,5,1943-01-29,1944-08-26,1944-07-18,2,0,0,1,0,4,0,4,0,1,42.5
+623,"HITCHIN, URBAN DISTRICT",uk,Hitchin,urban district,England,0,0,51.9495,-0.2801,OS Open Names: Hitchin,5,1941-01-02,1945-01-12,1945-01-08,2,0,1,1,0,3,0,5,0,2,44
+624,"HUCKNALL, URBAN DISTRICT",uk,Hucknall,urban district,England,0,0,53.0379,-1.2025,OS Open Names: Hucknall,5,1940-09-23,1940-09-23,1940-09-23,5,0,5,0,0,0,0,5,3,0,8
+625,"KILMARNOCK, BURGH OF, SCOTLAND",uk,Kilmarnock,burgh of,Scotland,0,0,55.6101,-4.4945,OS Open Names: Kilmarnock,5,1941-05-06,1941-05-07,1941-05-06,4,0,5,0,0,0,0,5,0,1,51
+626,"KINCARDINE COUNTY, SCOTLAND",uk,Kincardine,county,Scotland,0,0,,,,5,1941-01-26,1944-11-11,1941-07-07,2,0,2,2,0,1,0,5,1,1,39
+627,"LEISTON CUM-SIZEWELL, URBAN DISTRICT",uk,Leiston Cum-Sizewell,urban district,England,0,0,52.2079,1.5766,OS Open Names: Leiston,5,1941-05-14,1941-10-11,1941-05-14,2,0,3,2,0,0,0,5,1,0,35
+628,"LYDD, MUNICIPAL BOROUGH",uk,Lydd,municipal borough,England,0,0,50.9508,0.9064,OS Open Names: Lydd,5,1940-10-05,1942-09-01,1942-09-01,3,0,2,3,0,0,0,5,0,1,47
+629,M.V. PETER MAERSK,sea,M.V. Peter Maersk,ship or air crash at sea,,0,0,,,,5,,,,0,0,0,5,0,0,0,4,0,0,28.5
+630,"MALDON, RURAL DISTRICT",uk,Maldon,rural district,England,0,0,51.7315,0.6784,OS Open Names: Maldon,5,1940-09-25,1941-07-10,1940-09-25,3,0,3,2,0,0,0,5,2,1,47
+631,"MARCH, URBAN DISTRICT",uk,March,urban district,England,0,0,52.5475,0.0873,OS Open Names: March,5,1942-07-29,1942-07-29,1942-07-29,5,0,0,5,0,0,0,5,2,1,41
+632,"MILLOM, RURAL DISTRICT",uk,Millom,rural district,England,0,0,54.2106,-3.2719,OS Open Names: Millom,5,1941-01-02,1941-01-02,1941-01-02,5,0,5,0,0,0,0,5,0,0,51
+633,"MORAY COUNTY, SCOTLAND",uk,Moray,county,Scotland,0,0,,,,5,1942-03-31,1944-07-22,1942-03-31,1,0,0,3,1,1,0,5,1,0,38
+634,"ORMSKIRK, URBAN DISTRICT",uk,Ormskirk,urban district,England,0,0,53.5688,-2.8849,OS Open Names: Ormskirk,5,1940-11-18,1941-07-31,1941-05-08,2,0,3,2,0,0,0,5,0,3,70
+635,"POCKLINGTON, RURAL DISTRICT",uk,Pocklington,rural district,England,0,0,53.9311,-0.7778,OS Open Names: Pocklington,5,1940-11-10,1944-02-07,1943-11-27,2,0,1,3,1,0,0,4,0,1,40.0
+636,"PORTISHEAD, URBAN DISTRICT",uk,Portishead,urban district,England,0,0,51.4853,-2.7683,OS Open Names: Portishead,5,1940-09-04,1941-04-12,1940-09-04,4,4,1,0,0,0,0,5,0,1,54
+637,"PRESTWICK, BURGH OF, SCOTLAND",uk,Prestwick,burgh of,Scotland,0,0,55.4989,-4.611,OS Open Names: Prestwick,5,1944-08-28,1944-08-28,1944-08-28,5,0,0,0,0,5,0,5,1,0,24
+638,R.M.S. LADY DRAKE,sea,R.M.S. Lady Drake,ship or air crash at sea,,0,0,,,,5,,,,0,0,0,5,0,0,0,4,0,0,24.5
+639,S.S. AQUARIUS,sea,S.S. Aquarius,ship or air crash at sea,,0,0,,,,5,,,,0,0,0,5,0,0,0,2,0,0,33.5
+640,S.S. CANADIAN STAR,sea,S.S. Canadian Star,ship or air crash at sea,,0,0,,,,5,,,,0,0,0,5,0,0,0,5,2,0,36
+641,S.S. CITY OF BARODA,sea,S.S. City of Baroda,ship or air crash at sea,,0,0,,,,5,,,,0,0,0,5,0,0,0,5,1,0,36
+642,S.S. NOVA SCOTIA,sea,S.S. Nova Scotia,ship or air crash at sea,,0,0,,,,5,,,,0,0,0,5,0,0,0,4,0,0,41.0
+643,S.S. ROOSEBOOM,sea,S.S. Rooseboom,ship or air crash at sea,,0,0,,,,5,,,,0,0,0,5,0,0,0,3,0,0,49
+644,"SAFFRON WALDEN, RURAL DISTRICT",uk,Saffron Walden,rural district,England,0,0,52.0233,0.2427,OS Open Names: Saffron Walden,5,1940-08-16,1945-03-24,1940-08-16,1,3,0,0,1,1,0,5,0,0,38
+645,"SPALDING, URBAN DISTRICT",uk,Spalding,urban district,England,0,0,52.7871,-0.1517,OS Open Names: Spalding,5,1941-05-12,1941-06-17,1941-05-12,2,0,4,1,0,0,0,5,0,3,60
+646,"ST. GERMANS, RURAL DISTRICT",uk,St. Germans,rural district,England,0,0,50.3974,-4.3145,OS Open Names: St Germans,5,1941-04-22,1942-05-08,1941-04-22,2,0,3,2,0,0,0,5,0,2,57
+647,"STOKESLEY, RURAL DISTRICT",uk,Stokesley,rural district,England,0,0,54.4704,-1.1911,OS Open Names: Stokesley,5,1941-12-18,1945-02-06,1941-12-18,4,0,0,4,0,1,0,5,2,0,36
+648,"STRATFORD UPON AVON, MUNICIPAL BOROUGH",uk,Stratford upon Avon,municipal borough,England,0,0,52.1927,-1.7064,OS Open Names: Stratford-upon-Avon,5,1940-11-17,1941-04-17,1940-11-23,2,0,5,0,0,0,0,5,0,1,46
+649,"SWADLINCOTE, URBAN DISTRICT",uk,Swadlincote,urban district,England,0,0,52.7736,-1.5573,OS Open Names: Swadlincote,5,1940-11-21,1940-11-21,1940-11-21,5,0,5,0,0,0,0,4,0,3,64.0
+650,"TENTERDEN, RURAL DISTRICT",uk,Tenterden,rural district,England,0,0,51.0673,0.6842,OS Open Names: Tenterden,5,1941-03-15,1944-08-16,1944-07-19,2,0,1,0,0,4,0,5,2,1,38
+651,"THIRSK, RURAL DISTRICT",uk,Thirsk,rural district,England,0,0,54.2325,-1.3429,OS Open Names: Thirsk,5,1940-10-16,1944-08-05,1944-04-15,3,0,1,0,3,1,0,5,1,1,38
+652,UNITED STATES OF AMERICA,overseas,United States of America,overseas,,0,0,,,,5,,,,0,0,0,5,0,0,0,0,0,0,
+653,"WALTHAM HOLY CROSS, URBAN DISTRICT",uk,Waltham Holy Cross,urban district,England,0,0,51.6864,0.0168,OS Open Names: Waltham Abbey,5,1945-03-07,1945-03-09,1945-03-07,4,0,0,0,0,5,0,5,3,0,11
+654,WEST AFRICA,overseas,West Africa,overseas,,0,0,,,,5,,,,0,0,0,3,0,0,2,1,0,0,43
+655,"WHITBY, URBAN DISTRICT",uk,Whitby,urban district,England,0,0,54.4851,-0.6171,OS Open Names: Whitby,5,1940-09-26,1942-04-19,1940-09-26,3,0,4,1,0,0,0,5,0,2,58
+656,"WHITTLESEY, URBAN DISTRICT",uk,Whittlesey,urban district,England,0,0,52.5565,-0.1273,OS Open Names: Whittlesey,5,1940-06-07,1943-03-05,1943-03-05,4,1,0,4,0,0,0,5,1,0,27
+657,"WORSLEY, URBAN DISTRICT",uk,Worsley,urban district,England,0,0,53.5048,-2.3866,OS Open Names: Worsley,5,1940-12-22,1944-12-24,1940-12-22,4,0,4,0,0,1,0,5,3,0,12
+658,"WREXHAM, BOROUGH, WALES",uk,Wrexham,borough,Wales,0,0,53.0479,-2.9948,OS Open Names: Wrexham,5,1940-08-30,1940-09-08,1940-08-30,1,4,1,0,0,0,0,5,0,1,50
+659,"ALDEBURGH, MUNICIPAL BOROUGH",uk,Aldeburgh,municipal borough,England,0,0,52.152,1.6013,OS Open Names: Aldeburgh,4,1942-12-15,1942-12-15,1942-12-15,4,0,0,4,0,0,0,4,0,0,53.5
+660,"ALDERSHOT, MUNICIPAL BOROUGH",uk,Aldershot,municipal borough,England,0,0,51.2499,-0.7617,OS Open Names: Aldershot,4,1940-07-06,1940-10-15,1940-07-06,2,3,1,0,0,0,0,4,0,1,44.5
+661,"BAGSHOT, RURAL DISTRICT",uk,Bagshot,rural district,England,0,0,51.3615,-0.6928,OS Open Names: Bagshot,4,1940-09-09,1943-06-23,1940-09-09,2,0,3,1,0,0,0,4,1,0,21.5
+662,"BECCLES, MUNICIPAL BOROUGH",uk,Beccles,municipal borough,England,0,0,52.4582,1.5628,OS Open Names: Beccles,4,1940-11-17,1946-07-31,1940-11-17,2,0,2,1,0,0,1,3,0,2,63
+663,"BELFAST, RURAL DISTRICT, N. IRELAND",uk,Belfast,rural district,Northern Ireland,0,0,54.5939,-5.9294,Wikidata Q1140130,4,1941-04-16,1941-05-05,1941-04-16,2,0,4,0,0,0,0,4,0,2,53.5
+664,"BOURNE, URBAN DISTRICT",uk,Bourne,urban district,England,0,0,52.7682,-0.3772,OS Open Names: Bourne,4,1941-05-05,1941-05-05,1941-05-05,4,0,4,0,0,0,0,4,0,2,59.5
+665,"BRIDGEND, URBAN DISTRICT, WALES",uk,Bridgend,urban district,Wales,0,0,51.5078,-3.5781,OS Open Names: Bridgend,4,1940-01-07,1944-02-03,1940-01-07,2,2,1,0,1,0,0,4,0,1,32.0
+666,"BUCKINGHAM, RURAL DISTRICT",uk,Buckingham,rural district,England,0,0,52.0011,-0.9864,OS Open Names: Buckingham,4,1940-11-15,1940-11-15,1940-11-15,4,0,4,0,0,0,0,4,0,4,69.0
+667,"BUCKLOW, RURAL DISTRICT",uk,Bucklow,rural district,England,0,0,53.3031,-2.3748,OS Open Names: Knutsford,4,1940-12-23,1942-05-31,1940-12-23,3,0,3,1,0,0,0,4,0,1,48.5
+668,"BURNLEY, RURAL DISTRICT",uk,Burnley,rural district,England,0,0,53.7875,-2.2444,OS Open Names: Burnley,4,1940-06-20,1944-07-25,1940-06-20,2,2,0,0,0,2,0,3,2,1,11
+669,"CANVEY ISLAND, URBAN DISTRICT",uk,Canvey Island,urban district,England,0,0,51.523,0.5924,OS Open Names: Canvey Island,4,1943-08-16,1944-07-22,1944-07-22,3,0,0,1,0,3,0,4,2,0,23.5
+670,"CARLISLE, COUNTY BOROUGH",uk,Carlisle,county borough,England,0,0,54.8926,-2.933,OS Open Names: Carlisle,4,1941-04-07,1943-04-13,1941-04-07,1,0,3,1,0,0,0,4,0,1,42.5
+671,"CARLTON, URBAN DISTRICT",uk,Carlton,urban district,England,0,0,52.9686,-1.0815,OS Open Names: Carlton,4,1941-05-08,1942-09-04,1941-05-08,3,0,3,1,0,0,0,4,0,2,58.5
+672,"CHEADLE AND GATLEY, URBAN DISTRICT",uk,Cheadle and Gatley,urban district,England,0,0,53.392,-2.2004,OS Open Names: Cheadle,4,1940-12-23,1941-02-04,1941-02-04,3,0,4,0,0,0,0,4,0,1,48.0
+673,"CHESTER-LE-STREET, RURAL DISTRICT",uk,Chester-Le-Street,rural district,England,0,0,54.859,-1.5742,OS Open Names: Chester-Le-Street,4,1942-05-01,1942-05-01,1942-05-01,4,0,0,4,0,0,0,4,2,1,13.0
+674,"CHESTER-LE-STREET, URBAN DISTRICT",uk,Chester-Le-Street,urban district,England,0,0,54.859,-1.5742,OS Open Names: Chester-Le-Street,4,1941-10-05,1942-05-03,1942-05-02,2,0,0,4,0,0,0,4,0,3,67.5
+675,"CHRISTCHURCH, MUNICIPAL BOROUGH",uk,Christchurch,municipal borough,England,0,0,50.7384,-1.7818,OS Open Names: Christchurch,4,1940-08-28,1944-06-29,1944-06-29,3,1,0,0,0,3,0,4,0,2,60.0
+676,"CONSETT, URBAN DISTRICT",uk,Consett,urban district,England,0,0,54.8532,-1.8333,OS Open Names: Consett,4,1941-05-15,1943-06-22,1941-05-15,1,0,1,3,0,0,0,4,1,1,37.0
+677,"COSELEY, URBAN DISTRICT",uk,Coseley,urban district,England,0,0,52.5421,-2.0874,OS Open Names: Coseley,4,1940-06-26,1940-08-20,1940-08-20,3,4,0,0,0,0,0,4,2,2,39.5
+678,"EASTHAMPSTEAD, RURAL DISTRICT",uk,Easthampstead,rural district,England,0,0,51.3689,-0.7931,OS Open Names: Crowthorne,4,1940-10-08,1944-07-14,1940-10-08,1,0,2,1,0,1,0,4,0,1,47.5
+679,"FARINGDON, RURAL DISTRICT",uk,Faringdon,rural district,England,0,0,51.6581,-1.5836,OS Open Names: Faringdon,4,1940-09-19,1942-10-27,1940-09-19,3,0,3,1,0,0,0,4,3,0,10.5
+680,"GOSFORTH, URBAN DISTRICT",uk,Gosforth,urban district,England,0,0,55.0098,-1.6205,OS Open Names: Gosforth,4,1939-12-20,1945-08-07,1939-12-20,1,1,0,2,0,0,1,4,0,1,48.0
+681,"HALSTEAD, RURAL DISTRICT",uk,Halstead,rural district,England,0,0,51.9437,0.6326,OS Open Names: Halstead,4,1942-05-08,1944-09-03,1944-09-03,2,0,0,2,0,2,0,4,2,1,35.0
+682,"HASLEMERE, URBAN DISTRICT",uk,Haslemere,urban district,England,0,0,51.0877,-0.7096,OS Open Names: Haslemere,4,1941-03-10,1943-12-04,1943-12-04,2,0,1,3,0,0,0,4,2,1,27.5
+683,"HAVERFORDWEST, RURAL DISTRICT, WALES",uk,Haverfordwest,rural district,Wales,0,0,51.8036,-4.9697,OS Open Names: Haverfordwest,4,1941-06-11,1941-06-11,1941-06-11,4,0,0,4,0,0,0,4,0,1,45.0
+684,"HERNE BAY, URBAN DISTRICT",uk,Herne Bay,urban district,England,0,0,51.3713,1.1263,OS Open Names: Herne Bay,4,1940-10-05,1942-10-31,1942-10-31,2,0,1,3,0,0,0,4,0,1,55.0
+685,"HERTFORD, MUNICIPAL BOROUGH",uk,Hertford,municipal borough,England,0,0,51.797,-0.0768,OS Open Names: Hertford,4,1940-09-23,1940-10-12,1940-09-24,2,0,4,0,0,0,0,4,0,1,32.5
+686,"HEXHAM, URBAN DISTRICT",uk,Hexham,urban district,England,0,0,54.9718,-2.1009,OS Open Names: Hexham,4,1941-10-07,1943-11-04,1941-10-07,1,0,0,4,0,0,0,4,0,1,50.5
+687,"HODDESDON, URBAN DISTRICT",uk,Hoddesdon,urban district,England,0,0,51.7584,-0.0124,OS Open Names: Hoddesdon,4,1941-03-09,1944-04-19,1941-05-11,2,0,3,0,1,0,0,4,1,1,33.0
+688,"HORNSEA, URBAN DISTRICT",uk,Hornsea,urban district,England,0,0,53.9122,-0.1671,OS Open Names: Hornsea,4,1942-08-28,1942-08-30,1942-08-28,3,0,0,4,0,0,0,4,1,2,46.0
+689,"INVERNESS COUNTY, SCOTLAND",uk,Inverness,county,Scotland,0,0,,,,4,1940-07-14,1944-08-19,1941-02-13,2,1,2,0,0,1,0,4,0,1,53.5
+690,IRAQ,overseas,Iraq,overseas,,0,0,,,,4,,,,0,0,0,4,0,0,0,1,0,0,39
+691,"IRVINE, BURGH OF, SCOTLAND",uk,Irvine,burgh of,Scotland,0,0,55.6156,-4.6649,OS Open Names: Irvine,4,1941-05-07,1941-05-07,1941-05-07,4,0,4,0,0,0,0,4,0,1,46.0
+692,ISLE OF MAN,crown,Isle of Man,Crown dependency,,0,0,,,,4,,,,0,0,0,2,0,1,1,2,1,0,20.0
+693,"LANCASTER, MUNICIPAL BOROUGH",uk,Lancaster,municipal borough,England,0,0,54.0501,-2.8032,OS Open Names: Lancaster,4,1941-12-09,1947-03-29,1941-12-09,1,0,0,1,0,1,2,3,0,1,52
+694,"LODDON, RURAL DISTRICT",uk,Loddon,rural district,England,0,0,52.5354,1.4812,OS Open Names: Loddon,4,1940-06-17,1943-10-07,1943-10-07,2,2,0,2,0,0,0,4,0,0,38.5
+695,"LOFTUS, URBAN DISTRICT",uk,Loftus,urban district,England,0,0,54.5536,-0.8851,OS Open Names: Loftus,4,1940-08-10,1941-09-11,1940-08-10,1,1,2,1,0,0,0,4,1,1,36.0
+696,"LONGBENTON, URBAN DISTRICT",uk,Longbenton,urban district,England,0,0,55.0214,-1.5653,OS Open Names: Longbenton,4,1941-09-01,1941-12-29,1941-09-01,2,0,0,4,0,0,0,4,2,0,23.5
+697,"LUTON, RURAL DISTRICT",uk,Luton,rural district,England,0,0,51.8795,-0.4174,OS Open Names: Luton,4,1941-01-21,1947-09-06,1941-01-21,1,0,2,1,0,0,1,4,1,0,35.0
+698,M.V. STAFFORDSHIRE,sea,M.V. Staffordshire,ship or air crash at sea,,0,0,,,,4,,,,0,0,4,0,0,0,0,4,1,1,30.0
+699,"MACCLESFIELD, RURAL DISTRICT",uk,Macclesfield,rural district,England,0,0,53.2606,-2.1255,OS Open Names: Macclesfield,4,1940-12-23,1944-01-14,1940-12-23,3,0,3,1,0,0,0,4,0,0,44.5
+700,"MASHAM, RURAL DISTRICT",uk,Masham,rural district,England,0,0,54.2227,-1.6568,OS Open Names: Masham,4,1941-04-16,1941-04-16,1941-04-16,4,0,4,0,0,0,0,4,0,1,45.0
+701,"MERTHYR TYDFIL, COUNTY BOROUGH, WALES",uk,Merthyr Tydfil,county borough,Wales,0,0,51.7459,-3.3784,OS Open Names: Merthyr Tydfil,4,1941-07-07,1944-11-12,1941-07-07,3,0,0,3,0,1,0,4,2,0,22.5
+702,"MIDHURST, RURAL DISTRICT",uk,Midhurst,rural district,England,0,0,50.9855,-0.74,OS Open Names: Midhurst,4,1943-02-10,1943-05-05,1943-02-10,3,0,0,4,0,0,0,4,1,0,31.0
+703,"MIDLOTHIAN COUNTY, SCOTLAND",uk,Midlothian,county,Scotland,0,0,,,,4,1940-06-26,1945-11-25,1940-06-26,2,2,0,0,0,0,2,4,3,1,13.0
+704,"MILDENHALL, RURAL DISTRICT",uk,Mildenhall,rural district,England,0,0,51.4256,-1.7001,OS Open Names: Mildenhall,4,1941-01-30,1943-09-14,1941-01-30,1,0,2,2,0,0,0,3,0,1,41
+705,"MOUNTAIN ASH, URBAN DISTRICT, WALES",uk,Mountain Ash,urban district,Wales,0,0,51.6841,-3.3784,OS Open Names: Mountain Ash,4,1941-06-12,1945-01-14,1941-06-12,1,0,0,3,0,1,0,4,0,1,52.0
+706,"MYNYDDISLWYN, URBAN DISTRICT",uk,Mynyddislwyn,urban district,Wales,0,0,51.6677,-3.1958,OS Open Names: Blackwood,4,1941-02-26,1941-02-26,1941-02-26,4,0,4,0,0,0,0,4,2,0,17.5
+707,"NEATH, RURAL DISTRICT, WALES",uk,Neath,rural district,Wales,0,0,51.6642,-3.8034,OS Open Names: Neath,4,1940-07-10,1943-07-24,1941-05-11,2,1,2,1,0,0,0,4,0,0,39.0
+708,"NEW ROMNEY, MUNICIPAL BOROUGH",uk,New Romney,municipal borough,England,0,0,50.9858,0.9402,OS Open Names: New Romney,4,1940-10-22,1942-11-27,1940-10-22,2,0,3,1,0,0,0,4,0,0,49.0
+709,"NEWTON-LE-WILLOWS, URBAN DISTRICT",uk,Newton-Le-Willows,urban district,England,0,0,53.4541,-2.645,OS Open Names: Newton-Le-Willows,4,1941-04-07,1941-04-08,1941-04-07,3,0,4,0,0,0,0,4,0,0,39.0
+710,"OKEHAMPTON, MUNICIPAL BOROUGH",uk,Okehampton,municipal borough,England,0,0,50.739,-4.0033,OS Open Names: Okehampton,4,1942-05-10,1943-07-23,1942-05-10,1,0,0,4,0,0,0,4,0,4,87.5
+711,"OLDBURY, MUNICIPAL BOROUGH",uk,Oldbury,municipal borough,England,0,0,52.5051,-2.0159,OS Open Names: Oldbury,4,1940-11-19,1941-04-10,1940-11-19,3,0,4,0,0,0,0,4,0,0,26.5
+712,"OSGOLDCROSS, RURAL DISTRICT",uk,Osgoldcross,rural district,England,0,0,53.6924,-1.3096,OS Open Names: Pontefract,4,1943-09-18,1943-09-18,1943-09-18,4,0,0,4,0,0,0,4,0,2,51.0
+713,"PADSTOW, URBAN DISTRICT",uk,Padstow,urban district,England,0,0,50.5418,-4.9407,OS Open Names: Padstow,4,1940-10-05,1941-05-06,1940-10-05,3,0,4,0,0,0,0,4,1,1,33.5
+714,"PETERBOROUGH, MUNICIPAL BOROUGH",uk,Peterborough,municipal borough,England,0,0,52.5725,-0.2425,OS Open Names: Peterborough,4,1941-01-16,1943-03-04,1941-05-10,2,0,3,1,0,0,0,4,0,1,42.5
+715,"ROCHDALE, COUNTY BOROUGH",uk,Rochdale,county borough,England,0,0,53.617,-2.1567,OS Open Names: Rochdale,4,1941-01-10,1944-11-25,1941-01-10,1,0,1,2,0,1,0,4,0,1,41.0
+716,S.S. COURLAND,sea,S.S. Courland,ship or air crash at sea,,0,0,,,,4,,,,0,0,4,0,0,0,0,0,0,0,
+717,S.S. ELYSIA,sea,S.S. Elysia,ship or air crash at sea,,0,0,,,,4,,,,0,0,0,4,0,0,0,4,0,0,31.0
+718,S.S. EMPRESS OF CANADA,sea,S.S. Empress of Canada,ship or air crash at sea,,0,0,,,,4,,,,0,0,0,4,0,0,0,3,0,0,41
+719,S.S. RUTLAND,sea,S.S. Rutland,ship or air crash at sea,,0,0,,,,4,,,,0,0,3,1,0,0,0,2,0,0,29.5
+720,S.S. TINHOW,sea,S.S. Tinhow,ship or air crash at sea,,0,0,,,,4,,,,0,0,0,4,0,0,0,4,1,0,31.0
+721,"SAWBRIDGEWORTH, URBAN DISTRICT",uk,Sawbridgeworth,urban district,England,0,0,51.8123,0.1511,OS Open Names: Sawbridgeworth,4,1940-10-10,1940-10-10,1940-10-10,4,0,4,0,0,0,0,4,3,0,10.0
+722,"SHREWSBURY, MUNICIPAL BOROUGH",uk,Shrewsbury,municipal borough,England,0,0,52.7082,-2.7543,OS Open Names: Shrewsbury,4,1940-09-01,1942-02-20,1940-09-01,3,3,0,1,0,0,0,4,2,0,19.5
+723,"SOUTHWELL, RURAL DISTRICT",uk,Southwell,rural district,England,0,0,53.078,-0.9553,OS Open Names: Southwell,4,1940-08-28,1944-04-28,1940-08-28,1,1,0,2,1,0,0,3,0,0,39
+724,"SUTTON COLDFIELD, MUNICIPAL BOROUGH",uk,Sutton Coldfield,municipal borough,England,0,0,,,,4,1940-08-25,1942-08-09,1940-08-25,1,1,1,2,0,0,0,4,1,1,38.0
+725,"TAMWORTH, RURAL DISTRICT",uk,Tamworth,rural district,England,0,0,52.6334,-1.6925,OS Open Names: Tamworth,4,1941-06-05,1941-06-05,1941-06-05,4,0,0,4,0,0,0,4,1,0,24.0
+726,"UNDIVIDED INDIA, UNITED PROVINCES",overseas,"Undivided India, United Provinces",overseas,,0,0,,,,4,,,,0,0,0,0,0,2,2,4,1,0,28.0
+727,"WARWICK, RURAL DISTRICT",uk,Warwick,rural district,England,0,0,52.2835,-1.5892,OS Open Names: Warwick,4,1940-04-29,1943-08-09,1943-07-31,2,1,0,3,0,0,0,4,0,1,27.5
+728,"WELWYN GARDEN CITY, URBAN DISTRICT",uk,Welwyn Garden City,urban district,England,0,0,51.8038,-0.2065,OS Open Names: Welwyn Garden City,4,1940-10-02,1940-10-02,1940-10-02,4,0,4,0,0,0,0,3,0,0,40
+729,"WEST KESTEVEN, RURAL DISTRICT",uk,West Kesteven,rural district,England,0,0,52.9121,-0.6422,OS Open Names: Grantham,4,1941-05-09,1942-06-09,1942-06-09,2,0,1,3,0,0,0,4,1,2,51.0
+730,"WEST MERSEA, URBAN DISTRICT",uk,West Mersea,urban district,England,0,0,51.7761,0.9113,OS Open Names: West Mersea,4,1942-06-17,1945-03-08,1942-06-17,2,0,0,2,0,2,0,4,0,0,29.0
+731,"WHICKHAM, URBAN DISTRICT",uk,Whickham,urban district,England,0,0,54.9457,-1.6761,OS Open Names: Whickham,4,1941-05-12,1943-05-27,1941-05-12,1,0,1,3,0,0,0,4,0,1,36.5
+732,"WIRRAL, URBAN DISTRICT",uk,Wirral,urban district,England,0,0,,,,4,1941-06-01,1941-06-01,1941-06-01,4,0,0,4,0,0,0,4,0,0,49.0
+733,"ABERGELE, URBAN DISTRICT, WALES",uk,Abergele,urban district,Wales,0,0,53.2844,-3.5829,OS Open Names: Abergele,3,1940-10-03,1944-10-01,1940-10-03,2,0,2,0,0,1,0,3,0,1,59
+734,"AMESBURY, RURAL DISTRICT",uk,Amesbury,rural district,England,0,0,51.1719,-1.7805,OS Open Names: Amesbury,3,1942-08-26,1943-09-10,1943-09-10,2,0,0,3,0,0,0,3,1,0,17
+735,"ARBROATH, BURGH OF, SCOTLAND",uk,Arbroath,burgh of,Scotland,0,0,56.5623,-2.5841,OS Open Names: Arbroath,3,1941-02-09,1941-07-05,1941-02-09,1,0,2,1,0,0,0,2,2,0,14.5
+736,"BATHAVON, RURAL DISTRICT",uk,Bathavon,rural district,England,0,0,51.3828,-2.3593,OS Open Names: Bath,3,1940-08-17,1940-11-25,1940-11-25,2,1,2,0,0,0,0,3,0,1,46
+737,BELGIUM,overseas,Belgium,overseas,,0,0,,,,3,,,,0,0,0,1,0,1,1,3,0,0,43
+738,"BINGHAM, RURAL DISTRICT",uk,Bingham,rural district,England,0,0,52.9513,-0.9529,OS Open Names: Bingham,3,1941-05-12,1941-05-12,1941-05-12,3,0,3,0,0,0,0,3,1,0,21
+739,"BURNHAM-ON-SEA, URBAN DISTRICT",uk,Burnham-On-Sea,urban district,England,0,0,51.2385,-2.995,OS Open Names: Burnham-On-Sea,3,1940-07-18,1945-05-10,1940-07-18,1,2,0,0,0,0,1,3,0,1,44
+740,CAROLINE ISLANDS,overseas,Caroline Islands,overseas,,0,0,,,,3,,,,0,0,0,0,0,2,1,0,0,0,
+741,"CASTLE WARD, RURAL DISTRICT",uk,Castle Ward,rural district,England,0,0,55.0495,-1.7451,OS Open Names: Ponteland,3,1941-04-17,1942-02-07,1941-04-17,1,0,1,2,0,0,0,3,1,0,33
+742,"CHAILEY, RURAL DISTRICT",uk,Chailey,rural district,England,0,0,50.9571,-0.019,OS Open Names: Chailey,3,1940-10-13,1941-05-22,1940-10-13,1,0,2,1,0,0,0,3,0,2,62
+743,"CHANCTONBURY, RURAL DISTRICT",uk,Chanctonbury,rural district,England,0,0,50.8889,-0.3298,OS Open Names: Steyning,3,1940-10-04,1943-02-18,1940-10-04,1,0,2,1,0,0,0,3,1,1,55
+744,"CHESTERFIELD, MUNICIPAL BOROUGH",uk,Chesterfield,municipal borough,England,0,0,53.2363,-1.4292,OS Open Names: Chesterfield,3,1940-09-13,1941-03-31,1940-09-13,1,0,3,0,0,0,0,3,0,0,58
+745,"CIRENCESTER, RURAL DISTRICT",uk,Cirencester,rural district,England,0,0,51.717,-1.9684,OS Open Names: Cirencester,3,1942-04-10,1943-07-23,1942-04-10,1,0,0,3,0,0,0,3,1,0,31
+746,"COWBRIDGE, RURAL DISTRICT, WALES",uk,Cowbridge,rural district,Wales,0,0,51.4617,-3.447,OS Open Names: Cowbridge,3,1943-04-20,1944-07-05,1943-04-20,1,0,0,2,0,1,0,3,0,0,41
+747,CZECHOSLOVAKIA,overseas,Czechoslovakia,overseas,,0,0,,,,3,,,,0,0,0,0,0,0,3,3,0,0,31
+748,"DEPWADE, RURAL DISTRICT",uk,Depwade,rural district,England,0,0,52.4881,1.2348,OS Open Names: Long Stratton,3,1940-09-23,1944-11-25,1940-09-23,1,0,1,1,0,1,0,2,0,0,45.5
+749,EGYPT,overseas,Egypt,overseas,,0,0,,,,3,,,,0,2,0,1,0,0,0,2,0,0,36.5
+750,"FARNHAM, URBAN DISTRICT",uk,Farnham,urban district,England,0,0,51.215,-0.799,OS Open Names: Farnham,3,1940-08-21,1944-08-02,1940-08-21,1,1,0,1,0,1,0,3,2,0,11
+751,"FLINT, BOROUGH, WALES",uk,Flint,borough,Wales,0,0,53.2483,-3.1365,OS Open Names: Flint,3,1941-10-21,1941-10-21,1941-10-21,3,0,0,3,0,0,0,3,1,0,44
+752,"FROME, URBAN DISTRICT",uk,Frome,urban district,England,0,0,51.231,-2.3218,OS Open Names: Frome,3,1941-04-12,1944-12-18,1941-04-12,1,0,2,0,0,1,0,3,0,2,62
+753,GREECE,overseas,Greece,overseas,,0,0,,,,3,,,,0,0,0,1,0,1,1,2,0,1,54.0
+754,"GRIMSBY, RURAL DISTRICT",uk,Grimsby,rural district,England,0,0,53.5651,-0.0838,OS Open Names: Grimsby,3,1941-03-19,1944-01-31,1941-03-19,1,0,1,1,1,0,0,3,1,1,36
+755,H.M.S. SCORPION,sea,H.M.S. Scorpion,ship or air crash at sea,,0,0,,,,3,,,,0,0,0,3,0,0,0,0,0,0,
+756,"HALESOWEN, MUNICIPAL BOROUGH",uk,Halesowen,municipal borough,England,0,0,52.4534,-2.0609,OS Open Names: Halesowen,3,1940-12-11,1940-12-11,1940-12-11,3,0,3,0,0,0,0,3,2,0,6
+757,"HALESWORTH, URBAN DISTRICT",uk,Halesworth,urban district,England,0,0,52.3431,1.5025,OS Open Names: Halesworth,3,1941-01-18,1941-01-18,1941-01-18,3,0,3,0,0,0,0,3,0,0,55
+758,"HERTFORD, RURAL DISTRICT",uk,Hertford,rural district,England,0,0,51.797,-0.0768,OS Open Names: Hertford,3,1940-10-13,1944-07-21,1940-10-13,2,0,2,0,0,1,0,3,0,0,28
+759,"HOLYHEAD, URBAN DISTRICT, WALES",uk,Holyhead,urban district,Wales,0,0,53.3128,-4.6328,OS Open Names: Holyhead,3,1940-12-26,1940-12-26,1940-12-26,3,0,3,0,0,0,0,3,3,0,14
+760,"INCE-IN-MAKERFIELD, URBAN DISTRICT",uk,Ince-In-Makerfield,urban district,England,0,0,53.5384,-2.6129,OS Open Names: Ince-In-Makerfield,3,1940-09-16,1943-02-24,1943-02-24,2,0,1,2,0,0,0,3,0,0,19
+761,IRAN,overseas,Iran,overseas,,0,0,,,,3,,,,0,0,0,3,0,0,0,3,0,0,45
+762,"ISLES OF SCILLY, RURAL DISTRICT",uk,Isles of Scilly,rural district,England,0,0,49.9146,-6.316,OS Open Names: Hugh Town,3,1940-08-25,1941-08-26,1941-08-26,2,1,0,2,0,0,0,3,1,0,22
+763,"KETTERING, MUNICIPAL BOROUGH",uk,Kettering,municipal borough,England,0,0,52.3999,-0.7283,OS Open Names: Kettering,3,1942-08-01,1944-04-01,1942-08-01,1,0,0,2,1,0,0,2,0,0,30.5
+764,"KINGSCLERE AND WHITCHURCH, RURAL DISTRICT",uk,Kingsclere and Whitchurch,rural district,England,0,0,51.325,-1.2432,OS Open Names: Kingsclere,3,1941-01-01,1941-03-26,1941-03-26,2,0,3,0,0,0,0,3,0,1,56
+765,"KINGSWOOD, URBAN DISTRICT",uk,Kingswood,urban district,England,0,0,51.448,-2.5285,OS Open Names: Kingswood,3,1940-12-06,1941-03-17,1941-03-17,2,0,3,0,0,0,0,3,0,1,56
+766,"LEWES, MUNICIPAL BOROUGH",uk,Lewes,municipal borough,England,0,0,50.8731,0.0104,OS Open Names: Lewes,3,1941-02-26,1944-03-02,1941-02-26,1,0,1,1,1,0,0,3,1,1,31
+767,"LEXDEN AND WINSTREE, RURAL DISTRICT",uk,Lexden and Winstree,rural district,England,0,0,51.8897,0.8993,OS Open Names: Colchester,3,1943-08-17,1943-12-10,1943-12-10,2,0,0,3,0,0,0,2,1,0,16.0
+768,"LOUTH, RURAL DISTRICT",uk,Louth,rural district,England,0,0,53.3671,-0.0039,OS Open Names: Louth,3,1943-04-26,1945-01-22,1943-04-26,1,0,0,1,0,2,0,3,0,1,50
+769,M.V. SILVERBEECH,sea,M.V. Silverbeech,ship or air crash at sea,,0,0,,,,3,,,,0,0,0,3,0,0,0,3,0,0,30
+770,M.V. UPWEY GRANGE,sea,M.V. Upwey Grange,ship or air crash at sea,,0,0,,,,3,,,,0,3,0,0,0,0,0,3,0,0,34
+771,M.V. ZEALANDIC,sea,M.V. Zealandic,ship or air crash at sea,,0,0,,,,3,,,,0,0,3,0,0,0,0,3,0,0,30
+772,"MACCLESFIELD, MUNICIPAL BOROUGH",uk,Macclesfield,municipal borough,England,0,0,53.2606,-2.1255,OS Open Names: Macclesfield,3,1940-12-24,1942-07-26,1942-07-26,2,0,1,2,0,0,0,2,0,2,70.5
+773,"MELFORD, RURAL DISTRICT",uk,Melford,rural district,England,0,0,52.0744,0.7164,OS Open Names: Long Melford,3,1940-11-06,1942-05-06,1940-11-06,2,0,2,1,0,0,0,2,0,2,75.5
+774,"MORECAMBE AND HEYSHAM, MUNICIPAL BOROUGH",uk,Morecambe and Heysham,municipal borough,England,0,0,54.0724,-2.863,OS Open Names: Morecambe,3,1941-03-13,1942-05-21,1941-03-13,2,0,2,1,0,0,0,3,0,2,71
+775,"NAIRN, BURGH OF, SCOTLAND",uk,Nairn,burgh of,Scotland,0,0,57.5846,-3.8688,OS Open Names: Nairn,3,1941-04-29,1941-09-20,1941-09-20,2,0,1,2,0,0,0,3,0,1,47
+776,"NEWBIGGIN BY THE SEA, URBAN DISTRICT",uk,Newbiggin By The Sea,urban district,England,0,0,55.1855,-1.51,OS Open Names: Newbiggin-by-the-Sea,3,1941-11-07,1941-11-07,1941-11-07,3,0,0,3,0,0,0,3,1,1,32
+777,"NEWBURY, RURAL DISTRICT",uk,Newbury,rural district,England,0,0,51.4003,-1.3231,OS Open Names: Newbury,3,1943-03-03,1943-06-21,1943-03-03,2,0,0,3,0,0,0,3,0,2,65
+778,"NIDDERDALE, RURAL DISTRICT",uk,Nidderdale,rural district,England,0,0,54.0864,-1.7587,OS Open Names: Pateley Bridge,3,1944-11-16,1944-11-16,1944-11-16,3,0,0,0,0,3,0,3,0,1,56
+779,"NORTHLEACH, RURAL DISTRICT",uk,Northleach,rural district,England,0,0,51.8303,-1.8372,OS Open Names: Northleach,3,1942-02-22,1946-06-15,1942-02-22,1,0,0,1,0,1,1,3,0,0,32
+780,"ORKNEY COUNTY, SCOTLAND",uk,Orkney,county,Scotland,0,0,,,,3,1940-03-16,1941-06-22,1940-03-16,1,1,1,1,0,0,0,3,0,1,54
+781,"PLOUGHLEY, RURAL DISTRICT",uk,Ploughley,rural district,England,0,0,51.8967,-1.1519,OS Open Names: Bicester,3,1940-10-04,1943-12-20,1940-10-04,1,0,1,2,0,0,0,3,1,0,40
+782,"PORTKNOCKIE, BURGH OF, SCOTLAND",uk,Portknockie,burgh of,Scotland,0,0,57.704,-2.8581,OS Open Names: Portknockie,3,1941-02-19,1941-02-19,1941-02-19,3,0,3,0,0,0,0,3,0,0,47
+783,"ROMNEY MARSH, RURAL DISTRICT",uk,Romney Marsh,rural district,England,0,0,,,,3,1940-08-24,1942-05-10,1940-08-24,2,2,0,1,0,0,0,3,0,1,53
+784,"ROTHERHAM, COUNTY BOROUGH",uk,Rotherham,county borough,England,0,0,53.4307,-1.3547,OS Open Names: Rotherham,3,1940-08-19,1940-09-04,1940-08-19,1,3,0,0,0,0,0,3,0,1,41
+785,S.S. CARARE,sea,S.S. Carare,ship or air crash at sea,,0,0,,,,3,,,,0,3,0,0,0,0,0,3,0,0,22
+786,S.S. HARPAGUS,sea,S.S. Harpagus,ship or air crash at sea,,0,0,,,,3,,,,0,0,0,3,0,0,0,3,1,0,33
+787,S.S. HOI HOW,sea,S.S. Hoi How,ship or air crash at sea,,0,0,,,,3,,,,0,0,0,3,0,0,0,1,0,0,34
+788,S.S. KHEDIVE ISMAIL,sea,S.S. Khedive Ismail,ship or air crash at sea,,0,0,,,,3,,,,0,0,0,0,3,0,0,2,0,0,29.5
+789,S.S. PORT HUNTER,sea,S.S. Port Hunter,ship or air crash at sea,,0,0,,,,3,,,,0,0,0,3,0,0,0,3,0,1,38
+790,S.S. PORT VICTOR,sea,S.S. Port Victor,ship or air crash at sea,,0,0,,,,3,,,,0,0,0,3,0,0,0,3,0,1,52
+791,S.S. ST. ELWYN,sea,S.S. St. Elwyn,ship or air crash at sea,,0,0,,,,3,,,,0,0,3,0,0,0,0,1,1,0,2
+792,"ST. AUSTELL, RURAL DISTRICT",uk,St. Austell,rural district,England,0,0,50.3385,-4.7912,OS Open Names: St Austell,3,1941-04-28,1941-04-28,1941-04-28,3,0,3,0,0,0,0,3,2,0,13
+793,"STRANRAER, BURGH OF, SCOTLAND",uk,Stranraer,burgh of,Scotland,0,0,54.9036,-5.0276,OS Open Names: Stranraer,3,1940-09-24,1947-04-07,1940-09-24,1,0,1,0,0,0,2,2,0,1,49.0
+794,"THORNABY-ON-TEES, MUNICIPAL BOROUGH",uk,Thornaby-On-Tees,municipal borough,England,0,0,54.5401,-1.294,OS Open Names: Thornaby-On-Tees,3,1943-03-11,1943-03-11,1943-03-11,3,0,0,3,0,0,0,3,0,2,69
+795,"TUTBURY, RURAL DISTRICT",uk,Tutbury,rural district,England,0,0,52.8569,-1.6863,OS Open Names: Tutbury,3,1944-11-27,1944-11-27,1944-11-27,3,0,0,0,0,3,0,3,0,1,42
+796,"ULVERSTON, URBAN DISTRICT",uk,Ulverston,urban district,England,0,0,54.1954,-3.0926,OS Open Names: Ulverston,3,1941-05-10,1943-07-01,1941-05-10,1,0,2,1,0,0,0,3,0,1,58
+797,"UNDIVIDED INDIA, BIHAR PROVINCE",overseas,"Undivided India, Bihar Province",overseas,,0,0,,,,3,,,,0,0,0,0,2,0,1,3,1,2,60
+798,"VALLEY, RURAL DISTRICT, WALES",uk,Valley,rural district,Wales,0,0,53.2816,-4.5622,OS Open Names: Valley,3,1943-07-19,1943-07-20,1943-07-19,2,0,0,3,0,0,0,2,0,0,42.0
+799,"WEST LOTHIAN COUNTY, SCOTLAND",uk,West Lothian,county,Scotland,0,0,,,,3,1942-04-03,1945-04-24,1942-04-03,1,0,0,2,0,0,1,3,1,0,34
+800,"WIGAN, RURAL DISTRICT",uk,Wigan,rural district,England,0,0,53.5455,-2.6297,OS Open Names: Wigan,3,1941-05-28,1947-01-20,1941-05-28,1,0,0,1,0,0,2,3,0,0,39
+801,"WOLVERTON, URBAN DISTRICT",uk,Wolverton,urban district,England,0,0,52.0625,-0.8166,OS Open Names: Wolverton,3,1940-10-20,1940-10-20,1940-10-20,3,0,3,0,0,0,0,3,1,1,43
+802,"ALNWICK, URBAN DISTRICT",uk,Alnwick,urban district,England,0,0,55.4116,-1.7056,OS Open Names: Alnwick,2,1941-11-09,1941-11-09,1941-11-09,2,0,0,2,0,0,0,2,0,2,81.5
+803,"ANDOVER, MUNICIPAL BOROUGH",uk,Andover,municipal borough,England,0,0,51.2075,-1.4792,OS Open Names: Andover,2,1940-08-14,1940-08-14,1940-08-14,2,2,0,0,0,0,0,2,0,0,26.0
+804,AUSTRIA,overseas,Austria,overseas,,0,0,,,,2,,,,0,0,0,1,0,0,1,2,0,0,44.0
+805,"AXMINSTER, URBAN DISTRICT",uk,Axminster,urban district,England,0,0,50.7821,-2.9994,OS Open Names: Axminster,2,1940-04-21,1941-04-17,1940-04-21,1,1,1,0,0,0,0,2,1,1,36.5
+806,"AYLESBURY, MUNICIPAL BOROUGH",uk,Aylesbury,municipal borough,England,0,0,51.8171,-0.8107,OS Open Names: Aylesbury,2,1940-09-26,1943-01-09,1940-09-26,1,0,1,1,0,0,0,2,0,1,43.5
+807,"AYR, BURGH OF, SCOTLAND",uk,Ayr,burgh of,Scotland,0,0,55.4582,-4.629,OS Open Names: Ayr,2,1941-08-14,1941-12-05,1941-08-14,1,0,0,2,0,0,0,2,0,0,53.5
+808,"BANBURY, RURAL DISTRICT",uk,Banbury,rural district,England,0,0,52.0621,-1.3336,OS Open Names: Banbury,2,1943-02-24,1945-11-13,1943-02-24,1,0,0,1,0,0,1,1,0,0,26
+809,"BARNSTAPLE, RURAL DISTRICT",uk,Barnstaple,rural district,England,0,0,51.0811,-4.0584,OS Open Names: Barnstaple,2,1941-05-15,1943-07-31,1941-05-15,1,0,1,1,0,0,0,2,0,1,50.0
+810,"BARRHEAD, BURGH OF, SCOTLAND",uk,Barrhead,burgh of,Scotland,0,0,55.8008,-4.3896,OS Open Names: Barrhead,2,1940-12-20,1941-03-13,1940-12-20,1,0,2,0,0,0,0,2,0,0,50.0
+811,"BEDFORD, RURAL DISTRICT",uk,Bedford,rural district,England,0,0,52.1368,-0.4685,OS Open Names: Bedford,2,1944-03-24,1944-03-24,1944-03-24,2,0,0,0,2,0,0,2,2,0,10.0
+812,"BETHESDA, URBAN DISTRICT, WALES",uk,Bethesda,urban district,Wales,0,0,53.1795,-4.0613,OS Open Names: Bethesda,2,1940-09-24,1940-09-24,1940-09-24,2,0,2,0,0,0,0,2,0,2,62.0
+813,"BEVERLEY, RURAL DISTRICT",uk,Beverley,rural district,England,0,0,53.8434,-0.4335,OS Open Names: Beverley,2,1940-03-05,1941-05-09,1940-03-05,1,1,1,0,0,0,0,2,0,0,35.5
+814,"BISHOP AUCKLAND, URBAN DISTRICT",uk,Bishop Auckland,urban district,England,0,0,54.6641,-1.6791,OS Open Names: Bishop Auckland,2,1940-08-15,1942-05-24,1940-08-15,1,1,0,1,0,0,0,2,1,0,18.0
+815,"BRAINTREE AND BOCKING, URBAN DISTRICT",uk,Braintree and Bocking,urban district,England,0,0,51.8782,0.5531,OS Open Names: Braintree,2,1941-02-14,1941-02-14,1941-02-14,2,0,2,0,0,0,0,2,1,0,16.0
+816,"BRIDGNORTH, MUNICIPAL BOROUGH",uk,Bridgnorth,municipal borough,England,0,0,52.5358,-2.4198,OS Open Names: Bridgnorth,2,1940-08-29,1940-08-29,1940-08-29,2,2,0,0,0,0,0,2,0,2,65.0
+817,"BRIDGNORTH, RURAL DISTRICT",uk,Bridgnorth,rural district,England,0,0,52.5358,-2.4198,OS Open Names: Bridgnorth,2,1941-04-11,1941-04-11,1941-04-11,2,0,2,0,0,0,0,2,0,0,17.0
+818,"BRIDGWATER, RURAL DISTRICT",uk,Bridgwater,rural district,England,0,0,51.1278,-3.0064,OS Open Names: Bridgwater,2,1940-10-01,1947-11-01,1940-10-01,1,0,1,0,0,0,1,1,0,0,27
+819,"BRIGHTLINGSEA, URBAN DISTRICT",uk,Brightlingsea,urban district,England,0,0,51.8111,1.0245,OS Open Names: Brightlingsea,2,1941-01-18,1941-03-22,1941-01-18,1,0,2,0,0,0,0,2,0,1,65.0
+820,"BROMSGROVE, RURAL DISTRICT",uk,Bromsgrove,rural district,England,0,0,52.3352,-2.0593,OS Open Names: Bromsgrove,2,1940-11-13,1941-01-09,1940-11-13,1,0,2,0,0,0,0,2,0,0,25.0
+821,"BULLINGDON, RURAL DISTRICT",uk,Bullingdon,rural district,England,0,0,51.7466,-1.1349,OS Open Names: Wheatley,2,1943-07-16,1944-09-24,1943-07-16,1,0,0,1,0,1,0,1,0,0,43
+822,"BURNLEY, COUNTY BOROUGH",uk,Burnley,county borough,England,0,0,53.7875,-2.2444,OS Open Names: Burnley,2,1940-09-12,1944-11-03,1940-09-12,1,0,1,0,0,1,0,2,0,0,47.0
+823,"BUTE COUNTY, SCOTLAND",uk,Bute,county,Scotland,0,0,,,,2,1941-01-28,1941-01-28,1941-01-28,2,0,2,0,0,0,0,0,0,0,
+824,"CARMARTHEN, BOROUGH, WALES",uk,Carmarthen,borough,Wales,0,0,51.8565,-4.3057,OS Open Names: Carmarthen,2,1941-02-28,1942-02-27,1941-02-28,1,0,1,1,0,0,0,2,1,0,35.5
+825,"CARNOUSTIE, BURGH OF, SCOTLAND",uk,Carnoustie,burgh of,Scotland,0,0,56.5014,-2.709,OS Open Names: Carnoustie,2,1940-01-06,1945-02-15,1940-01-06,1,1,0,0,0,1,0,2,1,0,34.0
+826,"CASTLEFORD, URBAN DISTRICT",uk,Castleford,urban district,England,0,0,53.7258,-1.3535,OS Open Names: Castleford,2,1941-03-14,1941-03-15,1941-03-14,1,0,2,0,0,0,0,2,0,1,61.0
+827,"CEIRIOG, RURAL DISTRICT, WALES",uk,Ceiriog,rural district,Wales,0,0,52.9335,-3.1873,OS Open Names: Glyn Ceiriog,2,1943-01-26,1943-01-26,1943-01-26,2,0,0,2,0,0,0,2,0,0,46.5
+828,"CHELTENHAM, RURAL DISTRICT",uk,Cheltenham,rural district,England,0,0,51.9007,-2.0767,OS Open Names: Cheltenham,2,1940-11-19,1943-03-12,1940-11-19,1,0,1,1,0,0,0,2,0,1,64.5
+829,"CHEPPING WYCOMBE, MUNICIPAL BOROUGH",uk,Chepping Wycombe,municipal borough,England,0,0,51.6288,-0.7495,OS Open Names: High Wycombe,2,1942-10-21,1944-03-17,1942-10-21,1,0,0,1,1,0,0,1,0,1,66
+830,"CHESTERTON, RURAL DISTRICT",uk,Chesterton,rural district,England,0,0,52.2205,0.146,OS Open Names: Chesterton,2,1941-02-03,1941-11-21,1941-02-03,1,0,1,1,0,0,0,2,0,0,26.0
+831,"CHIPPING NORTON, RURAL DISTRICT",uk,Chipping Norton,rural district,England,0,0,51.9413,-1.5458,OS Open Names: Chipping Norton,2,1945-04-27,1945-04-27,1945-04-27,2,0,0,0,0,0,2,2,0,0,35.5
+832,"CLARE, RURAL DISTRICT",uk,Clare,rural district,England,0,0,52.0785,0.5811,OS Open Names: Clare,2,1942-05-13,1943-02-10,1942-05-13,1,0,0,2,0,0,0,1,0,0,20
+833,"CLEVEDON, URBAN DISTRICT",uk,Clevedon,urban district,England,0,0,51.4366,-2.8518,OS Open Names: Clevedon,2,1941-04-12,1942-12-12,1941-04-12,1,0,1,1,0,0,0,2,0,2,68.0
+834,"CLITHEROE, RURAL DISTRICT",uk,Clitheroe,rural district,England,0,0,53.8749,-2.3874,OS Open Names: Clitheroe,2,1940-10-30,1940-10-30,1940-10-30,2,0,2,0,0,0,0,2,0,1,47.0
+835,"COATBRIDGE, BURGH OF, SCOTLAND",uk,Coatbridge,burgh of,Scotland,0,0,55.8624,-4.0291,OS Open Names: Coatbridge,2,1943-11-11,1944-04-04,1943-11-11,1,0,0,1,1,0,0,2,0,1,53.0
+836,"COOKSTOWN, RURAL DISTRICT, N. IRELAND",uk,Cookstown,rural district,Northern Ireland,0,0,54.647,-6.745,Wikidata Q1129639,2,1943-02-14,1943-02-15,1943-02-14,1,0,0,2,0,0,0,2,2,0,11.5
+837,"DARLINGTON, COUNTY BOROUGH",uk,Darlington,county borough,England,0,0,54.5233,-1.5536,OS Open Names: Darlington,2,1942-10-12,1942-11-12,1942-10-12,1,0,0,2,0,0,0,2,1,0,22.0
+838,DENMARK,overseas,Denmark,overseas,,0,0,,,,2,,,,0,0,0,1,0,1,0,2,0,0,52.0
+839,"DEVIZES, RURAL DISTRICT",uk,Devizes,rural district,England,0,0,51.3519,-1.9953,OS Open Names: Devizes,2,1941-05-27,1942-04-25,1941-05-27,1,0,0,2,0,0,0,1,1,0,1
+840,"DORCHESTER, MUNICIPAL BOROUGH",uk,Dorchester,municipal borough,England,0,0,50.7153,-2.4381,OS Open Names: Dorchester,2,1940-08-31,1944-06-13,1940-08-31,1,1,0,0,0,1,0,1,0,0,45
+841,"DOWNHAM, RURAL DISTRICT",uk,Downham,rural district,England,0,0,52.6029,0.3778,OS Open Names: Downham Market,2,1940-10-29,1941-07-09,1940-10-29,1,0,1,1,0,0,0,2,0,0,55.0
+842,"ELLESMERE PORT, URBAN DISTRICT",uk,Ellesmere Port,urban district,England,0,0,53.2778,-2.9034,OS Open Names: Ellesmere Port,2,1940-12-22,1941-05-04,1940-12-22,1,0,2,0,0,0,0,2,1,1,32.0
+843,"ELY, RURAL DISTRICT",uk,Ely,rural district,England,0,0,52.3996,0.2625,OS Open Names: Ely,2,1943-09-08,1943-09-08,1943-09-08,2,0,0,2,0,0,0,2,0,0,54.0
+844,"ELY, URBAN DISTRICT",uk,Ely,urban district,England,0,0,52.3996,0.2625,OS Open Names: Ely,2,1945-02-06,1945-02-06,1945-02-06,2,0,0,0,0,2,0,1,1,0,10
+845,"FALKIRK, BURGH OF, SCOTLAND",uk,Falkirk,burgh of,Scotland,0,0,55.9993,-3.7848,OS Open Names: Falkirk,2,1942-11-12,1943-12-26,1942-11-12,1,0,0,2,0,0,0,2,0,0,33.5
+846,"FLINT, URBAN DISTRICT, WALES",uk,Flint,urban district,Wales,0,0,53.2483,-3.1365,OS Open Names: Flint,2,1942-05-16,1943-10-18,1942-05-16,1,0,0,2,0,0,0,2,0,1,42.0
+847,"FREEBRIDGE LYNN, RURAL DISTRICT",uk,Freebridge Lynn,rural district,England,0,0,52.7519,0.3954,OS Open Names: King's Lynn,2,1943-05-02,1945-05-01,1943-05-02,1,0,0,1,0,0,1,2,1,0,15.5
+848,"GOWER, RURAL DISTRICT, WALES",uk,Gower,rural district,Wales,0,0,,,,2,1941-02-23,1944-01-22,1941-02-23,1,0,1,0,1,0,0,1,0,0,30
+849,"GWYRFAI, RURAL DISTRICT, WALES",uk,Gwyrfai,rural district,Wales,0,0,53.1408,-4.2759,OS Open Names: Caernarfon,2,1941-10-10,1943-09-04,1941-10-10,1,0,0,2,0,0,0,2,0,0,20.0
+850,H.M.S. YIN PING,sea,H.M.S. Yin Ping,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,0,0,0,
+851,"HAWARDEN, RURAL DISTRICT, WALES",uk,Hawarden,rural district,Wales,0,0,53.1847,-3.0255,OS Open Names: Hawarden,2,1942-10-01,1943-06-21,1942-10-01,1,0,0,2,0,0,0,1,0,0,49
+852,"HAWICK, MUNICIPAL BOROUGH, SCOTLAND",uk,Hawick,municipal borough,Scotland,0,0,55.4276,-2.7847,OS Open Names: Hawick,2,1944-02-24,1947-05-17,1944-02-24,1,0,0,0,1,0,1,1,1,0,10
+853,"HELSTON, MUNICIPAL BOROUGH",uk,Helston,municipal borough,England,0,0,50.1009,-5.2745,OS Open Names: Helston,2,1941-11-02,1946-10-12,1941-11-02,1,0,0,1,0,0,1,1,0,0,56
+854,"HENLEY ON THAMES, MUNICIPAL BOROUGH",uk,Henley on Thames,municipal borough,England,0,0,51.5376,-0.9046,OS Open Names: Henley-on-Thames,2,1940-12-31,1945-03-22,1940-12-31,1,0,1,0,0,1,0,2,0,1,68.0
+855,"HOYLAKE, URBAN DISTRICT",uk,Hoylake,urban district,England,0,0,53.3947,-3.1748,OS Open Names: Hoylake,2,1940-12-20,1941-10-22,1940-12-20,1,0,1,1,0,0,0,2,0,0,58.5
+856,"INVERNESS, BURGH OF, SCOTLAND",uk,Inverness,burgh of,Scotland,0,0,57.48,-4.2262,OS Open Names: Inverness,2,1944-11-01,1946-05-20,1944-11-01,1,0,0,0,0,1,1,2,1,0,29.5
+857,"JOHNSTONE, BURGH OF, SCOTLAND",uk,Johnstone,burgh of,Scotland,0,0,55.8369,-4.5131,OS Open Names: Johnstone,2,1942-08-07,1944-09-29,1942-08-07,1,0,0,1,0,1,0,2,0,1,59.0
+858,"KIRKHAM, URBAN DISTRICT",uk,Kirkham,urban district,England,0,0,53.7825,-2.8713,OS Open Names: Kirkham,2,1941-09-28,1942-03-13,1941-09-28,1,0,0,2,0,0,0,1,0,1,68
+859,"KNUTSFORD, URBAN DISTRICT",uk,Knutsford,urban district,England,0,0,53.3031,-2.3748,OS Open Names: Knutsford,2,1940-12-23,1940-12-23,1940-12-23,2,0,2,0,0,0,0,2,0,1,53.0
+860,"LARNE, RURAL DISTRICT, N. IRELAND",uk,Larne,rural district,Northern Ireland,0,0,54.8517,-5.8133,Wikidata Q935686,2,1940-01-31,1946-04-17,1940-01-31,1,1,0,0,0,0,1,2,1,0,24.0
+861,"LERWICK, BURGH OF, SCOTLAND",uk,Lerwick,burgh of,Scotland,0,0,60.1546,-1.1468,OS Open Names: Lerwick,2,1942-01-20,1942-01-24,1942-01-20,1,0,0,2,0,0,0,2,0,1,52.5
+862,"LISKEARD, MUNICIPAL BOROUGH",uk,Liskeard,municipal borough,England,0,0,50.4553,-4.465,OS Open Names: Liskeard,2,1941-04-23,1941-05-10,1941-04-23,1,0,2,0,0,0,0,2,0,0,28.5
+863,"LONDONDERRY, COUNTY BOROUGH, N. IRELAND",uk,Londonderry,county borough,Northern Ireland,0,0,54.9917,-7.3417,Wikidata Q163584,2,1941-04-16,1941-05-31,1941-04-16,1,0,1,1,0,0,0,2,1,0,30.5
+864,"LONG EATON, URBAN DISTRICT",uk,Long Eaton,urban district,England,0,0,52.9,-1.2726,OS Open Names: Long Eaton,2,1940-08-28,1940-08-28,1940-08-28,2,2,0,0,0,0,0,2,0,0,37.0
+865,M.V. ADDA,sea,M.V. Adda,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,2,0,0,31.5
+866,M.V. CALIFORNIA STAR,sea,M.V. California Star,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,2,0,0,44.0
+867,M.V. LASSELL,sea,M.V. Lassell,ship or air crash at sea,,0,0,,,,2,,,,0,0,2,0,0,0,0,2,0,0,44.0
+868,M.V. PORT TOWNSVILLE,sea,M.V. Port Townsville,ship or air crash at sea,,0,0,,,,2,,,,0,0,2,0,0,0,0,2,0,1,63.5
+869,"MACDUFF, BURGH OF, SCOTLAND",uk,Macduff,burgh of,Scotland,0,0,57.67,-2.4964,OS Open Names: Macduff,2,1945-01-28,1945-12-30,1945-01-28,1,0,0,0,0,1,1,2,0,0,50.0
+870,"MALMESBURY, RURAL DISTRICT",uk,Malmesbury,rural district,England,0,0,51.5856,-2.1014,OS Open Names: Malmesbury,2,1941-04-25,1942-04-08,1941-04-25,1,0,1,1,0,0,0,2,0,0,36.5
+871,"MANGOTSFIELD, URBAN DISTRICT",uk,Mangotsfield,urban district,England,0,0,51.4885,-2.5034,OS Open Names: Mangotsfield,2,1940-11-25,1940-11-25,1940-11-25,2,0,2,0,0,0,0,0,0,0,
+872,"MARKET HARBOROUGH, URBAN DISTRICT",uk,Market Harborough,urban district,England,0,0,52.4795,-0.9227,OS Open Names: Market Harborough,2,1943-05-18,1946-12-13,1943-05-18,1,0,0,1,0,0,1,2,0,1,62.5
+873,"MELTON MOWBRAY, URBAN DISTRICT",uk,Melton Mowbray,urban district,England,0,0,52.7664,-0.8881,OS Open Names: Melton Mowbray,2,1940-11-04,1940-11-23,1940-11-04,1,0,2,0,0,0,0,2,0,1,48.0
+874,"MITFORD AND LAUNDITCH, RURAL DISTRICT",uk,Mitford and Launditch,rural district,England,0,0,52.682,0.9405,OS Open Names: Dereham,2,1942-04-29,1942-11-30,1942-04-29,1,0,0,2,0,0,0,2,0,0,39.0
+875,"MORELY, MUNICIPAL BOROUGH",uk,Morely,municipal borough,England,0,0,53.7491,-1.6023,OS Open Names: Morley,2,1944-02-11,1944-02-11,1944-02-11,2,0,0,0,2,0,0,1,0,0,32
+876,MOROCCO,overseas,Morocco,overseas,,0,0,,,,2,,,,0,0,0,0,0,2,0,1,0,0,32
+877,"MORPETH, RURAL DISTRICT",uk,Morpeth,rural district,England,0,0,55.1675,-1.6907,OS Open Names: Morpeth,2,1941-02-16,1944-09-11,1941-02-16,1,0,1,0,0,1,0,2,0,0,30.5
+878,"NANTWICH, RURAL DISTRICT",uk,Nantwich,rural district,England,0,0,53.0688,-2.5205,OS Open Names: Nantwich,2,1940-09-26,1942-06-11,1940-09-26,1,0,1,1,0,0,0,2,1,0,29.5
+879,"NEWMARKET, RURAL DISTRICT",uk,Newmarket,rural district,England,0,0,52.2436,0.4053,OS Open Names: Newmarket,2,1940-10-29,1944-08-15,1940-10-29,1,0,1,0,0,1,0,2,0,1,54.0
+880,"NEWQUAY, URBAN DISTRICT",uk,Newquay,urban district,England,0,0,50.4136,-5.0822,OS Open Names: Newquay,2,1942-06-06,1944-04-17,1942-06-06,1,0,0,1,1,0,0,1,0,1,83
+881,"NEWRY, URBAN DISTRICT, N. IRELAND",uk,Newry,urban district,Northern Ireland,0,0,54.1756,-6.3492,Wikidata Q269980,2,1943-01-27,1944-04-28,1943-01-27,1,0,0,1,1,0,0,2,0,0,31.0
+882,"NEWTOWNARDS, RURAL DISTRICT, N. IRELAND",uk,Newtownards,rural district,Northern Ireland,0,0,54.591,-5.68,Wikidata Q2192709,2,1942-11-04,1942-12-17,1942-11-04,1,0,0,2,0,0,0,2,0,0,26.0
+883,"NORTH COTSWOLD, RURAL DISTRICT",uk,North Cotswold,rural district,England,0,0,51.99,-1.7032,OS Open Names: Moreton-in-Marsh,2,1942-02-12,1944-12-31,1942-02-12,1,0,0,1,0,1,0,2,1,0,24.5
+884,"PERTH COUNTY, SCOTLAND",uk,Perth,county,Scotland,0,0,,,,2,1940-07-30,1944-08-20,1940-07-30,1,1,0,0,0,1,0,2,0,2,66.5
+885,"PONTEFRACT, MUNICIPAL BOROUGH",uk,Pontefract,municipal borough,England,0,0,53.6924,-1.3096,OS Open Names: Pontefract,2,1940-09-01,1943-11-16,1940-09-01,1,1,0,1,0,0,0,2,1,1,38.5
+886,"RICHMOND, RURAL DISTRICT",uk,Richmond,rural district,England,0,1,51.4596,-0.3064,OS Open Names: Richmond upon Thames,2,1943-02-02,1944-02-04,1943-02-02,1,0,0,1,1,0,0,2,0,0,48.5
+887,"RUGBY, RURAL DISTRICT",uk,Rugby,rural district,England,0,0,52.3722,-1.2627,OS Open Names: Rugby,2,1940-11-19,1940-11-19,1940-11-19,2,0,2,0,0,0,0,2,0,0,50.0
+888,"RUNCORN, RURAL DISTRICT",uk,Runcorn,rural district,England,0,0,53.3417,-2.7313,OS Open Names: Runcorn,2,1940-11-28,1940-11-28,1940-11-28,2,0,2,0,0,0,0,2,0,1,49.5
+889,"RUNCORN, URBAN DISTRICT",uk,Runcorn,urban district,England,0,0,53.3417,-2.7313,OS Open Names: Runcorn,2,1942-11-03,1945-02-03,1942-11-03,1,0,0,1,0,1,0,1,0,0,57
+890,"RUTHIN, RURAL DISTRICT, WALES",uk,Ruthin,rural district,Wales,0,0,53.1144,-3.3105,OS Open Names: Ruthin,2,1942-07-17,1942-07-17,1942-07-17,2,0,0,2,0,0,0,1,0,0,46
+891,S.S. ANCHISES,sea,S.S. Anchises,ship or air crash at sea,,0,0,,,,2,,,,0,0,2,0,0,0,0,2,0,0,37.0
+892,S.S. CARLIER,sea,S.S. Carlier,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,2,0,0,23.5
+893,S.S. CITY OF SIMLA,sea,S.S. City of Simla,ship or air crash at sea,,0,0,,,,2,,,,0,0,2,0,0,0,0,2,2,0,15.0
+894,S.S. DE LA SALLE,sea,S.S. De La Salle,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,2,0,1,56.5
+895,S.S. ELSTREE GRANGE,sea,S.S. Elstree Grange,ship or air crash at sea,,0,0,,,,2,,,,0,0,2,0,0,0,0,2,0,0,48.5
+896,S.S. LISBON MARU,sea,S.S. Lisbon Maru,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,1,0,0,29
+897,S.S. NAILSEA COURT,sea,S.S. Nailsea Court,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,2,0,0,41.5
+898,S.S. ORCADES,sea,S.S. Orcades,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,2,0,0,30.5
+899,S.S. SIRDHANA,sea,S.S. Sirdhana,ship or air crash at sea,,0,0,,,,2,,,,0,2,0,0,0,0,0,1,1,0,2
+900,S.S. TIEN KWANG,sea,S.S. Tien Kwang,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,2,0,0,42.0
+901,S.S. TROILUS,sea,S.S. Troilus,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,0,0,2,0,2,0,1,65.0
+902,S.S. UMVUMA,sea,S.S. Umvuma,ship or air crash at sea,,0,0,,,,2,,,,0,0,0,2,0,0,0,2,0,0,30.0
+903,"SAFFRON WALDEN, MUNICIPAL BOROUGH",uk,Saffron Walden,municipal borough,England,0,0,52.0233,0.2427,OS Open Names: Saffron Walden,2,1940-08-31,1943-01-08,1940-08-31,1,1,0,1,0,0,0,2,0,0,40.0
+904,"SCUNTHORPE, MUNICIPAL BOROUGH",uk,Scunthorpe,municipal borough,England,0,0,53.5919,-0.6468,OS Open Names: Scunthorpe,2,1941-03-09,1941-05-12,1941-03-09,1,0,2,0,0,0,0,2,0,0,31.5
+905,"SKELMERSDALE, URBAN DISTRICT",uk,Skelmersdale,urban district,England,0,0,53.5492,-2.7747,OS Open Names: Skelmersdale,2,1941-12-03,1942-06-20,1941-12-03,1,0,0,2,0,0,0,1,0,0,22
+906,"SKELTON AND BROTTON, URBAN DISTRICT",uk,Skelton and Brotton,urban district,England,0,0,54.001,-1.1339,OS Open Names: Skelton,2,1940-09-02,1940-09-02,1940-09-02,2,2,0,0,0,0,0,2,0,0,48.0
+907,"SOUTH CAMBRIDGESHIRE, RURAL DISTRICT",uk,South Cambridgeshire,rural district,England,0,0,52.2049,0.1197,OS Open Names: Cambridge,2,1944-02-10,1944-09-03,1944-02-10,1,0,0,0,1,1,0,2,0,0,42.0
+908,"STAFFORD, MUNICIPAL BOROUGH",uk,Stafford,municipal borough,England,0,0,52.8058,-2.1167,OS Open Names: Stafford,2,1940-09-16,1940-09-19,1940-09-16,1,0,2,0,0,0,0,2,0,0,22.0
+909,"STORNOWAY, BURGH OF, SCOTLAND",uk,Stornoway,burgh of,Scotland,0,0,58.2077,-6.3861,OS Open Names: Stornoway,2,1940-09-12,1941-03-31,1940-09-12,1,0,2,0,0,0,0,2,0,0,35.5
+910,"STROUD, RURAL DISTRICT",uk,Stroud,rural district,England,0,0,51.7455,-2.2182,OS Open Names: Stroud,2,1941-06-15,1941-06-15,1941-06-15,2,0,0,2,0,0,0,2,0,1,65.0
+911,SWITZERLAND,overseas,Switzerland,overseas,,0,0,,,,2,,,,0,0,0,0,0,0,2,1,0,0,39
+912,"TAUNTON, MUNICIPAL BOROUGH",uk,Taunton,municipal borough,England,0,0,51.0134,-3.1082,OS Open Names: Taunton,2,1942-09-29,1944-06-17,1942-09-29,1,0,0,1,0,1,0,2,1,0,23.0
+913,"TEWKESBURY, MUNICIPAL BOROUGH",uk,Tewkesbury,municipal borough,England,0,0,51.9924,-2.1576,OS Open Names: Tewkesbury,2,1944-12-12,1946-01-27,1944-12-12,1,0,0,0,0,1,1,2,1,0,27.5
+914,"THEDWASTRE, RURAL DISTRICT",uk,Thedwastre,rural district,England,0,0,52.2527,0.806,OS Open Names: Thurston,2,1942-06-22,1945-01-15,1942-06-22,1,0,0,1,0,1,0,2,1,0,16.0
+915,"THINGOE, RURAL DISTRICT",uk,Thingoe,rural district,England,0,0,52.2463,0.7138,OS Open Names: Bury St Edmunds,2,1940-11-16,1942-09-07,1940-11-16,1,0,1,1,0,0,0,2,0,0,35.5
+916,"THORNE, RURAL DISTRICT",uk,Thorne,rural district,England,0,0,53.611,-0.9609,OS Open Names: Thorne,2,1944-10-30,1944-10-30,1944-10-30,2,0,0,0,0,2,0,2,0,1,66.0
+917,"TIVERTON, RURAL DISTRICT",uk,Tiverton,rural district,England,0,0,50.9024,-3.4886,OS Open Names: Tiverton,2,1941-07-27,1944-03-02,1941-07-27,1,0,0,1,1,0,0,2,1,0,26.0
+918,"TROWBRIDGE, URBAN DISTRICT",uk,Trowbridge,urban district,England,0,0,51.32,-2.2081,OS Open Names: Trowbridge,2,1942-07-27,1942-07-27,1942-07-27,2,0,0,2,0,0,0,2,0,0,16.5
+919,TURKEY,overseas,Turkey,overseas,,0,0,,,,2,,,,0,0,2,0,0,0,0,2,0,0,37.5
+920,"UNDIVIDED INDIA, BOMBAY PROVINCE",overseas,"Undivided India, Bombay Province",overseas,,0,0,,,,2,,,,0,0,0,0,0,1,1,2,0,0,43.5
+921,"UPTON-ON-SEVERN, RURAL DISTRICT",uk,Upton-On-Severn,rural district,England,0,0,,,,2,1940-11-10,1940-12-07,1940-11-10,1,0,2,0,0,0,0,2,0,1,65.5
+922,"WALSINGHAM, RURAL DISTRICT",uk,Walsingham,rural district,England,0,0,,,,2,1942-05-02,1942-08-02,1942-05-02,1,0,0,2,0,0,0,2,0,0,35.5
+923,"WARMINSTER AND WESTBURY, RURAL DISTRICT",uk,Warminster and Westbury,rural district,England,0,0,51.2049,-2.1812,OS Open Names: Warminster,2,1941-04-03,1941-04-03,1941-04-03,2,0,2,0,0,0,0,2,0,0,30.5
+924,"WARMINSTER, URBAN DISTRICT",uk,Warminster,urban district,England,0,0,51.2049,-2.1812,OS Open Names: Warminster,2,1941-04-03,1941-04-04,1941-04-03,1,0,2,0,0,0,0,2,0,0,32.0
+925,"WELLS, MUNICIPAL BOROUGH",uk,Wells,municipal borough,England,0,0,51.2086,-2.6472,OS Open Names: Wells,2,1944-04-06,1947-01-20,1944-04-06,1,0,0,0,1,0,1,2,0,2,68.5
+926,"WEM, RURAL DISTRICT",uk,Wem,rural district,England,0,0,52.8557,-2.7238,OS Open Names: Wem,2,1943-10-03,1944-05-11,1943-10-03,1,0,0,1,1,0,0,2,0,1,47.0
+927,"WIGAN, COUNTY BOROUGH",uk,Wigan,county borough,England,0,0,53.5455,-2.6297,OS Open Names: Wigan,2,1941-05-02,1942-12-01,1941-05-02,1,0,1,1,0,0,0,2,0,1,51.0
+928,"WILLITON, RURAL DISTRICT",uk,Williton,rural district,England,0,0,51.161,-3.3211,OS Open Names: Williton,2,1941-12-19,1941-12-19,1941-12-19,2,0,0,2,0,0,0,2,0,0,51.0
+929,"WIMBORNE AND CRANBORNE, RURAL DISTRICT",uk,Wimborne and Cranborne,rural district,England,0,0,50.7994,-1.9877,OS Open Names: Wimborne Minster,2,1942-05-25,1944-04-24,1942-05-25,1,0,0,1,1,0,0,2,1,0,26.5
+930,"WOODHALL SPA, URBAN DISTRICT",uk,Woodhall Spa,urban district,England,0,0,53.1519,-0.2159,OS Open Names: Woodhall Spa,2,1943-08-18,1943-08-18,1943-08-18,2,0,0,2,0,0,0,2,0,0,36.5
+931,"YEOVIL, RURAL DISTRICT",uk,Yeovil,rural district,England,0,0,50.9408,-2.6335,OS Open Names: Yeovil,2,1940-10-15,1942-05-08,1940-10-15,1,0,1,1,0,0,0,1,0,0,32
+932,"ABINGDON, RURAL DISTRICT",uk,Abingdon,rural district,England,0,0,,,,1,1942-07-23,1942-07-23,1942-07-23,1,0,0,1,0,0,0,1,0,0,30
+933,"ACCRINGTON, MUNICIPAL BOROUGH",uk,Accrington,municipal borough,England,0,0,53.7527,-2.3642,OS Open Names: Accrington,1,1940-06-20,1940-06-20,1940-06-20,1,1,0,0,0,0,0,1,0,0,48
+934,"ALDRIDGE, URBAN DISTRICT",uk,Aldridge,urban district,England,0,0,52.6054,-1.9172,OS Open Names: Aldridge,1,1942-07-30,1942-07-30,1942-07-30,1,0,0,1,0,0,0,1,0,0,28
+935,"ALFORD, URBAN DISTRICT",uk,Alford,urban district,England,0,0,53.2616,0.1793,OS Open Names: Alford,1,1941-09-07,1941-09-07,1941-09-07,1,0,0,1,0,0,0,1,0,1,65
+936,"ALFRETON, URBAN DISTRICT",uk,Alfreton,urban district,England,0,0,53.0975,-1.3876,OS Open Names: Alfreton,1,1941-04-08,1941-04-08,1941-04-08,1,0,1,0,0,0,0,1,0,1,68
+937,"ALTON, RURAL DISTRICT",uk,Alton,rural district,England,0,0,51.1486,-0.9758,OS Open Names: Alton,1,1940-08-16,1940-08-16,1940-08-16,1,1,0,0,0,0,0,1,0,0,57
+938,"AMBLE, URBAN DISTRICT",uk,Amble,urban district,England,0,0,55.3336,-1.5843,OS Open Names: Amble,1,1940-07-04,1940-07-04,1940-07-04,1,1,0,0,0,0,0,1,0,1,66
+939,"ASHBY-DE-LA-ZOUCH, RURAL DISTRICT",uk,Ashby-De-La-Zouch,rural district,England,0,0,52.747,-1.4719,OS Open Names: Ashby-De-La-Zouch,1,1942-08-03,1942-08-03,1942-08-03,1,0,0,1,0,0,0,1,0,1,67
+940,"ATHERTON, URBAN DISTRICT",uk,Atherton,urban district,England,0,0,53.5255,-2.4872,OS Open Names: Atherton,1,1941-05-08,1941-05-08,1941-05-08,1,0,1,0,0,0,0,1,0,0,37
+941,"BALLYCASTLE, URBAN DISTRICT, N. IRELAND",uk,Ballycastle,urban district,Northern Ireland,0,0,55.2008,-6.2506,Wikidata Q805405,1,1943-10-18,1943-10-18,1943-10-18,1,0,0,1,0,0,0,1,0,0,22
+942,"BALLYCLARE, URBAN DISTRICT, N. IRELAND",uk,Ballyclare,urban district,Northern Ireland,0,0,54.751,-5.999,Wikidata Q805403,1,1942-04-17,1942-04-17,1942-04-17,1,0,0,1,0,0,0,1,0,0,28
+943,"BALLYMONEY, RURAL DISTRICT, N. IRELAND",uk,Ballymoney,rural district,Northern Ireland,0,0,55.071,-6.508,Wikidata Q805450,1,1944-03-13,1944-03-13,1944-03-13,1,0,0,0,1,0,0,1,0,0,42
+944,"BANGOR, MUNICIPAL BOROUGH, N. IRELAND",uk,Bangor,municipal borough,Northern Ireland,0,0,54.66,-5.67,Wikidata Q806551,1,1942-10-26,1942-10-26,1942-10-26,1,0,0,1,0,0,0,0,0,0,
+945,"BARNARD CASTLE, RURAL DISTRICT",uk,Barnard Castle,rural district,England,0,0,54.5485,-1.9171,OS Open Names: Barnard Castle,1,1940-08-15,1940-08-15,1940-08-15,1,1,0,0,0,0,0,1,1,0,9
+946,"BARNSLEY, COUNTY BOROUGH",uk,Barnsley,county borough,England,0,0,53.5535,-1.4826,OS Open Names: Barnsley,1,1941-12-13,1941-12-13,1941-12-13,1,0,0,1,0,0,0,1,0,0,31
+947,"BATTLE, URBAN DISTRICT",uk,Battle,urban district,England,0,0,50.9185,0.4823,OS Open Names: Battle,1,1947-08-19,1947-08-19,1947-08-19,1,0,0,0,0,0,1,0,0,0,
+948,"BEACONSFIELD, URBAN DISTRICT",uk,Beaconsfield,urban district,England,0,0,51.6103,-0.6455,OS Open Names: Beaconsfield,1,1944-03-25,1944-03-25,1944-03-25,1,0,0,0,1,0,0,1,0,1,80
+949,"BEDALE, RURAL DISTRICT",uk,Bedale,rural district,England,0,0,54.2881,-1.5915,OS Open Names: Bedale,1,1942-10-14,1942-10-14,1942-10-14,1,0,0,1,0,0,0,1,1,0,5
+950,"BERKHAMSTEAD, URBAN DISTRICT",uk,Berkhamstead,urban district,England,0,0,,,,1,1941-07-29,1941-07-29,1941-07-29,1,0,0,1,0,0,0,1,0,0,33
+951,"BIGGLESWADE, URBAN DISTRICT",uk,Biggleswade,urban district,England,0,0,52.0869,-0.2632,OS Open Names: Biggleswade,1,1944-01-01,1944-01-01,1944-01-01,1,0,0,1,0,0,0,1,0,0,36
+952,"BLABY, RURAL DISTRICT",uk,Blaby,rural district,England,0,0,52.5758,-1.1634,OS Open Names: Blaby,1,1942-06-25,1942-06-25,1942-06-25,1,0,0,1,0,0,0,1,0,0,56
+953,"BLACKWELL, RURAL DISTRICT",uk,Blackwell,rural district,England,0,0,53.12,-1.3558,OS Open Names: Blackwell,1,1940-08-12,1940-08-12,1940-08-12,1,1,0,0,0,0,0,1,0,0,55
+954,"BOSTON, RURAL DISTRICT",uk,Boston,rural district,England,0,0,52.9763,-0.0272,OS Open Names: Boston,1,1942-09-23,1942-09-23,1942-09-23,1,0,0,1,0,0,0,1,0,0,33
+955,"BREDBURY AND ROMILEY, URBAN DISTRICT",uk,Bredbury and Romiley,urban district,England,0,0,53.4246,-2.1035,OS Open Names: Bredbury,1,1940-12-23,1940-12-23,1940-12-23,1,0,1,0,0,0,0,1,0,1,64
+956,"BRIDLINGTON, RURAL DISTRICT",uk,Bridlington,rural district,England,0,0,54.0844,-0.1932,OS Open Names: Bridlington,1,1941-09-12,1941-09-12,1941-09-12,1,0,0,1,0,0,0,1,0,1,65
+957,"BUNGAY, URBAN DISTRICT",uk,Bungay,urban district,England,0,0,52.4561,1.4372,OS Open Names: Bungay,1,1942-10-31,1942-10-31,1942-10-31,1,0,0,1,0,0,0,1,0,0,49
+958,"CALNE, MUNICIPAL BOROUGH",uk,Calne,municipal borough,England,0,0,51.4379,-2.0051,OS Open Names: Calne,1,1940-09-16,1940-09-16,1940-09-16,1,0,1,0,0,0,0,1,0,1,60
+959,"CARMARTHEN, RURAL DISTRICT, WALES",uk,Carmarthen,rural district,Wales,0,0,51.8565,-4.3057,OS Open Names: Carmarthen,1,1940-09-01,1940-09-01,1940-09-01,1,1,0,0,0,0,0,1,0,0,40
+960,"CASTLE DONINGTON, RURAL DISTRICT",uk,Castle Donington,rural district,England,0,0,52.8424,-1.3378,OS Open Names: Castle Donington,1,1940-08-28,1940-08-28,1940-08-28,1,1,0,0,0,0,0,1,0,0,20
+961,"CASTLEREAGH, RURAL DISTRICT, N. IRELAND",uk,Castlereagh,rural district,Northern Ireland,0,0,54.5833,-5.8667,Wikidata Q1049680,1,1941-05-05,1941-05-05,1941-05-05,1,0,1,0,0,0,0,1,0,0,53
+962,"CHARD, MUNICIPAL BOROUGH",uk,Chard,municipal borough,England,0,0,50.8727,-2.9659,OS Open Names: Chard,1,1942-10-23,1942-10-23,1942-10-23,1,0,0,1,0,0,0,1,0,0,53
+963,"CHEADLE, RURAL DISTRICT",uk,Cheadle,rural district,England,0,0,53.392,-2.2004,OS Open Names: Cheadle,1,1947-07-04,1947-07-04,1947-07-04,1,0,0,0,0,0,1,1,0,1,63
+964,"CHEPSTOW, RURAL DISTRICT",uk,Chepstow,rural district,Wales,0,0,51.6409,-2.6767,OS Open Names: Chepstow,1,1940-08-08,1940-08-08,1940-08-08,1,1,0,0,0,0,0,1,1,0,13
+965,"CHIPPENHAM, MUNICIPAL BOROUGH",uk,Chippenham,municipal borough,England,0,0,51.4582,-2.1139,OS Open Names: Chippenham,1,1944-05-15,1944-05-15,1944-05-15,1,0,0,0,1,0,0,1,0,1,71
+966,"CHORLEY, MUNICIPAL BOROUGH",uk,Chorley,municipal borough,England,0,0,53.6543,-2.6328,OS Open Names: Chorley,1,1941-10-21,1941-10-21,1941-10-21,1,0,0,1,0,0,0,1,0,1,71
+967,"CHURCH STRETTON, URBAN DISTRICT",uk,Church Stretton,urban district,England,0,0,52.5379,-2.808,OS Open Names: Church Stretton,1,1942-07-06,1942-07-06,1942-07-06,1,0,0,1,0,0,0,1,0,0,55
+968,"CLUN, RURAL DISTRICT",uk,Clun,rural district,England,0,0,52.4215,-3.0267,OS Open Names: Clun,1,1944-02-08,1944-02-08,1944-02-08,1,0,0,0,1,0,0,1,0,0,16
+969,"COLERAINE, RURAL DISTRICT, N. IRELAND",uk,Coleraine,rural district,Northern Ireland,0,0,55.133,-6.661,Wikidata Q1108185,1,1940-10-25,1940-10-25,1940-10-25,1,0,1,0,0,0,0,1,0,0,23
+970,"CONGLETON, RURAL DISTRICT",uk,Congleton,rural district,England,0,0,53.1628,-2.2114,OS Open Names: Congleton,1,1943-07-29,1943-07-29,1943-07-29,1,0,0,1,0,0,0,1,0,0,27
+971,"CWMBRAN, URBAN DISTRICT",uk,Cwmbran,urban district,Wales,0,0,51.6542,-3.02,OS Open Names: Cwmbran,1,1940-08-04,1940-08-04,1940-08-04,1,1,0,0,0,0,0,1,0,0,38
+972,"DALTON-IN-FURNESS, URBAN DISTRICT",uk,Dalton-In-Furness,urban district,England,0,0,54.1558,-3.1848,OS Open Names: Dalton-In-Furness,1,1941-05-26,1941-05-26,1941-05-26,1,0,0,1,0,0,0,1,0,1,68
+973,"DAVENTRY, MUNICIPAL BOROUGH",uk,Daventry,municipal borough,England,0,0,52.2584,-1.1604,OS Open Names: Daventry,1,1944-09-06,1944-09-06,1944-09-06,1,0,0,0,0,1,0,0,0,0,
+974,"DAWLEY, URBAN DISTRICT",uk,Dawley,urban district,England,0,0,52.661,-2.4678,OS Open Names: Dawley,1,1942-07-30,1942-07-30,1942-07-30,1,0,0,1,0,0,0,1,0,0,59
+975,"DAWLISH, URBAN DISTRICT",uk,Dawlish,urban district,England,0,0,50.5819,-3.4696,OS Open Names: Dawlish,1,1943-09-03,1943-09-03,1943-09-03,1,0,0,1,0,0,0,1,0,1,62
+976,"DERWENT, RURAL DISTRICT",uk,Derwent,rural district,England,0,0,,,,1,1944-10-15,1944-10-15,1944-10-15,1,0,0,0,0,1,0,1,0,0,36
+977,"DONCASTER, RURAL DISTRICT",uk,Doncaster,rural district,England,0,0,53.5227,-1.1323,OS Open Names: Doncaster,1,1944-01-04,1944-01-04,1944-01-04,1,0,0,1,0,0,0,1,0,0,42
+978,"DRAYTON, RURAL DISTRICT",uk,Drayton,rural district,England,0,0,52.904,-2.4837,OS Open Names: Market Drayton,1,1941-07-11,1941-07-11,1941-07-11,1,0,0,1,0,0,0,1,0,0,16
+979,"DUNFERMLINE, BURGH OF, SCOTLAND",uk,Dunfermline,burgh of,Scotland,0,0,56.0712,-3.4638,OS Open Names: Dunfermline,1,1940-11-04,1940-11-04,1940-11-04,1,0,1,0,0,0,0,1,0,1,71
+980,"DURHAM, RURAL DISTRICT",uk,Durham,rural district,England,0,0,54.7779,-1.5826,OS Open Names: Durham,1,1940-08-15,1940-08-15,1940-08-15,1,1,0,0,0,0,0,1,0,0,56
+981,"DURSLEY, RURAL DISTRICT",uk,Dursley,rural district,England,0,0,51.6814,-2.3538,OS Open Names: Dursley,1,1944-07-29,1944-07-29,1944-07-29,1,0,0,0,0,1,0,1,0,1,74
+982,"EASINGWOLD, RURAL DISTRICT",uk,Easingwold,rural district,England,0,0,54.1201,-1.1944,OS Open Names: Easingwold,1,1945-03-04,1945-03-04,1945-03-04,1,0,0,0,0,1,0,1,0,0,34
+983,"EYE, MUNICIPAL BOROUGH",uk,Eye,municipal borough,England,0,0,52.6096,-0.1867,OS Open Names: Eye,1,1943-11-12,1943-11-12,1943-11-12,1,0,0,1,0,0,0,1,0,0,50
+984,"FARNWORTH, URBAN DISTRICT",uk,Farnworth,urban district,England,0,0,53.5505,-2.3958,OS Open Names: Farnworth,1,1947-10-21,1947-10-21,1947-10-21,1,0,0,0,0,0,1,1,0,0,48
+985,"FEATHERSTONE, URBAN DISTRICT",uk,Featherstone,urban district,England,0,0,53.6746,-1.3592,OS Open Names: Featherstone,1,1943-03-14,1943-03-14,1943-03-14,1,0,0,1,0,0,0,1,0,0,33
+986,FIJI ISLANDS,overseas,Fiji Islands,overseas,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,53
+987,"FOREHOE AND HENSTEAD, RURAL DISTRICT",uk,Forehoe and Henstead,rural district,England,0,0,52.5702,1.1129,OS Open Names: Wymondham,1,1942-05-14,1942-05-14,1942-05-14,1,0,0,1,0,0,0,1,0,1,62
+988,"FRIMLEY AND CAMBERLEY, URBAN DISTRICT",uk,Frimley and Camberley,urban district,England,0,0,51.3394,-0.7438,OS Open Names: Camberley,1,1941-03-19,1941-03-19,1941-03-19,1,0,1,0,0,0,0,1,0,1,69
+989,"FULWOOD, URBAN DISTRICT",uk,Fulwood,urban district,England,0,0,53.7911,-2.7135,OS Open Names: Fulwood,1,1943-03-12,1943-03-12,1943-03-12,1,0,0,1,0,0,0,1,0,0,18
+990,"GAINSBOROUGH, RURAL DISTRICT",uk,Gainsborough,rural district,England,0,0,53.4005,-0.774,OS Open Names: Gainsborough,1,1945-07-01,1945-07-01,1945-07-01,1,0,0,0,0,0,1,1,0,1,64
+991,"GALASHIELS, BURGH OF, SCOTLAND",uk,Galashiels,burgh of,Scotland,0,0,55.6148,-2.8075,OS Open Names: Galashiels,1,1943-02-03,1943-02-03,1943-02-03,1,0,0,1,0,0,0,1,0,1,68
+992,"GARSTANG, RURAL DISTRICT",uk,Garstang,rural district,England,0,0,53.9027,-2.7738,OS Open Names: Garstang,1,1944-03-03,1944-03-03,1944-03-03,1,0,0,0,1,0,0,1,0,0,31
+993,"GLOSSOP, MUNICIPAL BOROUGH",uk,Glossop,municipal borough,England,0,0,53.4433,-1.9489,OS Open Names: Glossop,1,1942-07-04,1942-07-04,1942-07-04,1,0,0,1,0,0,0,1,0,1,79
+994,"GRANGE, URBAN DISTRICT",uk,Grange,urban district,England,0,0,53.783,-2.6541,OS Open Names: Grange,1,1941-06-06,1941-06-06,1941-06-06,1,0,0,1,0,0,0,1,0,1,77
+995,"GUISBOROUGH, URBAN DISTRICT",uk,Guisborough,urban district,England,0,0,54.5358,-1.051,OS Open Names: Guisborough,1,1940-09-16,1940-09-16,1940-09-16,1,0,1,0,0,0,0,1,0,0,53
+996,H.M. SUBMARINE UMPIRE,sea,H.M. Submarine Umpire,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,47
+997,H.M.S. DUCHESS,sea,H.M.S. Duchess,ship or air crash at sea,,0,0,,,,1,,,,0,1,0,0,0,0,0,0,0,0,
+998,H.M.S. WELSHMAN,sea,H.M.S. Welshman,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,0,0,0,
+999,"HADDINGTON, BURGH OF, SCOTLAND",uk,Haddington,burgh of,Scotland,0,0,55.9554,-2.7838,OS Open Names: Haddington,1,1941-03-03,1941-03-03,1941-03-03,1,0,1,0,0,0,0,1,0,0,37
+1000,"HADLEIGH, URBAN DISTRICT",uk,Hadleigh,urban district,England,0,0,52.0431,0.9544,OS Open Names: Hadleigh,1,1941-01-30,1941-01-30,1941-01-30,1,0,1,0,0,0,0,1,0,0,57
+1001,"HARROGATE, MUNICIPAL BOROUGH",uk,Harrogate,municipal borough,England,0,0,53.9937,-1.5431,OS Open Names: Harrogate,1,1940-09-14,1940-09-14,1940-09-14,1,0,1,0,0,0,0,1,0,0,49
+1002,"HAVERFORDWEST, MUNICIPAL BOROUGH, WALES",uk,Haverfordwest,municipal borough,Wales,0,0,51.8036,-4.9697,OS Open Names: Haverfordwest,1,1945-05-01,1945-05-01,1945-05-01,1,0,0,0,0,0,1,0,0,0,
+1003,"HELENSBURGH, BURGH OF, SCOTLAND",uk,Helensburgh,burgh of,Scotland,0,0,56.0039,-4.7334,OS Open Names: Helensburgh,1,1941-09-22,1941-09-22,1941-09-22,1,0,0,1,0,0,0,1,0,0,49
+1004,"HEMEL HEMPSTEAD, RURAL DISTRICT",uk,Hemel Hempstead,rural district,England,0,0,51.7526,-0.4723,OS Open Names: Hemel Hempstead,1,1940-10-20,1940-10-20,1940-10-20,1,0,1,0,0,0,0,1,0,1,64
+1005,"HEMSWORTH, URBAN DISTRICT",uk,Hemsworth,urban district,England,0,0,53.6137,-1.3535,OS Open Names: Hemsworth,1,1940-06-08,1940-06-08,1940-06-08,1,1,0,0,0,0,0,1,0,0,26
+1006,"HENLEY ON THAMES, RURAL DISTRICT",uk,Henley on Thames,rural district,England,0,0,51.5376,-0.9046,OS Open Names: Henley-on-Thames,1,1940-11-23,1940-11-23,1940-11-23,1,0,1,0,0,0,0,1,0,0,55
+1007,"HEXHAM, RURAL DISTRICT",uk,Hexham,rural district,England,0,0,54.9718,-2.1009,OS Open Names: Hexham,1,1944-02-16,1944-02-16,1944-02-16,1,0,0,0,1,0,0,1,0,0,49
+1008,"HIGHWORTH, RURAL DISTRICT",uk,Highworth,rural district,England,0,0,51.6306,-1.712,OS Open Names: Highworth,1,1942-08-23,1942-08-23,1942-08-23,1,0,0,1,0,0,0,1,0,0,47
+1009,"HOLYWELL, URBAN DISTRICT, WALES",uk,Holywell,urban district,Wales,0,0,53.2734,-3.2217,OS Open Names: Holywell,1,1946-11-27,1946-11-27,1946-11-27,1,0,0,0,0,0,1,1,0,1,66
+1010,"HORNCASTLE, RURAL DISTRICT",uk,Horncastle,rural district,England,0,0,53.2086,-0.1161,OS Open Names: Horncastle,1,1945-03-04,1945-03-04,1945-03-04,1,0,0,0,0,1,0,1,0,0,40
+1011,"HUNTINGDON, MUNICIPAL BOROUGH",uk,Huntingdon,municipal borough,England,0,0,52.3306,-0.1843,OS Open Names: Huntingdon,1,1943-11-30,1943-11-30,1943-11-30,1,0,0,1,0,0,0,0,0,0,
+1012,"ILKESTON, MUNICIPAL BOROUGH",uk,Ilkeston,municipal borough,England,0,0,52.9697,-1.3093,OS Open Names: Ilkeston,1,1942-07-12,1942-07-12,1942-07-12,1,0,0,1,0,0,0,1,0,0,23
+1013,"ILKLEY, URBAN DISTRICT",uk,Ilkley,urban district,England,0,0,53.9245,-1.8231,OS Open Names: Ilkley,1,1945-11-20,1945-11-20,1945-11-20,1,0,0,0,0,0,1,1,0,1,61
+1014,"KEADY, URBAN DISTRICT, N. IRELAND",uk,Keady,urban district,Northern Ireland,0,0,54.2483,-6.7046,Wikidata Q1373360,1,1945-11-14,1945-11-14,1945-11-14,1,0,0,0,0,0,1,1,0,0,16
+1015,"KEIGHLEY, MUNICIPAL BOROUGH",uk,Keighley,municipal borough,England,0,0,53.8675,-1.9096,OS Open Names: Keighley,1,1944-06-01,1944-06-01,1944-06-01,1,0,0,0,1,0,0,1,1,0,13
+1016,"KIDDERMINSTER, MUNICIPAL BOROUGH",uk,Kidderminster,municipal borough,England,0,0,52.3882,-2.2492,OS Open Names: Kidderminster,1,1940-12-12,1940-12-12,1940-12-12,1,0,1,0,0,0,0,1,0,1,73
+1017,"KILKEEL, RURAL DISTRICT, N. IRELAND",uk,Kilkeel,rural district,Northern Ireland,0,0,54.059,-5.992,Wikidata Q84109,1,1942-03-16,1942-03-16,1942-03-16,1,0,0,1,0,0,0,1,0,0,40
+1018,"KIRKCALDY, BURGH OF, SCOTLAND",uk,Kirkcaldy,burgh of,Scotland,0,0,56.1096,-3.1633,OS Open Names: Kirkcaldy,1,1943-11-30,1943-11-30,1943-11-30,1,0,0,1,0,0,0,1,0,0,27
+1019,"KIRKWALL, BURGH OF, SCOTLAND",uk,Kirkwall,burgh of,Scotland,0,0,58.9811,-2.9611,OS Open Names: Kirkwall,1,1941-02-04,1941-02-04,1941-02-04,1,0,1,0,0,0,0,1,0,0,54
+1020,"LANARK, BURGH OF, SCOTLAND",uk,Lanark,burgh of,Scotland,0,0,55.6738,-3.7759,OS Open Names: Lanark,1,1941-10-01,1941-10-01,1941-10-01,1,0,0,1,0,0,0,1,1,0,2
+1021,"LEEK, RURAL DISTRICT",uk,Leek,rural district,England,0,0,53.1057,-2.0214,OS Open Names: Leek,1,1947-02-13,1947-02-13,1947-02-13,1,0,0,0,0,0,1,1,0,0,33
+1022,"LEEK, URBAN DISTRICT",uk,Leek,urban district,England,0,0,53.1057,-2.0214,OS Open Names: Leek,1,1941-03-11,1941-03-11,1941-03-11,1,0,1,0,0,0,0,1,0,0,28
+1023,"LETCHWORTH, URBAN DISTRICT",uk,Letchworth,urban district,England,0,0,51.9771,-0.23,OS Open Names: Letchworth,1,1940-09-30,1940-09-30,1940-09-30,1,0,1,0,0,0,0,1,0,0,26
+1024,"LISBURN, RURAL DISTRICT, N. IRELAND",uk,Lisburn,rural district,Northern Ireland,0,0,54.5167,-6.0333,Wikidata Q1828035,1,1940-09-08,1940-09-08,1940-09-08,1,0,1,0,0,0,0,0,0,0,
+1025,"LISKEARD, RURAL DISTRICT",uk,Liskeard,rural district,England,0,0,50.4553,-4.465,OS Open Names: Liskeard,1,1942-10-22,1942-10-22,1942-10-22,1,0,0,1,0,0,0,1,0,0,49
+1026,"LLWCHWR, URBAN DISTRICT, WALES",uk,Llwchwr,urban district,Wales,0,0,51.6694,-4.0416,OS Open Names: Gorseinon,1,1941-07-28,1941-07-28,1941-07-28,1,0,0,1,0,0,0,1,0,0,51
+1027,"LOOE, URBAN DISTRICT",uk,Looe,urban district,England,0,0,50.3536,-4.4539,OS Open Names: Looe,1,1941-06-19,1941-06-19,1941-06-19,1,0,0,1,0,0,0,1,0,1,65
+1028,"LOUGHBOROUGH, MUNICIPAL BOROUGH",uk,Loughborough,municipal borough,England,0,0,52.7721,-1.2062,OS Open Names: Loughborough,1,1944-12-26,1944-12-26,1944-12-26,1,0,0,0,0,1,0,1,1,0,10
+1029,"LUNESDALE, RURAL DISTRICT",uk,Lunesdale,rural district,England,0,0,54.202,-2.597,OS Open Names: Kirkby Lonsdale,1,1942-09-06,1942-09-06,1942-09-06,1,0,0,1,0,0,0,1,1,0,9
+1030,"LYMM, URBAN DISTRICT",uk,Lymm,urban district,England,0,0,53.3818,-2.4774,OS Open Names: Lymm,1,1941-01-09,1941-01-09,1941-01-09,1,0,1,0,0,0,0,1,0,0,38
+1031,"LYTHAM ST. ANNES, MUNICIPAL BOROUGH",uk,Lytham St. Annes,municipal borough,England,0,0,53.7521,-3.0298,OS Open Names: Lytham St Anne's,1,1940-10-01,1940-10-01,1940-10-01,1,0,1,0,0,0,0,1,0,1,72
+1032,M.V. BEHAR,sea,M.V. Behar,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,0,1,0,0,1,0,0,54
+1033,M.V. BRITTANY,sea,M.V. Brittany,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,29
+1034,M.V. DUNBAR CASTLE,sea,M.V. Dunbar Castle,ship or air crash at sea,,0,0,,,,1,,,,0,1,0,0,0,0,0,1,0,0,51
+1035,M.V. FORT RICHEPANSE,sea,M.V. Fort Richepanse,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,51
+1036,M.V. LOCH KATRINE,sea,M.V. Loch Katrine,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,20
+1037,M.V. RABAUL,sea,M.V. Rabaul,ship or air crash at sea,,0,0,,,,1,,,,0,0,1,0,0,0,0,0,0,0,
+1038,"MAIDENHEAD, MUNICIPAL BOROUGH",uk,Maidenhead,municipal borough,England,0,0,51.5228,-0.7202,OS Open Names: Maidenhead,1,1940-07-03,1940-07-03,1940-07-03,1,1,0,0,0,0,0,1,0,0,35
+1039,"MANSFIELD, MUNICIPAL BOROUGH",uk,Mansfield,municipal borough,England,0,0,53.1446,-1.1964,OS Open Names: Mansfield,1,1945-02-12,1945-02-12,1945-02-12,1,0,0,0,0,1,0,1,0,0,45
+1040,"MARLOW, URBAN DISTRICT",uk,Marlow,urban district,England,0,0,51.5719,-0.777,OS Open Names: Marlow,1,1940-09-30,1940-09-30,1940-09-30,1,0,1,0,0,0,0,1,0,0,41
+1041,"NEW MILLS, URBAN DISTRICT",uk,New Mills,urban district,England,0,0,53.3658,-2.0018,OS Open Names: New Mills,1,1942-07-03,1942-07-03,1942-07-03,1,0,0,1,0,0,0,1,1,0,10
+1042,"NEWBURN, URBAN DISTRICT",uk,Newburn,urban district,England,0,0,54.9827,-1.7427,OS Open Names: Newburn,1,1942-05-01,1942-05-01,1942-05-01,1,0,0,1,0,0,0,1,0,0,54
+1043,"NEWCASTLE-UNDER-LYME, RURAL DISTRICT",uk,Newcastle-Under-Lyme,rural district,England,0,0,53.0112,-2.228,OS Open Names: Newcastle-Under-Lyme,1,1943-06-05,1943-06-05,1943-06-05,1,0,0,1,0,0,0,0,0,0,
+1044,"NEWENT, RURAL DISTRICT",uk,Newent,rural district,England,0,0,51.9306,-2.4059,OS Open Names: Newent,1,1941-01-02,1941-01-02,1941-01-02,1,0,1,0,0,0,0,1,0,0,16
+1045,"NEWPORT PAGNELL, RURAL DISTRICT",uk,Newport Pagnell,rural district,England,0,0,52.0868,-0.7222,OS Open Names: Newport Pagnell,1,1943-05-01,1943-05-01,1943-05-01,1,0,0,1,0,0,0,1,0,0,40
+1046,NIGERIA,overseas,Nigeria,overseas,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,33
+1047,"NORTHAM, URBAN DISTRICT",uk,Northam,urban district,England,0,0,51.0405,-4.2134,OS Open Names: Northam,1,1941-07-05,1941-07-05,1941-07-05,1,0,0,1,0,0,0,1,0,0,35
+1048,"NORTHWICH, RURAL DISTRICT",uk,Northwich,rural district,England,0,0,53.2607,-2.512,OS Open Names: Northwich,1,1940-11-28,1940-11-28,1940-11-28,1,0,1,0,0,0,0,1,0,0,52
+1049,"NORTHWICH, URBAN DISTRICT",uk,Northwich,urban district,England,0,0,53.2607,-2.512,OS Open Names: Northwich,1,1943-03-02,1943-03-02,1943-03-02,1,0,0,1,0,0,0,0,0,0,
+1050,"OKEHAMPTON, RURAL DISTRICT",uk,Okehampton,rural district,England,0,0,50.739,-4.0033,OS Open Names: Okehampton,1,1940-08-13,1940-08-13,1940-08-13,1,1,0,0,0,0,0,1,0,0,56
+1051,"OSWESTRY, RURAL DISTRICT",uk,Oswestry,rural district,England,0,0,52.8606,-3.0555,OS Open Names: Oswestry,1,1940-09-07,1940-09-07,1940-09-07,1,0,1,0,0,0,0,1,0,0,47
+1052,"OUNDLE AND THRAPSTON, RURAL DISTRICT",uk,Oundle and Thrapston,rural district,England,0,0,52.4809,-0.4688,OS Open Names: Oundle,1,1941-02-23,1941-02-23,1941-02-23,1,0,1,0,0,0,0,1,0,0,20
+1053,"PEMBROKE, RURAL DISTRICT, WALES",uk,Pembroke,rural district,Wales,0,0,51.675,-4.9137,OS Open Names: Pembroke,1,1945-02-04,1945-02-04,1945-02-04,1,0,0,0,0,1,0,1,0,1,61
+1054,"PONTYPOOL, URBAN DISTRICT",uk,Pontypool,urban district,Wales,0,0,51.7014,-3.0415,OS Open Names: Pontypool,1,1940-10-31,1940-10-31,1940-10-31,1,0,1,0,0,0,0,1,0,0,46
+1055,"PONTYPRIDD, URBAN DISTRICT, WALES",uk,Pontypridd,urban district,Wales,0,0,51.6022,-3.3419,OS Open Names: Pontypridd,1,1942-04-12,1942-04-12,1942-04-12,1,0,0,1,0,0,0,1,0,0,47
+1056,"PRESTATYN, URBAN DISTRICT, WALES",uk,Prestatyn,urban district,Wales,0,0,53.3347,-3.4043,OS Open Names: Prestatyn,1,1942-04-27,1942-04-27,1942-04-27,1,0,0,1,0,0,0,1,0,0,45
+1057,"PUDSEY, MUNICIPAL BOROUGH",uk,Pudsey,municipal borough,England,0,0,53.7966,-1.663,OS Open Names: Pudsey,1,1947-12-23,1947-12-23,1947-12-23,1,0,0,0,0,0,1,0,0,0,
+1058,"REPTON, RURAL DISTRICT",uk,Repton,rural district,England,0,0,52.8387,-1.5494,OS Open Names: Repton,1,1941-10-22,1941-10-22,1941-10-22,1,0,0,1,0,0,0,1,0,0,51
+1059,"RINGWOOD AND FORDINGBRIDGE, RURAL DISTRICT",uk,Ringwood and Fordingbridge,rural district,England,0,0,50.846,-1.7911,OS Open Names: Ringwood,1,1942-07-11,1942-07-11,1942-07-11,1,0,0,1,0,0,0,0,0,0,
+1060,"RISCA, URBAN DISTRICT",uk,Risca,urban district,Wales,0,0,51.6136,-3.104,OS Open Names: Risca,1,1943-05-19,1943-05-19,1943-05-19,1,0,0,1,0,0,0,1,0,1,70
+1061,ROMANIA,overseas,Romania,overseas,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,38
+1062,"ROMSEY, MUNICIPAL BOROUGH",uk,Romsey,municipal borough,England,0,0,50.9891,-1.4998,OS Open Names: Romsey,1,1940-12-02,1940-12-02,1940-12-02,1,0,1,0,0,0,0,1,0,0,43
+1063,"ROSS AND CROMARTY COUNTY, SCOTLAND",uk,Ross and Cromarty,county,Scotland,0,0,,,,1,1944-07-28,1944-07-28,1944-07-28,1,0,0,0,0,1,0,1,1,0,14
+1064,"ROSS ON WYE, URBAN DISTRICT",uk,Ross on Wye,urban district,England,0,0,51.9139,-2.5837,OS Open Names: Ross-on-Wye,1,1944-12-10,1944-12-10,1944-12-10,1,0,0,0,0,1,0,0,0,0,
+1065,"ROTHBURY, RURAL DISTRICT",uk,Rothbury,rural district,England,0,0,55.31,-1.9099,OS Open Names: Rothbury,1,1942-07-10,1942-07-10,1942-07-10,1,0,0,1,0,0,0,1,0,1,77
+1066,S.S. ANDALUCIA STAR,sea,S.S. Andalucia Star,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,35
+1067,S.S. BAHRISTAN,sea,S.S. Bahristan,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,21
+1068,S.S. CALCHAS,sea,S.S. Calchas,ship or air crash at sea,,0,0,,,,1,,,,0,0,1,0,0,0,0,1,0,1,67
+1069,S.S. COLUMBINE,sea,S.S. Columbine,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,0,0,1,0,1,0,0,46
+1070,S.S. EMPIRE HEATH,sea,S.S. Empire Heath,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,0,1,0,0,0,0,0,
+1071,S.S. EMPRESS OF SCOTLAND,sea,S.S. Empress of Scotland,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,0,0,0,1,1,0,1,60
+1072,S.S. GERALDINE MARY,sea,S.S. Geraldine Mary,ship or air crash at sea,,0,0,,,,1,,,,0,1,0,0,0,0,0,1,0,1,84
+1073,S.S. GROOTEKERK,sea,S.S. Grootekerk,ship or air crash at sea,,0,0,,,,1,,,,0,0,1,0,0,0,0,1,0,0,47
+1074,S.S. JAMAICA PROGRESS,sea,S.S. Jamaica Progress,ship or air crash at sea,,0,0,,,,1,,,,0,1,0,0,0,0,0,1,0,0,32
+1075,S.S. JOHN HOLT,sea,S.S. John Holt,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,0,1,0,0,1,0,0,38
+1076,S.S. KINGSBURY,sea,S.S. Kingsbury,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,28
+1077,S.S. LINDENHALL,sea,S.S. Lindenhall,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,0,0,0,
+1078,S.S. MATINA,sea,S.S. Matina,ship or air crash at sea,,0,0,,,,1,,,,0,0,1,0,0,0,0,1,0,0,36
+1079,S.S. NEURALIA,sea,S.S. Neuralia,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,0,0,0,1,0,0,0,
+1080,S.S. PEGASUS,sea,S.S. Pegasus,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,0,0,0,
+1081,S.S. PENANG,sea,S.S. Penang,ship or air crash at sea,,0,0,,,,1,,,,0,0,1,0,0,0,0,1,0,0,42
+1082,S.S. PORTLAND,sea,S.S. Portland,ship or air crash at sea,,0,0,,,,1,,,,0,0,1,0,0,0,0,0,0,0,
+1083,S.S. SAMALA,sea,S.S. Samala,ship or air crash at sea,,0,0,,,,1,,,,0,0,1,0,0,0,0,1,0,0,18
+1084,S.S. SCIENTIST,sea,S.S. Scientist,ship or air crash at sea,,0,0,,,,1,,,,0,0,1,0,0,0,0,1,0,0,38
+1085,S.S. SEROOSKERK,sea,S.S. Serooskerk,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,0,0,0,
+1086,S.S. SILVERWILLOW,sea,S.S. Silverwillow,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,44
+1087,S.S. TAI SANG,sea,S.S. Tai Sang,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,58
+1088,S.S. TJSALAK,sea,S.S. Tjsalak,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,0,1,0,0,1,0,0,33
+1089,S.S. VAN WAARWICK,sea,S.S. Van Waarwick,ship or air crash at sea,,0,0,,,,1,,,,0,0,0,0,0,1,0,1,0,0,37
+1090,"SALTBURN AND MASKE-BY-THE-SEA, URBAN DISTRICT",uk,Saltburn and Maske-By-The-Sea,urban district,England,0,0,54.5825,-0.9735,OS Open Names: Saltburn-by-the-Sea,1,1942-05-16,1942-05-16,1942-05-16,1,0,0,1,0,0,0,1,0,1,66
+1091,"SAMFORD, RURAL DISTRICT",uk,Samford,rural district,England,0,0,51.9838,1.1586,OS Open Names: Holbrook,1,1944-12-10,1944-12-10,1944-12-10,1,0,0,0,0,1,0,1,0,0,57
+1092,"SANDWICH, MUNICIPAL BOROUGH",uk,Sandwich,municipal borough,England,0,0,51.2749,1.3397,OS Open Names: Sandwich,1,1943-05-01,1943-05-01,1943-05-01,1,0,0,1,0,0,0,1,0,0,36
+1093,SARK,crown,Sark,Crown dependency,,0,0,,,,1,,,,0,0,0,0,0,1,0,1,1,0,4
+1094,"SCARBOROUGH, RURAL DISTRICT",uk,Scarborough,rural district,England,0,0,54.2816,-0.4022,OS Open Names: Scarborough,1,1941-05-05,1941-05-05,1941-05-05,1,0,1,0,0,0,0,1,0,1,66
+1095,"SEDGEFIELD, RURAL DISTRICT",uk,Sedgefield,rural district,England,0,0,54.6526,-1.4517,OS Open Names: Sedgefield,1,1941-01-02,1941-01-02,1941-01-02,1,0,1,0,0,0,0,1,1,0,10
+1096,"SEISDON, RURAL DISTRICT",uk,Seisdon,rural district,England,0,0,52.5312,-2.2007,OS Open Names: Wombourne,1,1941-06-29,1941-06-29,1941-06-29,1,0,0,1,0,0,0,1,0,0,58
+1097,"SHARDLOW, RURAL DISTRICT",uk,Shardlow,rural district,England,0,0,52.8711,-1.36,OS Open Names: Shardlow,1,1941-05-09,1941-05-09,1941-05-09,1,0,1,0,0,0,0,1,0,0,32
+1098,"SHEPTON MALLET, URBAN DISTRICT",uk,Shepton Mallet,urban district,England,0,0,51.1898,-2.5473,OS Open Names: Shepton Mallet,1,1942-09-03,1942-09-03,1942-09-03,1,0,0,1,0,0,0,1,0,0,45
+1099,"SHIFNAL, RURAL DISTRICT",uk,Shifnal,rural district,England,0,0,52.6704,-2.3725,OS Open Names: Shifnal,1,1944-07-14,1944-07-14,1944-07-14,1,0,0,0,0,1,0,1,0,0,37
+1100,SINGAPORE,overseas,Singapore,overseas,,0,0,,,,1,,,,0,0,0,1,0,0,0,0,0,0,
+1101,"SLEAFORD, URBAN DISTRICT",uk,Sleaford,urban district,England,0,0,52.9995,-0.4104,OS Open Names: Sleaford,1,1942-10-26,1942-10-26,1942-10-26,1,0,0,1,0,0,0,1,1,0,12
+1102,SPAIN,overseas,Spain,overseas,,0,0,,,,1,,,,0,0,0,0,1,0,0,1,0,0,50
+1103,"SPALDING, RURAL DISTRICT",uk,Spalding,rural district,England,0,0,52.7871,-0.1517,OS Open Names: Spalding,1,1942-05-22,1942-05-22,1942-05-22,1,0,0,1,0,0,0,0,0,0,
+1104,"ST. IVES, MUNICIPAL BOROUGH",uk,St. Ives,municipal borough,England,0,0,50.2114,-5.4808,OS Open Names: St Ives,1,1942-08-28,1942-08-28,1942-08-28,1,0,0,1,0,0,0,1,0,0,47
+1105,"ST. JUST, URBAN DISTRICT",uk,St. Just,urban district,England,0,0,50.1244,-5.6798,OS Open Names: St Just,1,1941-09-23,1941-09-23,1941-09-23,1,0,0,1,0,0,0,1,0,0,52
+1106,"ST. NEOTS, RURAL DISTRICT",uk,St. Neots,rural district,England,0,0,52.2279,-0.2694,OS Open Names: St Neots,1,1944-03-02,1944-03-02,1944-03-02,1,0,0,0,1,0,0,0,0,0,
+1107,"STAFFORD, RURAL DISTRICT",uk,Stafford,rural district,England,0,0,52.8058,-2.1167,OS Open Names: Stafford,1,1942-01-26,1942-01-26,1942-01-26,1,0,0,1,0,0,0,1,0,0,55
+1108,"STANLEY, URBAN DISTRICT",uk,Stanley,urban district,England,0,0,54.8723,-1.6938,OS Open Names: Stanley,1,1944-10-30,1944-10-30,1944-10-30,1,0,0,0,0,1,0,1,0,0,51
+1109,"STOWMARKET, URBAN DISTRICT",uk,Stowmarket,urban district,England,0,0,52.1889,0.9976,OS Open Names: Stowmarket,1,1941-01-31,1941-01-31,1941-01-31,1,0,1,0,0,0,0,1,0,0,59
+1110,"STRATFORD UPON AVON, RURAL DISTRICT",uk,Stratford upon Avon,rural district,England,0,0,52.1927,-1.7064,OS Open Names: Stratford-upon-Avon,1,1944-12-16,1944-12-16,1944-12-16,1,0,0,0,0,1,0,1,0,0,42
+1111,SUDAN,overseas,Sudan,overseas,,0,0,,,,1,,,,0,0,0,1,0,0,0,1,0,0,37
+1112,SWEDEN,overseas,Sweden,overseas,,0,0,,,,1,,,,0,0,0,1,0,0,0,0,0,0,
+1113,"TAVISTOCK, RURAL DISTRICT",uk,Tavistock,rural district,England,0,0,50.5501,-4.1448,OS Open Names: Tavistock,1,1946-05-11,1946-05-11,1946-05-11,1,0,0,0,0,0,1,1,1,0,10
+1114,"TENBY, MUNICIPAL BOROUGH, WALES",uk,Tenby,municipal borough,Wales,0,0,51.6728,-4.7025,OS Open Names: Tenby,1,1941-10-12,1941-10-12,1941-10-12,1,0,0,1,0,0,0,1,0,1,76
+1115,"THORNTON CLEVELEYS, URBAN DISTRICT",uk,Thornton Cleveleys,urban district,England,0,0,53.8837,-3.0399,OS Open Names: Cleveleys,1,1943-01-13,1943-01-13,1943-01-13,1,0,0,1,0,0,0,1,0,0,39
+1116,"THURSO, BURGH OF, SCOTLAND",uk,Thurso,burgh of,Scotland,0,0,58.595,-3.5211,OS Open Names: Thurso,1,1943-11-22,1943-11-22,1943-11-22,1,0,0,1,0,0,0,1,0,0,57
+1117,"TOTNES, MUNICIPAL BOROUGH",uk,Totnes,municipal borough,England,0,0,50.4314,-3.687,OS Open Names: Totnes,1,1944-12-30,1944-12-30,1944-12-30,1,0,0,0,0,1,0,1,0,0,56
+1118,"TOTNES, RURAL DISTRICT",uk,Totnes,rural district,England,0,0,50.4314,-3.687,OS Open Names: Totnes,1,1941-11-21,1941-11-21,1941-11-21,1,0,0,1,0,0,0,1,0,0,50
+1119,"TOWYN, URBAN DISTRICT, WALES",uk,Towyn,urban district,Wales,0,0,53.3022,-3.5401,OS Open Names: Towyn,1,1944-05-07,1944-05-07,1944-05-07,1,0,0,0,1,0,0,1,1,0,13
+1120,TUNISIA,overseas,Tunisia,overseas,,0,0,,,,1,,,,0,0,0,0,0,1,0,1,0,1,61
+1121,"TURTON, URBAN DISTRICT",uk,Turton,urban district,England,0,0,,,,1,1941-10-13,1941-10-13,1941-10-13,1,0,0,1,0,0,0,1,0,1,67
+1122,"UNDIVIDED INDIA, ANDAMAN AND NICOBAR ISLANDS PROVINCE",overseas,"Undivided India, Andaman and Nicobar Islands Province",overseas,,0,0,,,,1,,,,0,0,0,1,0,0,0,0,0,0,
+1123,"UNDIVIDED INDIA, SIND PROVINCE",overseas,"Undivided India, Sind Province",overseas,,0,0,,,,1,,,,0,0,0,0,0,1,0,1,0,0,45
+1124,"WADEBRIDGE, RURAL DISTRICT",uk,Wadebridge,rural district,England,0,0,50.5163,-4.8362,OS Open Names: Wadebridge,1,1940-08-08,1940-08-08,1940-08-08,1,1,0,0,0,0,0,1,0,0,44
+1125,"WALLINGFORD, MUNICIPAL BOROUGH",uk,Wallingford,municipal borough,England,0,0,51.601,-1.1246,OS Open Names: Wallingford,1,1945-04-12,1945-04-12,1945-04-12,1,0,0,0,0,0,1,1,0,0,33
+1126,"WEDNESBURY, MUNICIPAL BOROUGH",uk,Wednesbury,municipal borough,England,0,0,52.5521,-2.0187,OS Open Names: Wednesbury,1,1942-07-31,1942-07-31,1942-07-31,1,0,0,1,0,0,0,1,0,1,61
+1127,"WELLINGTON, RURAL DISTRICT",uk,Wellington,rural district,England,0,0,52.7007,-2.5153,OS Open Names: Wellington,1,1940-08-01,1940-08-01,1940-08-01,1,1,0,0,0,0,0,1,0,0,49
+1128,"WELLS, RURAL DISTRICT",uk,Wells,rural district,England,0,0,51.2086,-2.6472,OS Open Names: Wells,1,1943-03-04,1943-03-04,1943-03-04,1,0,0,1,0,0,0,1,0,0,45
+1129,"WELSHPOOL, MUNICIPAL BOROUGH, WALES",uk,Welshpool,municipal borough,Wales,0,0,52.6606,-3.1497,OS Open Names: Welshpool,1,1947-10-25,1947-10-25,1947-10-25,1,0,0,0,0,0,1,1,0,0,41
+1130,"WELTON, RURAL DISTRICT",uk,Welton,rural district,England,0,0,53.3061,-0.4842,OS Open Names: Welton,1,1945-03-04,1945-03-04,1945-03-04,1,0,0,0,0,1,0,1,0,0,38
+1131,"WEST DEAN, RURAL DISTRICT",uk,West Dean,rural district,England,0,0,50.9056,-0.778,OS Open Names: West Dean,1,1940-08-19,1940-08-19,1940-08-19,1,1,0,0,0,0,0,1,0,0,56
+1132,"WEST PENWITH, RURAL DISTRICT",uk,West Penwith,rural district,England,0,0,50.1184,-5.5393,OS Open Names: Penzance,1,1941-06-14,1941-06-14,1941-06-14,1,0,0,1,0,0,0,1,0,1,63
+1133,"WETHERBY, RURAL DISTRICT",uk,Wetherby,rural district,England,0,0,53.9285,-1.3869,OS Open Names: Wetherby,1,1945-10-09,1945-10-09,1945-10-09,1,0,0,0,0,0,1,1,0,1,68
+1134,"WHITEHAVEN, MUNICIPAL BOROUGH",uk,Whitehaven,municipal borough,England,0,0,54.5507,-3.5875,OS Open Names: Whitehaven,1,1940-10-10,1940-10-10,1940-10-10,1,0,1,0,0,0,0,0,0,0,
+1135,"WIGTON, RURAL DISTRICT",uk,Wigton,rural district,England,0,0,54.8248,-3.1612,OS Open Names: Wigton,1,1941-10-20,1941-10-20,1941-10-20,1,0,0,1,0,0,0,0,0,0,
+1136,"WING, RURAL DISTRICT",uk,Wing,rural district,England,0,0,51.8952,-0.7195,OS Open Names: Wing,1,1942-09-12,1942-09-12,1942-09-12,1,0,0,1,0,0,0,1,0,0,54
+1137,"WISBECH, MUNICIPAL BOROUGH",uk,Wisbech,municipal borough,England,0,0,52.6644,0.1618,OS Open Names: Wisbech,1,1940-11-11,1940-11-11,1940-11-11,1,0,1,0,0,0,0,1,0,0,47
+1138,"WITHAM, URBAN DISTRICT",uk,Witham,urban district,England,0,0,51.7998,0.6401,OS Open Names: Witham,1,1940-09-08,1940-09-08,1940-09-08,1,0,1,0,0,0,0,1,0,0,51
+1139,"WOKINGHAM, MUNICIPAL BOROUGH",uk,Wokingham,municipal borough,England,0,0,51.4103,-0.8329,OS Open Names: Wokingham,1,1944-08-08,1944-08-08,1944-08-08,1,0,0,0,0,1,0,1,0,0,21

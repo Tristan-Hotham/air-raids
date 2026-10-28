@@ -1,0 +1,15 @@
+key,title,area,date_from,date_to,cwgc,area_total,source,quote
+balham,Balham station,Wandsworth,1940-10-14,1940-10-15,123,1176,https://en.wikipedia.org/wiki/Balham_station,sixty-six people in the station were killed
+coventry,"Coventry, 14 November 1940",Coventry,1940-11-14,1940-11-16,463,1096,https://en.wikipedia.org/wiki/Coventry_Blitz,An estimated 568 people were killed in the raid
+bank,Bank station,London,1941-01-11,1941-01-12,96,364,https://en.wikipedia.org/wiki/Bank_and_Monument_stations,killing 56 people
+cafe,Café de Paris,Westminster,1941-03-08,1941-03-09,49,1022,"https://en.wikipedia.org/wiki/Caf%C3%A9_de_Paris,_London",At least 34 people were killed
+clydebank,Clydebank,Clydebank,1941-03-13,1941-03-15,443,448,https://en.wikipedia.org/wiki/Clydebank_Blitz,"1,200 people died"
+belfast,"Belfast, Easter Tuesday 1941",Belfast,1941-04-15,1941-04-17,650,855,https://en.wikipedia.org/wiki/Belfast_Blitz,Some 987 people died as a result of the bombing
+liverpool,Liverpool's May Blitz,Liverpool,1941-05-01,1941-05-08,1363,2640,https://en.wikipedia.org/wiki/Liverpool_Blitz,a seven-night bombardment that devastated the city
+hull,"Hull, 7 to 9 May 1941",Kingston upon Hull,1941-05-07,1941-05-09,371,1140,https://en.wikipedia.org/wiki/Hull_Blitz,resulting in just under 400 deaths
+bath,"Bath, April 1942",Bath,1942-04-25,1942-04-28,365,414,https://en.wikipedia.org/wiki/Bath_Blitz,417 people were killed
+sandhurst,Sandhurst Road School,Lewisham,1943-01-20,1943-01-21,59,1038,https://en.wikipedia.org/wiki/Bombing_of_Sandhurst_Road_School,killing 38 children
+bethnal,Bethnal Green tube shelter,Bethnal Green,1943-03-03,1943-03-04,164,512,https://en.wikipedia.org/wiki/Bethnal_Green_tube_station,"173 people, including 62 children, were killed in a crush"
+newcross,"Woolworth's, New Cross",Deptford,1944-11-25,1944-11-26,144,685,https://en.wikipedia.org/wiki/V-2_rocket,160 were killed and 108 seriously injured in one explosion
+orpington,"The last V-2, Orpington",Orpington,1945-03-27,1945-03-27,1,140,https://en.wikipedia.org/wiki/V-2_rocket,the final civilian casualty of the war on British soil
+northshields,"Wilkinson's lemonade factory, North Shields",Tynemouth,1941-05-03,1941-05-04,102,233,https://en.wikipedia.org/wiki/Bethnal_Green_tube_station,The largest number killed by a wartime bomb was 107 at Wilkinson's Lemonade Factory in North Shields (1941)
