@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Bombs on Britain: Where the Air Raids Killed, 1914 to 1945. Civilian Deaths Town by Town from the CWGC Roll and the First World War Raids"
+type: dataset
+authors:
+  - family-names: Hotham
+    given-names: Tristan
+    orcid: "https://orcid.org/0000-0003-4931-9349"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.23729652"
+url: "https://maps.tristanhotham.com/air-raids/"
+repository-code: "https://github.com/Tristan-Hotham/air-raids"
+license: CC-BY-SA-4.0
+keywords:
+  - "air raids"
+  - "the Blitz"
+  - "civilian war dead"
+  - "Commonwealth War Graves Commission"
+  - "First World War"
+  - "Second World War"
+  - "Zeppelin raids"
+  - "Remembrance"
+  - "United Kingdom"
+  - "open data"
